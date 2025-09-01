@@ -1,0 +1,142 @@
+[
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Eggs", "expiry": "2025-09-01"},
+        {"name": "Bread", "expiry": "2025-09-02"},
+        {"name": "Tomatoes", "expiry": "2025-09-05"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Tomato and egg scramble on toast",
+        "Tuesday": "Breakfast sandwich with fried egg, tomato slices, and toasted bread",
+        "Wednesday": "Tomato bruschetta topped with poached egg",
+        "Thursday": "Omelette with tomato and herbs, served with toasted bread",
+        "Friday": "French toast with caramelized tomatoes",
+        "Saturday": "Egg muffins with tomato and bread crumbs",
+        "Sunday": "Open-faced tomato and egg sandwich"
+      },
+      "shopping_list": ["Olive oil", "Basil", "Pepper"]
+    }
+  },
+  {
+    "instruction": "Plan a 7-day dinner menu minimizing food waste and reusing ingredients across dishes.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Chickpeas", "expiry": "2025-09-03"},
+        {"name": "Bell peppers", "expiry": "2025-09-04"},
+        {"name": "Yogurt", "expiry": "2025-09-06"},
+        {"name": "Rice", "expiry": "2025-09-20"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Chickpea curry with rice",
+        "Tuesday": "Stuffed bell peppers with chickpeas and yogurt dip",
+        "Wednesday": "Rice bowl with roasted bell peppers, chickpeas, and yogurt sauce",
+        "Thursday": "Chickpea and yogurt salad with roasted peppers",
+        "Friday": "Spiced rice pilaf with chickpeas and peppers",
+        "Saturday": "Chickpea patties with yogurt dipping sauce and rice",
+        "Sunday": "Bell pepper stir-fry with chickpeas and yogurt drizzle"
+      },
+      "shopping_list": ["Garlic", "Cumin", "Cilantro"]
+    }
+  },
+  {
+    "instruction": "Create a quick 7-day lunch plan that uses up leafy greens before they spoil.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Kale", "expiry": "2025-09-02"},
+        {"name": "Lettuce", "expiry": "2025-09-03"},
+        {"name": "Cheese", "expiry": "2025-09-10"},
+        {"name": "Tortillas", "expiry": "2025-09-08"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Kale and cheese quesadilla",
+        "Tuesday": "Lettuce and cheese wrap with salsa",
+        "Wednesday": "Kale salad with tortilla chips and shredded cheese",
+        "Thursday": "Cheese and lettuce burrito",
+        "Friday": "Kale tortilla pizza",
+        "Saturday": "Grilled cheese tortilla wrap with lettuce",
+        "Sunday": "Cheesy kale and lettuce nachos"
+      },
+      "shopping_list": ["Salsa", "Lime", "Black beans"]
+    }
+  },
+  {
+    "instruction": "Create a gluten-free 7-day meal plan, using ingredients in order of expiry.",
+    "input": {
+      "dietary_restriction": "Gluten-free",
+      "ingredients": [
+        {"name": "Shrimp", "expiry": "2025-08-06"},
+        {"name": "Asparagus", "expiry": "2025-08-07"},
+        {"name": "Brown rice", "expiry": "2025-08-18"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Garlic shrimp with sautéed asparagus",
+        "Tuesday": "Shrimp and asparagus stir-fry served over brown rice",
+        "Wednesday": "Brown rice bowl with roasted asparagus and shrimp",
+        "Thursday": "Shrimp fried rice with asparagus",
+        "Friday": "Grilled shrimp skewers with asparagus and rice",
+        "Saturday": "Brown rice pilaf with shrimp and asparagus",
+        "Sunday": "Shrimp and asparagus curry over rice"
+      },
+      "shopping_list": ["Olive oil", "Garlic", "Gluten-free soy sauce"]
+    }
+  },
+  {
+    "instruction": "Generate a vegan 7-day meal plan that prioritizes ingredients nearing expiry.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Chickpeas", "expiry": "2025-08-08"},
+        {"name": "Kale", "expiry": "2025-08-10"},
+        {"name": "Couscous", "expiry": "2025-08-22"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Chickpea and kale stew",
+        "Tuesday": "Couscous salad with roasted chickpeas and kale",
+        "Wednesday": "Kale stir-fry with couscous",
+        "Thursday": "Chickpea kale curry over couscous",
+        "Friday": "Mediterranean couscous bowl with chickpeas and kale",
+        "Saturday": "Kale and chickpea stuffed couscous wraps",
+        "Sunday": "Roasted chickpeas with kale couscous pilaf"
+      },
+      "shopping_list": ["Lemon", "Olive oil", "Paprika"]
+    }
+  },
+  {
+    "instruction": "Create a dairy-free and nut-free 7-day meal plan, ensuring ingredients expiring soon are used first.",
+    "input": {
+      "dietary_restriction": "Dairy-free, Nut-free",
+      "ingredients": [
+        {"name": "Turkey breast", "expiry": "2025-08-09"},
+        {"name": "Carrots", "expiry": "2025-08-12"},
+        {"name": "Rice noodles", "expiry": "2025-08-25"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Roasted turkey breast with glazed carrots",
+        "Tuesday": "Turkey and carrot stir-fry with rice noodles",
+        "Wednesday": "Rice noodle soup with shredded turkey and carrots",
+        "Thursday": "Grilled turkey with carrot puree and noodles",
+        "Friday": "Turkey and noodle salad with julienned carrots",
+        "Saturday": "Stir-fried rice noodles with turkey strips and carrots",
+        "Sunday": "Carrot and turkey noodle broth"
+      },
+      "shopping_list": ["Soy sauce", "Ginger", "Sesame oil"]
+    }
+  }
+]
