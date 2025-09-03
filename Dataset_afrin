@@ -1,0 +1,123 @@
+
+Instruction: Create a 3-day dinner plan focusing on Asian-style flavors.
+
+Input: Ingredients: Tofu (Expires: 2025-09-04), Broccoli (Expires: 2025-09-03), Rice noodles (Expires: 2025-09-12).
+
+Output:
+Monday: Tofu and broccoli stir-fry with soy sauce and garlic.
+Tuesday: Rice noodle soup with tofu, broccoli, and chili oil.
+Wednesday: Crispy tofu with sesame broccoli and noodles.
+Shopping list: Soy sauce, sesame oil, chili flakes.
+
+
+Instruction: Suggest hearty 3-day vegetarian dinners using pantry staples.
+Input: Ingredients: Chickpeas (Expires: 2025-09-05), Spinach (Expires: 2025-09-04), Quinoa (Expires: 2025-09-20).
+Output:
+Monday: Chickpea and spinach curry with cumin and turmeric.
+Tuesday: Quinoa salad with roasted chickpeas and spinach.
+Wednesday: Spiced chickpea soup with quinoa.
+Shopping list: Cumin powder, turmeric, lemon
+
+
+
+Instruction: Generate meals using sweet potatoes before they spoil.
+Input: Ingredients: Sweet potatoes (Expires: 2025-09-03), Green beans (Expires: 2025-09-04), Coconut milk (Expires: 2025-09-08).
+Output:
+Monday: Sweet potato curry with coconut milk and green beans.
+Tuesday: Roasted sweet potato and green bean stir-fry with chili paste.
+Wednesday: Sweet potato soup with ginger and coconut milk.
+Shopping list: Curry powder, ginger, chili paste.
+
+
+Instruction: Plan quick meals using cucumbers and herbs.
+Input: Ingredients: Cucumbers (Expires: 2025-09-02), Mint (Expires: 2025-09-03), Yogurt (Expires: 2025-09-06).
+Output:
+Monday: Cucumber-mint raita with cumin powder.
+Tuesday: Chilled cucumber soup with yogurt and black pepper.
+Wednesday: Mint cucumber salad with lemon dressing.
+Shopping list: Cumin powder, black pepper, lemon.
+
+
+Instruction: Suggest spicy dishes for dinner with items about to expire.
+Input: Ingredients: Cauliflower (Expires: 2025-09-03), Peas (Expires: 2025-09-04), Basmati rice (Expires: 2025-09-20).
+Output:
+Monday: Cauliflower and pea curry with garam masala.
+Tuesday: Spicy cauliflower stir-fry with peas and soy sauce.
+Wednesday: Vegetable pulao with peas and cauliflower.
+Shopping list: Garam masala, chili powder, coriander powder.
+
+
+Instruction: Create simple 3-day Indian-inspired meals.
+Input: Ingredients: Moong dal (Expires: 2025-09-07), Spinach (Expires: 2025-09-03), Carrots (Expires: 2025-09-06).
+Output:
+Monday: Moong dal with spinach and turmeric.
+Tuesday: Carrot and spinach stir-fry with cumin seeds.
+Wednesday: Dal soup with carrots and garam masala.
+Shopping list: Turmeric powder, cumin seeds, garam masala.
+
+
+Instruction: Plan Mediterranean-inspired dishes with soon-to-expire ingredients.
+Input: Ingredients: Zucchini (Expires: 2025-09-03), Bell peppers (Expires: 2025-09-04), Couscous (Expires: 2025-09-18).
+Output:
+Monday: Couscous with sautéed zucchini, bell peppers, and paprika.
+Tuesday: Roasted bell peppers and zucchini salad with olive oil.
+Wednesday: Spicy couscous with garlic and chili flakes.
+Shopping list: Paprika, olive oil, chili flakes
+
+
+Instruction: Suggest 3 meals using mushrooms and leafy greens.
+Input: Ingredients: Mushrooms (Expires: 2025-09-02), Kale (Expires: 2025-09-03), Rice (Expires: 2025-09-15).
+Output:
+Monday: Mushroom-kale stir-fry with soy sauce.
+Tuesday: Kale and mushroom fried rice with chili powder.
+Wednesday: Garlic mushroom soup with kale.
+Shopping list: Soy sauce, garlic powder, chili powder.
+
+
+
+Instruction: Design 3 comfort-food meals with potatoes.
+Input: Ingredients: Potatoes (Expires: 2025-09-06), Cabbage (Expires: 2025-09-05), Onions (Expires: 2025-09-08).
+Output:
+Monday: Potato-cabbage curry with turmeric.
+Tuesday: Spiced mashed potatoes with sautéed onions.
+Wednesday: Potato and cabbage stir-fry with mustard seeds.
+Shopping list: Turmeric, mustard seeds, coriander powder.
+
+
+
+Instruction: Plan quick 3-day noodle-based meals.
+Input: Ingredients: Noodles (Expires: 2025-09-15), Carrots (Expires: 2025-09-03), Bok choy (Expires: 2025-09-04).
+Output:
+Monday: Soy sauce noodles with carrots and bok choy.
+Tuesday: Chili garlic noodles with stir-fried vegetables.
+Wednesday: Peanut butter noodles with bok choy.
+Shopping list: Soy sauce, chili paste, peanut butter.
+
+
+
+Instruction: Generate healthy bowls using legumes.
+Input: Ingredients: Kidney beans (Expires: 2025-09-07), Brown rice (Expires: 2025-09-12), Spinach (Expires: 2025-09-03).
+Output:
+Monday: Kidney bean and rice bowl with cumin and paprika.
+Tuesday: Spinach and kidney bean curry with coriander powder.
+Wednesday: Brown rice salad with beans and lemon dressing.
+Shopping list: Cumin, paprika, coriander powder.
+
+
+
+Instruction: Create Mexican-inspired dishes with tortillas.
+Input: Ingredients: Tortillas (Expires: 2025-09-05), Black beans (Expires: 2025-09-07), Corn (Expires: 2025-09-06).
+Output:
+Monday: Black bean and corn tacos with cumin powder.
+Tuesday: Spicy black bean quesadilla with chili flakes.
+Wednesday: Corn and bean salad with lime dressing.
+Shopping list: Cumin powder, chili flakes, lime.
+
+
+Instruction: Suggest light dinner options with squash.
+Input: Ingredients: Butternut squash (Expires: 2025-09-05), Lentils (Expires: 2025-09-07), Onions (Expires: 2025-09-08).
+Output:
+Monday: Butternut squash soup with ginger and turmeric.
+Tuesday: Lentil and squash curry with cumin powder.
+Wednesday: Roasted squash and onion salad with paprika.
+Shopping list: Turmeric, cumin, paprika.
