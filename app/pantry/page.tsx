@@ -42,12 +42,16 @@ export default function PantryPage() {
           <Input placeholder="Item name" value={name} onChange={(e) => setName(e.target.value)} />
           <Input type="number" min={1} value={qty} onChange={(e) => setQty(Number.parseInt(e.target.value || "1"))} />
           <Input type="date" value={exp} onChange={(e) => setExp(e.target.value)} />
+<<<<<<< HEAD
           <Button
             onClick={addItem}
             className="h-10 px-4 bg-black text-white hover:bg-[#59705B] hover:text-white cursor-pointer"
           >
             Add Item
           </Button>
+=======
+          <Button onClick={addItem}>Add Item</Button>
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
         </div>
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
           {(pantry || []).map((p) => (
@@ -60,7 +64,11 @@ export default function PantryPage() {
                 Expiries: {p.expiries.length ? p.expiries.join(", ") : "—"}
               </div>
               <div className="mt-3">
+<<<<<<< HEAD
                 <Button variant="destructive" onClick={() => removeItem(p.name)} className="cursor-pointer">
+=======
+                <Button variant="destructive" onClick={() => removeItem(p.name)}>
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
                   Remove
                 </Button>
               </div>

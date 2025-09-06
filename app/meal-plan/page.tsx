@@ -62,20 +62,33 @@ export default function MealPlanPage() {
                       </div>
                       <div className="font-medium">{dish || "—"}</div>
                       <div className="mt-3 flex flex-wrap gap-2">
+<<<<<<< HEAD
                         <RecipeDialog dish={dish} />
                         <Button
                           variant="outline"
                           className="h-10 px-5 bg-transparent text-primary border-primary hover:bg-primary hover:text-white"
+=======
+                        <Button onClick={() => markCooked(dish)} className="h-10 px-5 bg-primary hover:bg-primary/90">
+                          Mark as Cooked
+                        </Button>
+                        <Button
+                          variant="outline"
+                          className="h-10 px-5 bg-transparent"
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
                           onClick={() => swapDish(d, slot)}
                         >
                           Swap Dish
                         </Button>
+<<<<<<< HEAD
                         <Button
                           onClick={() => markCooked(dish)}
                           className="h-10 px-5 bg-primary hover:bg-primary/90 text-white"
                         >
                           Mark as Cooked
                         </Button>
+=======
+                        <RecipeDialog dish={dish} />
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
                       </div>
                     </div>
                   )

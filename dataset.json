@@ -1,0 +1,1157 @@
+[
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Eggs", "expiry": "2025-09-01"},
+        {"name": "Bread", "expiry": "2025-09-02"},
+        {"name": "Tomatoes", "expiry": "2025-09-05"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Tomato and egg scramble on toast",
+        "Tuesday": "Breakfast sandwich with fried egg, tomato slices, and toasted bread",
+        "Wednesday": "Tomato bruschetta topped with poached egg",
+        "Thursday": "Omelette with tomato and herbs, served with toasted bread",
+        "Friday": "French toast with caramelized tomatoes",
+        "Saturday": "Egg muffins with tomato and bread crumbs",
+        "Sunday": "Open-faced tomato and egg sandwich"
+      },
+      "shopping_list": ["Olive oil", "Basil", "Pepper"]
+    }
+  },
+  {
+    "instruction": "Plan a 7-day dinner menu minimizing food waste and reusing ingredients across dishes.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Chickpeas", "expiry": "2025-09-03"},
+        {"name": "Bell peppers", "expiry": "2025-09-04"},
+        {"name": "Yogurt", "expiry": "2025-09-06"},
+        {"name": "Rice", "expiry": "2025-09-20"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Chickpea curry with rice",
+        "Tuesday": "Stuffed bell peppers with chickpeas and yogurt dip",
+        "Wednesday": "Rice bowl with roasted bell peppers, chickpeas, and yogurt sauce",
+        "Thursday": "Chickpea and yogurt salad with roasted peppers",
+        "Friday": "Spiced rice pilaf with chickpeas and peppers",
+        "Saturday": "Chickpea patties with yogurt dipping sauce and rice",
+        "Sunday": "Bell pepper stir-fry with chickpeas and yogurt drizzle"
+      },
+      "shopping_list": ["Garlic", "Cumin", "Cilantro"]
+    }
+  },
+  {
+    "instruction": "Create a quick 7-day lunch plan that uses up leafy greens before they spoil.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Kale", "expiry": "2025-09-02"},
+        {"name": "Lettuce", "expiry": "2025-09-03"},
+        {"name": "Cheese", "expiry": "2025-09-10"},
+        {"name": "Tortillas", "expiry": "2025-09-08"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Kale and cheese quesadilla",
+        "Tuesday": "Lettuce and cheese wrap with salsa",
+        "Wednesday": "Kale salad with tortilla chips and shredded cheese",
+        "Thursday": "Cheese and lettuce burrito",
+        "Friday": "Kale tortilla pizza",
+        "Saturday": "Grilled cheese tortilla wrap with lettuce",
+        "Sunday": "Cheesy kale and lettuce nachos"
+      },
+      "shopping_list": ["Salsa", "Lime", "Black beans"]
+    }
+  },
+  {
+    "instruction": "Create a gluten-free 7-day meal plan, using ingredients in order of expiry.",
+    "input": {
+      "dietary_restriction": "Gluten-free",
+      "ingredients": [
+        {"name": "Shrimp", "expiry": "2025-08-06"},
+        {"name": "Asparagus", "expiry": "2025-08-07"},
+        {"name": "Brown rice", "expiry": "2025-08-18"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Garlic shrimp with sautéed asparagus",
+        "Tuesday": "Shrimp and asparagus stir-fry served over brown rice",
+        "Wednesday": "Brown rice bowl with roasted asparagus and shrimp",
+        "Thursday": "Shrimp fried rice with asparagus",
+        "Friday": "Grilled shrimp skewers with asparagus and rice",
+        "Saturday": "Brown rice pilaf with shrimp and asparagus",
+        "Sunday": "Shrimp and asparagus curry over rice"
+      },
+      "shopping_list": ["Olive oil", "Garlic", "Gluten-free soy sauce"]
+    }
+  },
+  {
+    "instruction": "Generate a vegan 7-day meal plan that prioritizes ingredients nearing expiry.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Chickpeas", "expiry": "2025-08-08"},
+        {"name": "Kale", "expiry": "2025-08-10"},
+        {"name": "Couscous", "expiry": "2025-08-22"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Chickpea and kale stew",
+        "Tuesday": "Couscous salad with roasted chickpeas and kale",
+        "Wednesday": "Kale stir-fry with couscous",
+        "Thursday": "Chickpea kale curry over couscous",
+        "Friday": "Mediterranean couscous bowl with chickpeas and kale",
+        "Saturday": "Kale and chickpea stuffed couscous wraps",
+        "Sunday": "Roasted chickpeas with kale couscous pilaf"
+      },
+      "shopping_list": ["Lemon", "Olive oil", "Paprika"]
+    }
+  },
+  {
+    "instruction": "Create a dairy-free and nut-free 7-day meal plan, ensuring ingredients expiring soon are used first.",
+    "input": {
+      "dietary_restriction": "Dairy-free, Nut-free",
+      "ingredients": [
+        {"name": "Turkey breast", "expiry": "2025-08-09"},
+        {"name": "Carrots", "expiry": "2025-08-12"},
+        {"name": "Rice noodles", "expiry": "2025-08-25"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Roasted turkey breast with glazed carrots",
+        "Tuesday": "Turkey and carrot stir-fry with rice noodles",
+        "Wednesday": "Rice noodle soup with shredded turkey and carrots",
+        "Thursday": "Grilled turkey with carrot puree and noodles",
+        "Friday": "Turkey and noodle salad with julienned carrots",
+        "Saturday": "Stir-fried rice noodles with turkey strips and carrots",
+        "Sunday": "Carrot and turkey noodle broth"
+      },
+      "shopping_list": ["Soy sauce", "Ginger", "Sesame oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Spinach", "expiry": "2025-09-03"},
+        {"name": "Feta Cheese", "expiry": "2025-09-04"},
+        {"name": "Bread", "expiry": "2025-09-05"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Spinach and feta toasties",
+        "Tuesday": "Feta and spinach omelette",
+        "Wednesday": "Grilled cheese with spinach and feta",
+        "Thursday": "Spinach-feta breakfast wrap",
+        "Friday": "Baked bread cups with spinach and cheese",
+        "Saturday": "Savory spinach and feta pancakes",
+        "Sunday": "Spinach and feta breakfast bruschetta"
+      },
+      "shopping_list": ["Olive oil", "Garlic", "Herbs"]
+    }
+  },
+  {
+    "instruction": "Plan a week of dinners using expiring ingredients.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Chicken Breast", "expiry": "2025-09-02"},
+        {"name": "Bell Peppers", "expiry": "2025-09-04"},
+        {"name": "Rice", "expiry": "2025-09-10"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Chicken stir-fry with peppers and rice",
+        "Tuesday": "Grilled chicken with roasted peppers and rice",
+        "Wednesday": "Chicken fried rice with mixed peppers",
+        "Thursday": "Stuffed peppers with chicken and rice",
+        "Friday": "Chicken curry with rice",
+        "Saturday": "Baked chicken with pepper-rice pilaf",
+        "Sunday": "Chicken and bell pepper fajitas with rice on the side"
+      },
+      "shopping_list": ["Soy sauce", "Cumin", "Lime"]
+    }
+  },
+  {
+    "instruction": "Suggest vegan lunches from soon-to-expire items.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Chickpeas", "expiry": "2025-09-03"},
+        {"name": "Spinach", "expiry": "2025-09-04"},
+        {"name": "Quinoa", "expiry": "2025-09-06"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Chickpea and spinach quinoa salad",
+        "Tuesday": "Spinach and chickpea stir-fry with quinoa",
+        "Wednesday": "Quinoa-stuffed peppers with chickpeas",
+        "Thursday": "Chickpea-spinach soup with quinoa",
+        "Friday": "Mediterranean chickpea quinoa bowls",
+        "Saturday": "Spiced chickpea patties with quinoa and greens",
+        "Sunday": "Spinach and quinoa chickpea wraps"
+      },
+      "shopping_list": ["Lemon", "Tahini", "Paprika"]
+    }
+  },
+  {
+    "instruction": "Create quick dinner ideas using expiring dairy and vegetables.",
+    "input": {
+      "dietary_restriction": "Lacto-vegetarian",
+      "ingredients": [
+        {"name": "Paneer", "expiry": "2025-09-02"},
+        {"name": "Onions", "expiry": "2025-09-06"},
+        {"name": "Capsicum", "expiry": "2025-09-04"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Paneer tikka with grilled onions and capsicum",
+        "Tuesday": "Paneer bhurji with sautéed onions and peppers",
+        "Wednesday": "Paneer and capsicum stuffed paratha",
+        "Thursday": "Paneer curry with onion-capsicum base",
+        "Friday": "Grilled paneer skewers with veggies",
+        "Saturday": "Paneer and pepper pizza on flatbread",
+        "Sunday": "Paneer stir-fry with onions and capsicum"
+      },
+      "shopping_list": ["Coriander", "Tomato paste", "Chili powder"]
+    }
+  },
+  {
+    "instruction": "Make snack ideas from fruit about to expire.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Bananas", "expiry": "2025-09-02"},
+        {"name": "Strawberries", "expiry": "2025-09-03"},
+        {"name": "Yogurt", "expiry": "2025-09-04"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Banana-strawberry smoothie with yogurt",
+        "Tuesday": "Fruit and yogurt parfait",
+        "Wednesday": "Strawberry banana frozen yogurt pops",
+        "Thursday": "Banana-strawberry yogurt pancakes",
+        "Friday": "Fruit salad with yogurt drizzle",
+        "Saturday": "Banana chips dipped in yogurt-strawberry sauce",
+        "Sunday": "Strawberry-banana yogurt bowl"
+      },
+      "shopping_list": ["Honey", "Granola", "Mint"]
+    }
+  },
+  {
+    "instruction": "Generate meal ideas from grains and legumes expiring soon.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Lentils", "expiry": "2025-09-06"},
+        {"name": "Rice", "expiry": "2025-09-10"},
+        {"name": "Carrots", "expiry": "2025-09-05"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Lentil curry with rice and carrots",
+        "Tuesday": "Carrot and lentil soup with rice",
+        "Wednesday": "Stuffed carrots with rice-lentil mix",
+        "Thursday": "Spiced lentil and rice pilaf with carrots",
+        "Friday": "Carrot-lentil patties with rice",
+        "Saturday": "Lentil rice porridge with carrot topping",
+        "Sunday": "Carrot and lentil stir-fry over rice"
+      },
+      "shopping_list": ["Cilantro", "Turmeric", "Ginger"]
+    }
+  },
+  {
+  "instruction": "Plan a week of lunches using items that will expire soon.",
+  "input": {
+    "dietary_restriction": "Vegetarian",
+    "ingredients": [
+      {"name": "Spinach", "expiry": "2025-09-02"},
+      {"name": "Paneer", "expiry": "2025-09-03"},
+      {"name": "Carrots", "expiry": "2025-09-05"},
+      {"name": "Rice", "expiry": "2025-09-10"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": "Spinach and paneer curry with steamed rice",
+      "Tuesday": "Carrot and spinach pulao",
+      "Wednesday": "Paneer stir-fry with carrots and spinach over rice",
+      "Thursday": "Stuffed paratha with paneer and spinach, served with carrot raita",
+      "Friday": "Carrot fried rice with scrambled paneer",
+      "Saturday": "Spinach and paneer kofta with carrot salad",
+      "Sunday": "Rice bowl with sautéed spinach, roasted carrots, and paneer cubes"
+    },
+    "shopping_list": ["Ginger", "Garlic", "Green chilies", "Yogurt"]
+  }
+},
+{
+  "instruction": "Suggest creative breakfast options using items that will expire soon.",
+  "input": {
+    "dietary_restriction": "Vegetarian",
+    "ingredients": [
+      {"name": "Spinach", "expiry": "2025-09-03"},
+      {"name": "Paneer", "expiry": "2025-09-02"},
+      {"name": "Whole Wheat Bread", "expiry": "2025-09-05"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": "Spinach and paneer toasties",
+      "Tuesday": "Paneer bhurji on whole wheat toast",
+      "Wednesday": "Spinach and paneer stuffed paratha",
+      "Thursday": "Open-faced sandwich with sautéed spinach and grilled paneer",
+      "Friday": "Paneer and spinach scrambled wrap",
+      "Saturday": "Spinach paneer quesadilla with bread base",
+      "Sunday": "Grilled paneer and spinach bruschetta"
+    },
+    "shopping_list": ["Green chilies", "Cumin seeds", "Butter"]
+  }
+},
+{
+  "instruction": "Suggest creative breakfast options using items that will expire soon.",
+  "input": {
+    "dietary_restriction": "Vegan",
+    "ingredients": [
+      {"name": "Almond Milk", "expiry": "2025-09-04"},
+      {"name": "Bananas", "expiry": "2025-09-02"},
+      {"name": "Oats", "expiry": "2025-09-07"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": "Banana almond milk smoothie with oats",
+      "Tuesday": "Overnight oats with almond milk and sliced bananas",
+      "Wednesday": "Banana oat pancakes with almond milk",
+      "Thursday": "Warm porridge with caramelized bananas",
+      "Friday": "Oat and banana muffins (vegan)",
+      "Saturday": "Banana oat smoothie bowl topped with nuts",
+      "Sunday": "Baked oats with almond milk and banana"
+    },
+    "shopping_list": ["Chia seeds", "Maple syrup", "Cinnamon"]
+  }
+},
+{
+  "instruction": "Suggest creative breakfast options using items that will expire soon.",
+  "input": {
+    "dietary_restriction": "Gluten-Free",
+    "ingredients": [
+      {"name": "Eggs", "expiry": "2025-09-02"},
+      {"name": "Avocado", "expiry": "2025-09-03"},
+      {"name": "Gluten-Free Tortilla", "expiry": "2025-09-04"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": "Avocado and scrambled egg gluten-free wrap",
+      "Tuesday": "Egg and avocado breakfast tacos",
+      "Wednesday": "Avocado toast (on gluten-free tortilla base)",
+      "Thursday": "Breakfast burrito with eggs and avocado",
+      "Friday": "Mini egg and avocado tortilla pizzas",
+      "Saturday": "Avocado and boiled egg wrap",
+      "Sunday": "Gluten-free quesadilla with egg and avocado"
+    },
+    "shopping_list": ["Lime", "Cheddar cheese (gluten-free)", "Coriander"]
+  }
+},
+{
+  "instruction": "Suggest creative breakfast options using items that will expire soon.",
+  "input": {
+    "dietary_restriction": "None",
+    "ingredients": [
+      {"name": "Chicken Sausages", "expiry": "2025-09-01"},
+      {"name": "Eggs", "expiry": "2025-09-02"},
+      {"name": "Cheese", "expiry": "2025-09-04"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": "Cheesy scrambled eggs with chicken sausage",
+      "Tuesday": "Breakfast burrito with sausage, egg, and cheese",
+      "Wednesday": "Sausage and cheese omelette",
+      "Thursday": "Egg muffins with sausage and melted cheese",
+      "Friday": "Grilled sausage and egg sandwich with cheese",
+      "Saturday": "Cheese and sausage stuffed omelette roll",
+      "Sunday": "Breakfast skillet with sausage, egg, and cheese"
+    },
+    "shopping_list": ["Onions", "Bell peppers", "Ketchup"]
+  }
+},
+{
+  "instruction": "Suggest creative breakfast options using items that will expire soon.",
+  "input": {
+    "dietary_restriction": "None",
+    "ingredients": [
+      {"name": "Chicken Sausages", "expiry": "2025-09-01"},
+      {"name": "Eggs", "expiry": "2025-09-02"},
+      {"name": "Cheese", "expiry": "2025-09-04"},
+      {"name": "Spinach", "expiry": "2025-09-03"},
+      {"name": "Tomatoes", "expiry": "2025-09-02"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": "Sausage, spinach, and cheese omelette",
+      "Tuesday": "Scrambled eggs with sausage, tomatoes, and melted cheese",
+      "Wednesday": "Breakfast quesadilla with sausage, spinach, and cheese",
+      "Thursday": "Egg and sausage frittata with tomato chunks",
+      "Friday": "Spinach, cheese, and sausage breakfast wrap",
+      "Saturday": "Shakshuka with eggs, sausage, and cheese",
+      "Sunday": "Cheesy sausage and tomato breakfast casserole"
+    },
+    "shopping_list": ["Onions", "Bell peppers", "Bread", "Olive oil"]
+  }
+},
+{
+  "instruction": "Suggest creative breakfast options using items that will expire soon.",
+  "input": {
+    "dietary_restriction": "Vegetarian",
+    "ingredients": [
+      {"name": "Eggs", "expiry": "2025-09-02"},
+      {"name": "Cheese", "expiry": "2025-09-04"},
+      {"name": "Spinach", "expiry": "2025-09-03"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": "Spinach and cheese omelette",
+      "Tuesday": "Scrambled eggs with spinach and melted cheese",
+      "Wednesday": "Cheesy spinach breakfast wrap",
+      "Thursday": "Egg muffins with spinach and cheese",
+      "Friday": "Grilled cheese and egg sandwich with spinach",
+      "Saturday": "Spinach and cheese frittata",
+      "Sunday": "Breakfast quesadilla with spinach, eggs, and cheese"
+    },
+    "shopping_list": ["Tomatoes", "Onions", "Bell peppers"]
+  }
+},
+{
+  "instruction": "Suggest creative breakfast options using items that will expire soon.",
+  "input": {
+    "dietary_restriction": "Vegan",
+    "ingredients": [
+      {"name": "Tofu", "expiry": "2025-09-03"},
+      {"name": "Mushrooms", "expiry": "2025-09-02"},
+      {"name": "Spinach", "expiry": "2025-09-03"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": "Tofu scramble with mushrooms and spinach",
+      "Tuesday": "Vegan breakfast burrito with tofu and vegetables",
+      "Wednesday": "Sautéed mushrooms and spinach on toasted bread",
+      "Thursday": "Tofu and vegetable breakfast skillet",
+      "Friday": "Spinach and mushroom vegan omelette",
+      "Saturday": "Grilled tofu and veggie sandwich",
+      "Sunday": "Vegan breakfast wrap with tofu, spinach, and mushrooms"
+    },
+    "shopping_list": ["Tomatoes", "Onions", "Bell peppers", "Avocado"]
+  }
+},
+
+ {
+  "instruction": "Suggest creative breakfast options using items that will expire soon.",
+  "input": {
+    "dietary_restriction": "Gluten-Free",
+    "ingredients": [
+      {"name": "Eggs", "expiry": "2025-09-02"},
+      {"name": "Cheese", "expiry": "2025-09-04"},
+      {"name": "Avocado", "expiry": "2025-09-03"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": "Avocado and egg breakfast bowl with cheese",
+      "Tuesday": "Scrambled eggs with avocado and melted cheese",
+      "Wednesday": "Cheese and avocado omelette",
+      "Thursday": "Egg muffins with avocado and cheese",
+      "Friday": "Grilled cheese and avocado breakfast plate",
+      "Saturday": "Avocado, egg, and cheese skillet",
+      "Sunday": "Cheesy avocado breakfast wrap (using gluten-free tortilla)"
+    },
+    "shopping_list": ["Spinach", "Tomatoes", "Olive oil"]
+  }
+ },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Eggs", "expiry": "2025-09-02"},
+        {"name": "Cheese", "expiry": "2025-09-04"},
+        {"name": "Spinach", "expiry": "2025-09-03"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Spinach and cheese omelette",
+        "Tuesday": "Scrambled eggs with spinach and melted cheese",
+        "Wednesday": "Cheesy spinach breakfast wrap",
+        "Thursday": "Egg muffins with spinach and cheese",
+        "Friday": "Grilled cheese and egg sandwich with spinach",
+        "Saturday": "Spinach and cheese frittata",
+        "Sunday": "Breakfast quesadilla with spinach, eggs, and cheese"
+      },
+      "shopping_list": ["Tomatoes", "Onions", "Bell peppers"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Tofu", "expiry": "2025-09-03"},
+        {"name": "Mushrooms", "expiry": "2025-09-02"},
+        {"name": "Spinach", "expiry": "2025-09-03"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Tofu scramble with mushrooms and spinach",
+        "Tuesday": "Vegan breakfast burrito with tofu and vegetables",
+        "Wednesday": "Sautéed mushrooms and spinach on toasted bread",
+        "Thursday": "Tofu and vegetable breakfast skillet",
+        "Friday": "Spinach and mushroom vegan omelette",
+        "Saturday": "Grilled tofu and veggie sandwich",
+        "Sunday": "Vegan breakfast wrap with tofu, spinach, and mushrooms"
+      },
+      "shopping_list": ["Tomatoes", "Onions", "Bell peppers", "Avocado"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Gluten-Free",
+      "ingredients": [
+        {"name": "Eggs", "expiry": "2025-09-02"},
+        {"name": "Cheese", "expiry": "2025-09-04"},
+        {"name": "Avocado", "expiry": "2025-09-03"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Avocado and egg breakfast bowl with cheese",
+        "Tuesday": "Scrambled eggs with avocado and melted cheese",
+        "Wednesday": "Cheese and avocado omelette",
+        "Thursday": "Egg muffins with avocado and cheese",
+        "Friday": "Grilled cheese and avocado breakfast plate",
+        "Saturday": "Avocado, egg, and cheese skillet",
+        "Sunday": "Cheesy avocado breakfast wrap (using gluten-free tortilla)"
+      },
+      "shopping_list": ["Spinach", "Tomatoes", "Olive oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Chicken Sausages", "expiry": "2025-09-01"},
+        {"name": "Eggs", "expiry": "2025-09-02"},
+        {"name": "Cheese", "expiry": "2025-09-04"},
+        {"name": "Tomatoes", "expiry": "2025-09-02"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Sausage and egg breakfast sandwich with tomato and cheese",
+        "Tuesday": "Scrambled eggs with sausage, tomato, and cheese",
+        "Wednesday": "Breakfast burrito with sausage, egg, cheese, and tomato",
+        "Thursday": "Egg muffins with sausage and tomato chunks",
+        "Friday": "Sausage, tomato, and cheese frittata",
+        "Saturday": "Grilled sausage and cheese sandwich with egg and tomato",
+        "Sunday": "Breakfast skillet with sausage, eggs, tomato, and cheese"
+      },
+      "shopping_list": ["Spinach", "Onions", "Bell peppers", "Ketchup"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Eggs", "expiry": "2025-09-03"},
+        {"name": "Paneer", "expiry": "2025-09-04"},
+        {"name": "Spinach", "expiry": "2025-09-03"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Paneer and spinach omelette",
+        "Tuesday": "Scrambled eggs with paneer and spinach",
+        "Wednesday": "Spinach and paneer breakfast wrap",
+        "Thursday": "Egg muffins with paneer and spinach",
+        "Friday": "Paneer and spinach frittata",
+        "Saturday": "Grilled paneer and egg sandwich with spinach",
+        "Sunday": "Breakfast quesadilla with paneer, spinach, and eggs"
+      },
+      "shopping_list": ["Tomatoes", "Onions", "Bell peppers"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Chickpea Flour", "expiry": "2025-09-04"},
+        {"name": "Spinach", "expiry": "2025-09-03"},
+        {"name": "Mushrooms", "expiry": "2025-09-03"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Chickpea flour pancakes with spinach and mushrooms",
+        "Tuesday": "Vegan omelette using chickpea flour, mushrooms, and spinach",
+        "Wednesday": "Breakfast wrap with chickpea flour scramble and vegetables",
+        "Thursday": "Spinach and mushroom chickpea flour muffins",
+        "Friday": "Sautéed mushrooms and spinach chickpea bowl",
+        "Saturday": "Vegan chickpea breakfast skillet with mushrooms and spinach",
+        "Sunday": "Chickpea flour pancakes with mushrooms and spinach"
+      },
+      "shopping_list": ["Tomatoes", "Onions", "Bell peppers", "Olive oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Gluten-Free",
+      "ingredients": [
+        {"name": "Eggs", "expiry": "2025-09-02"},
+        {"name": "Cheese", "expiry": "2025-09-04"},
+        {"name": "Zucchini", "expiry": "2025-09-03"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Zucchini and cheese omelette",
+        "Tuesday": "Scrambled eggs with zucchini and cheese",
+        "Wednesday": "Zucchini and cheese breakfast muffins",
+        "Thursday": "Egg and zucchini frittata with cheese",
+        "Friday": "Grilled cheese with zucchini and eggs",
+        "Saturday": "Zucchini and cheese breakfast wrap (gluten-free)",
+        "Sunday": "Cheesy zucchini breakfast skillet with eggs"
+      },
+      "shopping_list": ["Spinach", "Tomatoes", "Olive oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Bacon", "expiry": "2025-09-01"},
+        {"name": "Eggs", "expiry": "2025-09-02"},
+        {"name": "Cheese", "expiry": "2025-09-04"},
+        {"name": "Bell Peppers", "expiry": "2025-09-03"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Bacon and egg breakfast sandwich with cheese and bell peppers",
+        "Tuesday": "Scrambled eggs with bacon, bell peppers, and cheese",
+        "Wednesday": "Breakfast burrito with bacon, eggs, bell peppers, and cheese",
+        "Thursday": "Egg muffins with bacon and bell peppers",
+        "Friday": "Bacon and cheese frittata with bell peppers",
+        "Saturday": "Grilled bacon and cheese sandwich with eggs and bell peppers",
+        "Sunday": "Breakfast skillet with bacon, eggs, bell peppers, and cheese"
+      },
+      "shopping_list": ["Tomatoes", "Onions", "Spinach"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Eggs", "expiry": "2025-09-02"},
+        {"name": "Cheese", "expiry": "2025-09-04"},
+        {"name": "Bell Peppers", "expiry": "2025-09-03"},
+        {"name": "Tomatoes", "expiry": "2025-09-02"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Cheese and bell pepper omelette with tomatoes",
+        "Tuesday": "Scrambled eggs with cheese, tomatoes, and bell peppers",
+        "Wednesday": "Breakfast burrito with eggs, cheese, and bell peppers",
+        "Thursday": "Egg muffins with cheese, tomatoes, and bell peppers",
+        "Friday": "Grilled cheese and egg sandwich with bell peppers and tomatoes",
+        "Saturday": "Cheese and bell pepper frittata with eggs",
+        "Sunday": "Breakfast quesadilla with eggs, cheese, tomatoes, and bell peppers"
+      },
+      "shopping_list": ["Spinach", "Onions", "Olive oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Tofu", "expiry": "2025-09-04"},
+        {"name": "Spinach", "expiry": "2025-09-03"},
+        {"name": "Avocado", "expiry": "2025-09-05"},
+        {"name": "Tomatoes", "expiry": "2025-09-02"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Tofu scramble with spinach, avocado, and tomatoes",
+        "Tuesday": "Vegan breakfast wrap with tofu, avocado, and spinach",
+        "Wednesday": "Sautéed tofu with spinach and sliced avocado",
+        "Thursday": "Vegan breakfast bowl with tofu, tomatoes, and avocado",
+        "Friday": "Grilled tofu and spinach wrap with avocado slices",
+        "Saturday": "Tofu and avocado breakfast skillet with spinach",
+        "Sunday": "Vegan omelette with tofu, tomatoes, spinach, and avocado"
+      },
+      "shopping_list": ["Mushrooms", "Bell Peppers", "Olive oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Quinoa", "expiry": "2025-09-06"},
+        {"name": "Cheese", "expiry": "2025-09-04"},
+        {"name": "Berries", "expiry": "2025-09-03"},
+        {"name": "Almonds", "expiry": "2025-09-10"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Quinoa porridge with cheese, berries, and almonds",
+        "Tuesday": "Breakfast quinoa bowl with berries and cheese",
+        "Wednesday": "Cheese and quinoa muffins with almonds and berries",
+        "Thursday": "Grilled cheese and quinoa breakfast squares with berries",
+        "Friday": "Quinoa and berry frittata with almonds",
+        "Saturday": "Cheese-topped quinoa skillet with berries and almonds",
+        "Sunday": "Breakfast wrap with quinoa, cheese, berries, and almonds"
+      },
+      "shopping_list": ["Spinach", "Tomatoes", "Honey"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Gluten-Free",
+      "ingredients": [
+        {"name": "Oatmeal", "expiry": "2025-09-05"},
+        {"name": "Berries", "expiry": "2025-09-03"},
+        {"name": "Almond Milk", "expiry": "2025-09-06"},
+        {"name": "Chia Seeds", "expiry": "2025-09-10"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Oatmeal bowl with berries, almond milk, and chia seeds",
+        "Tuesday": "Chia and oatmeal parfait with almond milk and berries",
+        "Wednesday": "Baked oatmeal with berries and chia seeds",
+        "Thursday": "Gluten-free breakfast smoothie with oatmeal, almond milk, and berries",
+        "Friday": "Overnight oatmeal with chia seeds and berries",
+        "Saturday": "Oatmeal pancakes with almond milk, chia seeds, and berries",
+        "Sunday": "Breakfast bars with oatmeal, berries, chia seeds, and almond milk"
+      },
+      "shopping_list": ["Bananas", "Maple Syrup", "Cinnamon"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Sweet Potatoes", "expiry": "2025-09-07"},
+        {"name": "Eggs", "expiry": "2025-09-02"},
+        {"name": "Cheese", "expiry": "2025-09-04"},
+        {"name": "Spinach", "expiry": "2025-09-03"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Sweet potato and cheese frittata with spinach",
+        "Tuesday": "Egg muffins with sweet potatoes, cheese, and spinach",
+        "Wednesday": "Grilled sweet potato and egg sandwich with cheese",
+        "Thursday": "Baked sweet potato breakfast skillet with eggs and spinach",
+        "Friday": "Scrambled eggs with sweet potato cubes, cheese, and spinach",
+        "Saturday": "Sweet potato and spinach omelette with cheese",
+        "Sunday": "Breakfast quesadilla with eggs, sweet potatoes, and cheese"
+      },
+      "shopping_list": ["Tomatoes", "Bell Peppers", "Olive Oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Vegan Cheese", "expiry": "2025-09-05"},
+        {"name": "Mushrooms", "expiry": "2025-09-04"},
+        {"name": "Avocado", "expiry": "2025-09-05"},
+        {"name": "Bell Peppers", "expiry": "2025-09-03"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Vegan cheese and mushroom omelette with bell peppers",
+        "Tuesday": "Avocado and vegan cheese wrap with sautéed mushrooms",
+        "Wednesday": "Vegan breakfast skillet with mushrooms, avocado, and cheese",
+        "Thursday": "Stuffed bell peppers with vegan cheese and mushrooms",
+        "Friday": "Grilled mushrooms with avocado and vegan cheese",
+        "Saturday": "Vegan breakfast burrito with cheese, mushrooms, and bell peppers",
+        "Sunday": "Vegan frittata with mushrooms, avocado, and bell peppers"
+      },
+      "shopping_list": ["Spinach", "Tomatoes", "Olive Oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Eggs", "expiry": "2025-09-02"},
+        {"name": "Zucchini", "expiry": "2025-09-03"},
+        {"name": "Cheese", "expiry": "2025-09-04"},
+        {"name": "Spinach", "expiry": "2025-09-03"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Zucchini and cheese omelette with spinach",
+        "Tuesday": "Scrambled eggs with zucchini, cheese, and spinach",
+        "Wednesday": "Breakfast burrito with eggs, zucchini, and cheese",
+        "Thursday": "Egg muffins with zucchini, spinach, and cheese",
+        "Friday": "Grilled cheese and egg sandwich with zucchini",
+        "Saturday": "Zucchini frittata with eggs and cheese",
+        "Sunday": "Breakfast quesadilla with eggs, zucchini, spinach, and cheese"
+      },
+      "shopping_list": ["Tomatoes", "Bell Peppers", "Olive oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Tofu", "expiry": "2025-09-04"},
+        {"name": "Sweet Potatoes", "expiry": "2025-09-07"},
+        {"name": "Spinach", "expiry": "2025-09-03"},
+        {"name": "Mushrooms", "expiry": "2025-09-04"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Tofu scramble with sweet potatoes, spinach, and mushrooms",
+        "Tuesday": "Vegan breakfast wrap with tofu, sweet potatoes, and mushrooms",
+        "Wednesday": "Sautéed tofu with sweet potatoes and spinach",
+        "Thursday": "Vegan breakfast skillet with tofu, mushrooms, and spinach",
+        "Friday": "Grilled tofu with sweet potatoes and mushrooms",
+        "Saturday": "Tofu and spinach breakfast bowl with sweet potatoes",
+        "Sunday": "Vegan frittata with tofu, mushrooms, and sweet potatoes"
+      },
+      "shopping_list": ["Avocado", "Bell Peppers", "Olive Oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Oatmeal", "expiry": "2025-09-05"},
+        {"name": "Berries", "expiry": "2025-09-03"},
+        {"name": "Almond Milk", "expiry": "2025-09-06"},
+        {"name": "Nuts", "expiry": "2025-09-10"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Oatmeal bowl with berries, almond milk, and nuts",
+        "Tuesday": "Baked oatmeal with berries and almonds",
+        "Wednesday": "Overnight oats with almond milk, nuts, and berries",
+        "Thursday": "Oatmeal pancakes with berries and nuts",
+        "Friday": "Breakfast parfait with oatmeal, berries, and almond milk",
+        "Saturday": "Oatmeal muffins with berries and nuts",
+        "Sunday": "Gluten-free oatmeal skillet with berries and nuts"
+      },
+      "shopping_list": ["Bananas", "Honey", "Cinnamon"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Gluten-Free",
+      "ingredients": [
+        {"name": "Quinoa", "expiry": "2025-09-06"},
+        {"name": "Eggs", "expiry": "2025-09-02"},
+        {"name": "Avocado", "expiry": "2025-09-05"},
+        {"name": "Tomatoes", "expiry": "2025-09-02"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Quinoa breakfast bowl with eggs, avocado, and tomatoes",
+        "Tuesday": "Egg and quinoa skillet with avocado and tomatoes",
+        "Wednesday": "Grilled eggs with quinoa and avocado",
+        "Thursday": "Quinoa breakfast wrap with eggs and tomatoes",
+        "Friday": "Omelette with quinoa, eggs, avocado, and tomatoes",
+        "Saturday": "Baked quinoa with eggs, tomatoes, and avocado",
+        "Sunday": "Breakfast salad with quinoa, eggs, avocado, and tomatoes"
+      },
+      "shopping_list": ["Spinach", "Bell Peppers", "Olive Oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Vegan Cheese", "expiry": "2025-09-05"},
+        {"name": "Mushrooms", "expiry": "2025-09-04"},
+        {"name": "Bell Peppers", "expiry": "2025-09-03"},
+        {"name": "Avocado", "expiry": "2025-09-05"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Vegan cheese and mushroom omelette with bell peppers",
+        "Tuesday": "Avocado and vegan cheese wrap with mushrooms",
+        "Wednesday": "Vegan breakfast skillet with mushrooms, avocado, and cheese",
+        "Thursday": "Stuffed bell peppers with vegan cheese and mushrooms",
+        "Friday": "Grilled mushrooms with avocado and vegan cheese",
+        "Saturday": "Vegan breakfast burrito with cheese, mushrooms, and bell peppers",
+        "Sunday": "Vegan frittata with mushrooms, avocado, and bell peppers"
+      },
+      "shopping_list": ["Spinach", "Tomatoes", "Olive Oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Eggs", "expiry": "2025-09-02"},
+        {"name": "Asparagus", "expiry": "2025-09-04"},
+        {"name": "Cheese", "expiry": "2025-09-04"},
+        {"name": "Mushrooms", "expiry": "2025-09-04"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Asparagus and cheese omelette with mushrooms",
+        "Tuesday": "Scrambled eggs with asparagus, mushrooms, and cheese",
+        "Wednesday": "Breakfast burrito with eggs, asparagus, and mushrooms",
+        "Thursday": "Egg muffins with cheese, asparagus, and mushrooms",
+        "Friday": "Grilled cheese and egg sandwich with asparagus",
+        "Saturday": "Frittata with asparagus, mushrooms, and eggs",
+        "Sunday": "Breakfast quesadilla with eggs, asparagus, mushrooms, and cheese"
+      },
+      "shopping_list": ["Spinach", "Tomatoes", "Olive Oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Tofu", "expiry": "2025-09-04"},
+        {"name": "Kale", "expiry": "2025-09-03"},
+        {"name": "Sweet Potatoes", "expiry": "2025-09-07"},
+        {"name": "Bell Peppers", "expiry": "2025-09-03"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Tofu scramble with kale, bell peppers, and sweet potatoes",
+        "Tuesday": "Vegan breakfast wrap with tofu, kale, and sweet potatoes",
+        "Wednesday": "Grilled tofu with kale and bell peppers",
+        "Thursday": "Vegan breakfast bowl with tofu, sweet potatoes, and bell peppers",
+        "Friday": "Sautéed kale with tofu and sweet potatoes",
+        "Saturday": "Tofu and bell pepper skillet with kale",
+        "Sunday": "Vegan frittata with tofu, sweet potatoes, and kale"
+      },
+      "shopping_list": ["Avocado", "Onions", "Olive Oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Eggs", "expiry": "2025-09-02"},
+        {"name": "Zucchini", "expiry": "2025-09-03"},
+        {"name": "Cheese", "expiry": "2025-09-04"},
+        {"name": "Spinach", "expiry": "2025-09-03"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Zucchini and cheese omelette with spinach",
+        "Tuesday": "Scrambled eggs with zucchini, cheese, and spinach",
+        "Wednesday": "Breakfast burrito with eggs, zucchini, and cheese",
+        "Thursday": "Egg muffins with zucchini, spinach, and cheese",
+        "Friday": "Grilled cheese and egg sandwich with zucchini",
+        "Saturday": "Zucchini frittata with eggs and cheese",
+        "Sunday": "Breakfast quesadilla with eggs, zucchini, spinach, and cheese"
+      },
+      "shopping_list": ["Tomatoes", "Bell Peppers", "Olive oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Tofu", "expiry": "2025-09-04"},
+        {"name": "Sweet Potatoes", "expiry": "2025-09-07"},
+        {"name": "Spinach", "expiry": "2025-09-03"},
+        {"name": "Mushrooms", "expiry": "2025-09-04"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Tofu scramble with sweet potatoes, spinach, and mushrooms",
+        "Tuesday": "Vegan breakfast wrap with tofu, sweet potatoes, and mushrooms",
+        "Wednesday": "Sautéed tofu with sweet potatoes and spinach",
+        "Thursday": "Vegan breakfast skillet with tofu, mushrooms, and spinach",
+        "Friday": "Grilled tofu with sweet potatoes and mushrooms",
+        "Saturday": "Tofu and spinach breakfast bowl with sweet potatoes",
+        "Sunday": "Vegan frittata with tofu, mushrooms, and sweet potatoes"
+      },
+      "shopping_list": ["Avocado", "Bell Peppers", "Olive Oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Oatmeal", "expiry": "2025-09-05"},
+        {"name": "Berries", "expiry": "2025-09-03"},
+        {"name": "Almond Milk", "expiry": "2025-09-06"},
+        {"name": "Nuts", "expiry": "2025-09-10"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Oatmeal bowl with berries, almond milk, and nuts",
+        "Tuesday": "Baked oatmeal with berries and almonds",
+        "Wednesday": "Overnight oats with almond milk, nuts, and berries",
+        "Thursday": "Oatmeal pancakes with berries and nuts",
+        "Friday": "Breakfast parfait with oatmeal, berries, and almond milk",
+        "Saturday": "Oatmeal muffins with berries and nuts",
+        "Sunday": "Gluten-free oatmeal skillet with berries and nuts"
+      },
+      "shopping_list": ["Bananas", "Honey", "Cinnamon"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Gluten-Free",
+      "ingredients": [
+        {"name": "Quinoa", "expiry": "2025-09-06"},
+        {"name": "Eggs", "expiry": "2025-09-02"},
+        {"name": "Avocado", "expiry": "2025-09-05"},
+        {"name": "Tomatoes", "expiry": "2025-09-02"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Quinoa breakfast bowl with eggs, avocado, and tomatoes",
+        "Tuesday": "Egg and quinoa skillet with avocado and tomatoes",
+        "Wednesday": "Grilled eggs with quinoa and avocado",
+        "Thursday": "Quinoa breakfast wrap with eggs and tomatoes",
+        "Friday": "Omelette with quinoa, eggs, avocado, and tomatoes",
+        "Saturday": "Baked quinoa with eggs, tomatoes, and avocado",
+        "Sunday": "Breakfast salad with quinoa, eggs, avocado, and tomatoes"
+      },
+      "shopping_list": ["Spinach", "Bell Peppers", "Olive Oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Vegan Cheese", "expiry": "2025-09-05"},
+        {"name": "Mushrooms", "expiry": "2025-09-04"},
+        {"name": "Bell Peppers", "expiry": "2025-09-03"},
+        {"name": "Avocado", "expiry": "2025-09-05"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Vegan cheese and mushroom omelette with bell peppers",
+        "Tuesday": "Avocado and vegan cheese wrap with mushrooms",
+        "Wednesday": "Vegan breakfast skillet with mushrooms, avocado, and cheese",
+        "Thursday": "Stuffed bell peppers with vegan cheese and mushrooms",
+        "Friday": "Grilled mushrooms with avocado and vegan cheese",
+        "Saturday": "Vegan breakfast burrito with cheese, mushrooms, and bell peppers",
+        "Sunday": "Vegan frittata with mushrooms, avocado, and bell peppers"
+      },
+      "shopping_list": ["Spinach", "Tomatoes", "Olive Oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Eggs", "expiry": "2025-09-02"},
+        {"name": "Asparagus", "expiry": "2025-09-04"},
+        {"name": "Cheese", "expiry": "2025-09-04"},
+        {"name": "Mushrooms", "expiry": "2025-09-04"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Asparagus and cheese omelette with mushrooms",
+        "Tuesday": "Scrambled eggs with asparagus, mushrooms, and cheese",
+        "Wednesday": "Breakfast burrito with eggs, asparagus, and mushrooms",
+        "Thursday": "Egg muffins with cheese, asparagus, and mushrooms",
+        "Friday": "Grilled cheese and egg sandwich with asparagus",
+        "Saturday": "Frittata with asparagus, mushrooms, and eggs",
+        "Sunday": "Breakfast quesadilla with eggs, asparagus, mushrooms, and cheese"
+      },
+      "shopping_list": ["Spinach", "Tomatoes", "Olive Oil"]
+    }
+  },
+  {
+    "instruction": "Suggest creative breakfast options using items that will expire soon.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Tofu", "expiry": "2025-09-04"},
+        {"name": "Kale", "expiry": "2025-09-03"},
+        {"name": "Sweet Potatoes", "expiry": "2025-09-07"},
+        {"name": "Bell Peppers", "expiry": "2025-09-03"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": "Tofu scramble with kale, bell peppers, and sweet potatoes",
+        "Tuesday": "Vegan breakfast wrap with tofu, kale, and sweet potatoes",
+        "Wednesday": "Grilled tofu with kale and bell peppers",
+        "Thursday": "Vegan breakfast bowl with tofu, sweet potatoes, and bell peppers",
+        "Friday": "Sautéed kale with tofu and sweet potatoes",
+        "Saturday": "Tofu and bell pepper skillet with kale",
+        "Sunday": "Vegan frittata with tofu, sweet potatoes, and kale"
+      },
+      "shopping_list": ["Avocado", "Onions", "Olive Oil"]
+    }
+  }
+]

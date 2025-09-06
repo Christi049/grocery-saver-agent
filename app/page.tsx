@@ -26,6 +26,7 @@ export default function LandingPage() {
               dietary needs. Cut waste, cut costs, and simplify daily meals.
             </p>
             <div className="flex flex-wrap items-center gap-4">
+<<<<<<< HEAD
               <LoginSignupDialog mode="login" className="h-16 px-10 text-lg text-white" />
               <LoginSignupDialog mode="signup" className="h-16 px-10 text-lg text-white" />
               <Button
@@ -34,15 +35,24 @@ export default function LandingPage() {
                 className="h-16 px-10 bg-transparent text-primary border-primary hover:bg-primary hover:text-white"
                 onClick={loginDemo}
               >
+=======
+              <LoginSignupDialog mode="login" className="h-16 px-10 text-lg" />
+              <LoginSignupDialog mode="signup" className="h-16 px-10 text-lg" />
+              <Button variant="outline" size="lg" className="h-16 px-10 bg-transparent" onClick={loginDemo}>
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
                 Preview Demo
               </Button>
               {user && (
                 <Link href="/home">
+<<<<<<< HEAD
                   <Button
                     variant="ghost"
                     size="lg"
                     className="h-16 px-10 text-primary hover:bg-primary hover:text-white"
                   >
+=======
+                  <Button variant="ghost" size="lg" className="h-16 px-10">
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
                     Go to App
                   </Button>
                 </Link>

@@ -67,18 +67,28 @@ export function LoginSignupDialog({ mode, className }: { mode: "login" | "signup
           {error && <p className="text-sm text-red-600">{error}</p>}
           <div className="flex gap-2">
             <Button
+<<<<<<< HEAD
               className="flex-1 h-16 text-lg bg-primary hover:bg-primary/90 text-white" // Increased height and font size, Added explicit white text
+=======
+              className="flex-1 h-16 text-lg bg-primary hover:bg-primary/90" // Increased height and font size
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
               onClick={handleSubmit}
               disabled={loading}
             >
               {loading ? "Please wait..." : mode === "login" ? "Login" : "Sign Up"}
             </Button>
+<<<<<<< HEAD
             <Button
               className="flex-1 h-16 text-lg bg-transparent text-primary border-primary hover:bg-primary hover:text-white"
               variant="outline"
               onClick={() => setOpen(false)}
             >
               Cancel
+=======
+            <Button className="flex-1 h-16 text-lg bg-transparent" variant="outline" onClick={() => setOpen(false)}>
+              {" "}
+              // Increased height and font size Cancel
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
             </Button>
           </div>
         </div>

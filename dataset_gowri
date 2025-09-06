@@ -1,0 +1,782 @@
+[
+  {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Pork ribs", "expiry": "2025-09-07"},
+        {"name": "Corn on the cob", "expiry": "2025-09-09"},
+        {"name": "BBQ sauce", "expiry": "2026-01-15"},
+        {"name": "Potatoes", "expiry": "2025-09-15"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Oatmeal",
+          "lunch": "BBQ pork ribs with mashed potatoes",
+          "dinner": "Leftover ribs with corn on the cob"
+        },
+        "Saturday": {
+          "breakfast": "Scrambled eggs",
+          "lunch": "Pulled pork sandwich using leftover rib meat",
+          "dinner": "Potato and corn chowder"
+        },
+        "Sunday": {
+          "breakfast": "Pancakes",
+          "lunch": "Leftover chowder",
+          "dinner": "Dalma (Odia lentil and vegetable stew)"
+        },
+        "Monday": {
+          "breakfast": "Toast",
+          "lunch": "Leftover Dalma",
+          "dinner": "Aloo Bharta (mashed potatoes, Odia style) with roti"
+        },
+        "Tuesday": {
+          "breakfast": "Yogurt",
+          "lunch": "Simple salad",
+          "dinner": "Chicken curry with rice"
+        },
+        "Wednesday": {
+          "breakfast": "Poha",
+          "lunch": "Leftover chicken curry",
+          "dinner": "Pasta with garlic and oil"
+        },
+        "Thursday": {
+          "breakfast": "Cereal",
+          "lunch": "Leftover pasta",
+          "dinner": "Vegetable stir-fry"
+        }
+      },
+      "shopping_list": ["Sandwich buns", "Lentils", "Mixed vegetables for Dalma", "Chicken", "Pasta"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Pointed Gourd (Potala/Parwal)", "expiry": "2025-09-08"},
+        {"name": "Pumpkin", "expiry": "2025-09-10"},
+        {"name": "Raw Banana", "expiry": "2025-09-09"},
+        {"name": "Rice", "expiry": "2026-03-01"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Upma",
+          "lunch": "Rice with Dalma (using pumpkin and raw banana)",
+          "dinner": "Potala Korma (pointed gourd curry)"
+        },
+        "Saturday": {
+          "breakfast": "Dosa",
+          "lunch": "Leftover Dalma with rice",
+          "dinner": "Pumpkin flower fritters (Kakharu phula bhaja) with rice and dal"
+        },
+        "Sunday": {
+          "breakfast": "Idli",
+          "lunch": "Ghanta Tarkari (Odia mixed vegetable curry)",
+          "dinner": "Leftover Ghanta"
+        },
+        "Monday": {
+          "breakfast": "Poha",
+          "lunch": "Mashed pumpkin (Kakharu bharta) with roti",
+          "dinner": "Ratatouille (Western vegetable stew)"
+        },
+        "Tuesday": {
+          "breakfast": "Oatmeal",
+          "lunch": "Leftover Ratatouille with crusty bread",
+          "dinner": "Pasta with a simple tomato sauce"
+        },
+        "Wednesday": {
+          "breakfast": "Toast",
+          "lunch": "Leftover pasta",
+          "dinner": "Lentil soup"
+        },
+        "Thursday": {
+          "breakfast": "Yogurt",
+          "lunch": "Leftover lentil soup",
+          "dinner": "Vegetable Pulao"
+        }
+      },
+      "shopping_list": ["Lentils", "Spices", "Roti", "Bread", "Pasta", "Tomato sauce"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "Gluten-Free",
+      "ingredients": [
+        {"name": "Steak", "expiry": "2025-09-07"},
+        {"name": "Potatoes", "expiry": "2025-09-15"},
+        {"name": "Green Beans", "expiry": "2025-09-09"},
+        {"name": "Butter", "expiry": "2025-09-20"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Scrambled eggs",
+          "lunch": "Steak with roasted potatoes and green beans",
+          "dinner": "Leftover steak and potatoes"
+        },
+        "Saturday": {
+          "breakfast": "Yogurt with fruit",
+          "lunch": "Steak salad with green beans",
+          "dinner": "Aloo Dum (Odia potato curry, naturally gluten-free)"
+        },
+        "Sunday": {
+          "breakfast": "Gluten-free pancakes",
+          "lunch": "Leftover Aloo Dum with rice",
+          "dinner": "Mutton Kassa (Odia mutton curry)"
+        },
+        "Monday": {
+          "breakfast": "Smoothie",
+          "lunch": "Leftover Mutton Kassa",
+          "dinner": "Green bean stir-fry with rice"
+        },
+        "Tuesday": {
+          "breakfast": "Omelette",
+          "lunch": "Simple fish curry with rice",
+          "dinner": "Roasted vegetables"
+        },
+        "Wednesday": {
+          "breakfast": "Rice porridge (Kanji)",
+          "lunch": "Leftover fish curry",
+          "dinner": "Chicken and potato stew"
+        },
+        "Thursday": {
+          "breakfast": "Fruit salad",
+          "lunch": "Leftover chicken stew",
+          "dinner": "Simple dal with rice"
+        }
+      },
+      "shopping_list": ["Eggs", "Rice", "Mutton", "Fish", "Chicken", "Lentils", "Gluten-free pancake mix"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Prawns (Chingudi)", "expiry": "2025-09-06"},
+        {"name": "Mustard Paste", "expiry": "2025-10-10"},
+        {"name": "Rice", "expiry": "2026-04-01"},
+        {"name": "Tomatoes", "expiry": "2025-09-09"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Poha",
+          "lunch": "Chingudi Besara (Prawns in mustard sauce) with rice",
+          "dinner": "Leftover Chingudi Besara"
+        },
+        "Saturday": {
+          "breakfast": "Upma",
+          "lunch": "Prawn Malai Curry with rice",
+          "dinner": "Tomato Khatta (Odia sweet and sour tomato chutney) with rice and dal"
+        },
+        "Sunday": {
+          "breakfast": "Dosa",
+          "lunch": "Leftover dal and rice",
+          "dinner": "Spaghetti Aglio e Olio (Western pasta)"
+        },
+        "Monday": {
+          "breakfast": "Toast",
+          "lunch": "Leftover spaghetti",
+          "dinner": "Chicken pot pie"
+        },
+        "Tuesday": {
+          "breakfast": "Oatmeal",
+          "lunch": "Leftover pot pie",
+          "dinner": "Tomato soup with grilled cheese"
+        },
+        "Wednesday": {
+          "breakfast": "Scrambled eggs",
+          "lunch": "Leftover tomato soup",
+          "dinner": "Vegetable stir-fry with rice"
+        },
+        "Thursday": {
+          "breakfast": "Yogurt",
+          "lunch": "Leftover stir-fry",
+          "dinner": "Simple fish fry with rice"
+        }
+      },
+      "shopping_list": ["Coconut milk", "Lentils", "Spaghetti", "Chicken", "Pie crust", "Cheese", "Fish"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Lentils (Dal)", "expiry": "2026-02-01"},
+        {"name": "Yam", "expiry": "2025-09-12"},
+        {"name": "Papaya (raw)", "expiry": "2025-09-10"},
+        {"name": "Olive Oil", "expiry": "2026-03-01"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Oatmeal with soy milk",
+          "lunch": "Dalma (Odia lentil stew with yam and papaya, use oil instead of ghee)",
+          "dinner": "Leftover Dalma with rice"
+        },
+        "Saturday": {
+          "breakfast": "Fruit smoothie with almond milk",
+          "lunch": "Raw papaya salad (Som Tum style)",
+          "dinner": "Yam stir-fry (Odia style)"
+        },
+        "Sunday": {
+          "breakfast": "Vegan pancakes",
+          "lunch": "Leftover yam stir-fry with roti",
+          "dinner": "Lentil shepherd's pie"
+        },
+        "Monday": {
+          "breakfast": "Toast with avocado",
+          "lunch": "Leftover shepherd's pie",
+          "dinner": "Pasta with a vegetable and tomato sauce"
+        },
+        "Tuesday": {
+          "breakfast": "Tofu scramble",
+          "lunch": "Leftover pasta",
+          "dinner": "Vegan chili with beans"
+        },
+        "Wednesday": {
+          "breakfast": "Poha",
+          "lunch": "Leftover chili",
+          "dinner": "Roasted vegetable medley"
+        },
+        "Thursday": {
+          "breakfast": "Upma",
+          "lunch": "Simple green salad",
+          "dinner": "Mushroom stir-fry with rice"
+        }
+      },
+      "shopping_list": ["Soy milk", "Rice", "Roti", "Pasta", "Tofu", "Kidney beans", "Mushrooms"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Fettuccine", "expiry": "2026-05-01"},
+        {"name": "Cream", "expiry": "2025-09-08"},
+        {"name": "Mushrooms", "expiry": "2025-09-07"},
+        {"name": "Chicken", "expiry": "2025-09-09"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Toast",
+          "lunch": "Creamy mushroom soup",
+          "dinner": "Chicken Alfredo with fettuccine"
+        },
+        "Saturday": {
+          "breakfast": "Oatmeal",
+          "lunch": "Leftover Chicken Alfredo",
+          "dinner": "Mushroom and chicken stir-fry"
+        },
+        "Sunday": {
+          "breakfast": "Pancakes",
+          "lunch": "Leftover stir-fry",
+          "dinner": "Chicken Kassa (Odia style spicy chicken)"
+        },
+        "Monday": {
+          "breakfast": "Scrambled eggs",
+          "lunch": "Leftover Chicken Kassa with rice",
+          "dinner": "Chhatu Rai (Odia mushroom mustard curry)"
+        },
+        "Tuesday": {
+          "breakfast": "Dosa",
+          "lunch": "Leftover mushroom curry",
+          "dinner": "Simple dal with rice"
+        },
+        "Wednesday": {
+          "breakfast": "Upma",
+          "lunch": "Leftover dal",
+          "dinner": "Chicken sandwiches"
+        },
+        "Thursday": {
+          "breakfast": "Yogurt",
+          "lunch": "Simple salad",
+          "dinner": "Fish curry"
+        }
+      },
+      "shopping_list": ["Garlic", "Parmesan cheese", "Rice", "Mustard paste", "Lentils", "Bread", "Fish"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "Gluten-Free",
+      "ingredients": [
+        {"name": "Rice Flour", "expiry": "2026-01-01"},
+        {"name": "Coconut", "expiry": "2025-09-09"},
+        {"name": "Jaggery (Guda)", "expiry": "2025-12-01"},
+        {"name": "Milk", "expiry": "2025-09-08"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Smoothie with milk",
+          "lunch": "Rice with dal",
+          "dinner": "Chakuli Pitha (Odia rice flour pancake) with dalma"
+        },
+        "Saturday": {
+          "breakfast": "Leftover pitha",
+          "lunch": "Kakara Pitha (Odia sweet fried dumpling with coconut and jaggery)",
+          "dinner": "Kheer (rice pudding with milk)"
+        },
+        "Sunday": {
+          "breakfast": "Scrambled eggs",
+          "lunch": "Leftover kheer",
+          "dinner": "Chicken stew with rice"
+        },
+        "Monday": {
+          "breakfast": "Omelette",
+          "lunch": "Leftover stew",
+          "dinner": "Coconut rice"
+        },
+        "Tuesday": {
+          "breakfast": "Fruit salad",
+          "lunch": "Leftover coconut rice",
+          "dinner": "Fish curry"
+        },
+        "Wednesday": {
+          "breakfast": "Gluten-free oats",
+          "lunch": "Leftover fish curry",
+          "dinner": "Mashed potatoes"
+        },
+        "Thursday": {
+          "breakfast": "Yogurt",
+          "lunch": "Simple salad",
+          "dinner": "Grilled chicken"
+        }
+      },
+      "shopping_list": ["Lentils", "Vegetables for dalma", "Chicken", "Fish", "Potatoes"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Pancake mix", "expiry": "2025-11-01"},
+        {"name": "Bacon", "expiry": "2025-09-08"},
+        {"name": "Maple syrup", "expiry": "2026-05-01"},
+        {"name": "Eggs", "expiry": "2025-09-12"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Pancakes with bacon and maple syrup",
+          "lunch": "BLT (Bacon, Lettuce, Tomato) sandwich",
+          "dinner": "Breakfast for dinner: Scrambled eggs and bacon"
+        },
+        "Saturday": {
+          "breakfast": "Omelette",
+          "lunch": "Leftover BLT",
+          "dinner": "Spaghetti Carbonara (uses bacon and eggs)"
+        },
+        "Sunday": {
+          "breakfast": "Pancakes",
+          "lunch": "Leftover carbonara",
+          "dinner": "Pakhala Bhata (Odia fermented rice) with Badi Chura"
+        },
+        "Monday": {
+          "breakfast": "Toast",
+          "lunch": "Curd rice",
+          "dinner": "Aloo Posto (Potatoes in poppy seed paste)"
+        },
+        "Tuesday": {
+          "breakfast": "Poha",
+          "lunch": "Leftover Aloo Posto",
+          "dinner": "Chicken curry"
+        },
+        "Wednesday": {
+          "breakfast": "Upma",
+          "lunch": "Leftover chicken curry",
+          "dinner": "Dal with rice"
+        },
+        "Thursday": {
+          "breakfast": "Cereal",
+          "lunch": "Simple sandwich",
+          "dinner": "Fish fry"
+        }
+      },
+      "shopping_list": ["Lettuce", "Tomato", "Bread", "Spaghetti", "Rice", "Badi", "Poppy seeds", "Chicken"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "Gluten-Free",
+      "ingredients": [
+        {"name": "Salmon", "expiry": "2025-09-07"},
+        {"name": "Dill", "expiry": "2025-09-08"},
+        {"name": "Lentils", "expiry": "2026-03-01"},
+        {"name": "Rice", "expiry": "2026-06-01"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Scrambled eggs",
+          "lunch": "Baked salmon with dill and a side of rice",
+          "dinner": "Leftover salmon"
+        },
+        "Saturday": {
+          "breakfast": "Yogurt",
+          "lunch": "Salmon salad (flaked salmon)",
+          "dinner": "Dalma (Odia lentil stew, naturally gluten-free)"
+        },
+        "Sunday": {
+          "breakfast": "Smoothie",
+          "lunch": "Leftover Dalma with rice",
+          "dinner": "Macha Ghanta (Odia fish head curry with vegetables)"
+        },
+        "Monday": {
+          "breakfast": "Gluten-free oats",
+          "lunch": "Leftover fish curry",
+          "dinner": "Simple lentil soup (Dal)"
+        },
+        "Tuesday": {
+          "breakfast": "Omelette",
+          "lunch": "Leftover dal with rice",
+          "dinner": "Chicken stir-fry"
+        },
+        "Wednesday": {
+          "breakfast": "Fruit salad",
+          "lunch": "Leftover chicken stir-fry",
+          "dinner": "Potato curry"
+        },
+        "Thursday": {
+          "breakfast": "Rice porridge",
+          "lunch": "Leftover potato curry",
+          "dinner": "Grilled vegetables"
+        }
+      },
+      "shopping_list": ["Eggs", "Vegetables for Dalma", "Fish head", "Chicken", "Potatoes"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "Vegetarian",
+      "ingredients": [
+        {"name": "Paneer", "expiry": "2025-09-08"},
+        {"name": "Tomato", "expiry": "2025-09-09"},
+        {"name": "Pasta", "expiry": "2026-04-01"},
+        {"name": "Spinach", "expiry": "2025-09-07"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Oatmeal",
+          "lunch": "Pasta with spinach and tomato sauce",
+          "dinner": "Leftover pasta"
+        },
+        "Saturday": {
+          "breakfast": "Toast",
+          "lunch": "Palak Paneer (Spinach and paneer curry)",
+          "dinner": "Chhena Poda (Odia baked cheese dessert, uses paneer)"
+        },
+        "Sunday": {
+          "breakfast": "Poha",
+          "lunch": "Leftover Palak Paneer with roti",
+          "dinner": "Paneer Butter Masala"
+        },
+        "Monday": {
+          "breakfast": "Upma",
+          "lunch": "Leftover Paneer Butter Masala",
+          "dinner": "Tomato soup"
+        },
+        "Tuesday": {
+          "breakfast": "Dosa",
+          "lunch": "Paneer and tomato sandwich",
+          "dinner": "Dalma"
+        },
+        "Wednesday": {
+          "breakfast": "Idli",
+          "lunch": "Leftover Dalma",
+          "dinner": "Vegetable stir-fry"
+        },
+        "Thursday": {
+          "breakfast": "Yogurt",
+          "lunch": "Simple salad",
+          "dinner": "Mushroom curry"
+        }
+      },
+      "shopping_list": ["Spices", "Roti", "Lentils", "Vegetables for Dalma", "Mushrooms"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Potatoes", "expiry": "2025-09-15"},
+        {"name": "Cauliflower", "expiry": "2025-09-09"},
+        {"name": "Cheese", "expiry": "2025-09-11"},
+        {"name": "Bread", "expiry": "2025-09-08"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Toast with butter",
+          "lunch": "Grilled cheese sandwich",
+          "dinner": "Aloo Phulkopi Torkari (Odia potato and cauliflower curry)"
+        },
+        "Saturday": {
+          "breakfast": "Pancakes",
+          "lunch": "Leftover Aloo Phulkopi",
+          "dinner": "Cauliflower and potato gratin with cheese"
+        },
+        "Sunday": {
+          "breakfast": "French toast",
+          "lunch": "Leftover gratin",
+          "dinner": "Phulkopi Bhaja (Cauliflower fritters) with rice and dal"
+        },
+        "Monday": {
+          "breakfast": "Oatmeal",
+          "lunch": "Leftover dal and rice",
+          "dinner": "Shepherd's pie with a potato topping"
+        },
+        "Tuesday": {
+          "breakfast": "Scrambled eggs",
+          "lunch": "Leftover Shepherd's pie",
+          "dinner": "Simple potato soup"
+        },
+        "Wednesday": {
+          "breakfast": "Poha",
+          "lunch": "Leftover soup",
+          "dinner": "Chicken curry"
+        },
+        "Thursday": {
+          "breakfast": "Upma",
+          "lunch": "Leftover chicken curry",
+          "dinner": "Simple stir-fry"
+        }
+      },
+      "shopping_list": ["Spices", "Lentils", "Ground meat for Shepherd's pie", "Chicken"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "Vegan",
+      "ingredients": [
+        {"name": "Tofu", "expiry": "2025-09-09"},
+        {"name": "Broccoli", "expiry": "2025-09-08"},
+        {"name": "Mustard Paste", "expiry": "2025-11-01"},
+        {"name": "Soy Milk", "expiry": "2025-09-12"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Oatmeal with soy milk",
+          "lunch": "Tofu and broccoli stir-fry (Western style)",
+          "dinner": "Leftover stir-fry"
+        },
+        "Saturday": {
+          "breakfast": "Vegan smoothie with soy milk",
+          "lunch": "Tofu Besara (Tofu in Odia mustard sauce)",
+          "dinner": "Broccoli soup"
+        },
+        "Sunday": {
+          "breakfast": "Tofu scramble",
+          "lunch": "Leftover Tofu Besara with rice",
+          "dinner": "Roasted broccoli"
+        },
+        "Monday": {
+          "breakfast": "Vegan pancakes",
+          "lunch": "Simple salad",
+          "dinner": "Lentil curry (Dalma)"
+        },
+        "Tuesday": {
+          "breakfast": "Poha",
+          "lunch": "Leftover Dalma",
+          "dinner": "Pasta with a vegan pesto sauce"
+        },
+        "Wednesday": {
+          "breakfast": "Fruit salad",
+          "lunch": "Leftover pasta",
+          "dinner": "Vegetable skewers"
+        },
+        "Thursday": {
+          "breakfast": "Toast with peanut butter",
+          "lunch": "Leftover skewers",
+          "dinner": "Mushroom curry"
+        }
+      },
+      "shopping_list": ["Rice", "Lentils", "Vegetables for Dalma", "Pasta", "Vegan pesto", "Mushrooms"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Eggs", "expiry": "2025-09-12"},
+        {"name": "Bread", "expiry": "2025-09-08"},
+        {"name": "Rice", "expiry": "2026-05-01"},
+        {"name": "Lentils", "expiry": "2026-03-15"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Scrambled eggs and toast",
+          "lunch": "Dalma with rice",
+          "dinner": "Leftover Dalma"
+        },
+        "Saturday": {
+          "breakfast": "French toast",
+          "lunch": "Pakhala Bhata (Odia fermented rice) with fried fish",
+          "dinner": "Egg curry with rice"
+        },
+        "Sunday": {
+          "breakfast": "Omelette",
+          "lunch": "Leftover egg curry",
+          "dinner": "Chicken Biryani"
+        },
+        "Monday": {
+          "breakfast": "Boiled eggs",
+          "lunch": "Leftover biryani",
+          "dinner": "Lentil soup with bread"
+        },
+        "Tuesday": {
+          "breakfast": "Toast",
+          "lunch": "Leftover lentil soup",
+          "dinner": "Fish fry with rice"
+        },
+        "Wednesday": {
+          "breakfast": "Poha",
+          "lunch": "Leftover fish",
+          "dinner": "Chicken stir-fry"
+        },
+        "Thursday": {
+          "breakfast": "Upma",
+          "lunch": "Leftover chicken stir-fry",
+          "dinner": "Simple pasta"
+        }
+      },
+      "shopping_list": ["Vegetables for Dalma", "Fish", "Chicken", "Spices for Biryani", "Pasta"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Milk", "expiry": "2025-09-08"},
+        {"name": "Rice", "expiry": "2026-04-01"},
+        {"name": "Sugar", "expiry": "2026-01-01"},
+        {"name": "Berries (frozen)", "expiry": "2025-11-20"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Berry smoothie with milk",
+          "lunch": "Rice with dal",
+          "dinner": "Kheer (Odia rice pudding)"
+        },
+        "Saturday": {
+          "breakfast": "Cereal with milk",
+          "lunch": "Leftover Kheer",
+          "dinner": "Chicken curry with rice"
+        },
+        "Sunday": {
+          "breakfast": "Pancakes with berries",
+          "lunch": "Leftover chicken curry",
+          "dinner": "Simple fish curry"
+        },
+        "Monday": {
+          "breakfast": "Oatmeal with milk",
+          "lunch": "Leftover fish curry",
+          "dinner": "Vegetable stir-fry"
+        },
+        "Tuesday": {
+          "breakfast": "Toast",
+          "lunch": "Leftover stir-fry",
+          "dinner": "Pasta with a simple cream sauce"
+        },
+        "Wednesday": {
+          "breakfast": "Scrambled eggs",
+          "lunch": "Leftover pasta",
+          "dinner": "Dalma"
+        },
+        "Thursday": {
+          "breakfast": "Yogurt",
+          "lunch": "Leftover Dalma",
+          "dinner": "Simple soup"
+        }
+      },
+      "shopping_list": ["Lentils", "Chicken", "Fish", "Pasta", "Eggs", "Vegetables for Dalma"]
+    }
+  },
+    {
+    "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+    "input": {
+      "dietary_restriction": "None",
+      "ingredients": [
+        {"name": "Chicken", "expiry": "2025-09-07"},
+        {"name": "Bell Peppers", "expiry": "2025-09-09"},
+        {"name": "Potatoes", "expiry": "2025-09-14"},
+        {"name": "Onions", "expiry": "2025-09-16"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": "Omelette with onions",
+          "lunch": "Western-style Roast Chicken with potatoes and bell peppers",
+          "dinner": "Leftover roast chicken"
+        },
+        "Saturday": {
+          "breakfast": "Toast",
+          "lunch": "Chicken salad sandwich",
+          "dinner": "Chicken Kassa (Odia spicy chicken curry)"
+        },
+        "Sunday": {
+          "breakfast": "Pancakes",
+          "lunch": "Leftover Chicken Kassa with rice",
+          "dinner": "Aloo Dum (Odia Potato Curry)"
+        },
+        "Monday": {
+          "breakfast": "Poha",
+          "lunch": "Leftover Aloo Dum",
+          "dinner": "Stuffed Bell Peppers with a potato filling"
+        },
+        "Tuesday": {
+          "breakfast": "Upma",
+          "lunch": "Leftover stuffed peppers",
+          "dinner": "Dal with rice"
+        },
+        "Wednesday": {
+          "breakfast": "Idli",
+          "lunch": "Leftover dal",
+          "dinner": "Chicken and vegetable skewers"
+        },
+        "Thursday": {
+          "breakfast": "Dosa",
+          "lunch": "Leftover skewers",
+          "dinner": "Simple pasta dish"
+        }
+      },
+      "shopping_list": ["Salad greens", "Bread", "Rice", "Spices", "Lentils", "Pasta"]
+    }
+  }
+]

@@ -63,7 +63,11 @@ export default function HomePage() {
               <p className="text-sm text-foreground/80">Your meals are set based on your pantry.</p>
             </div>
             <Link href="/meal-plan">
+<<<<<<< HEAD
               <Button className="h-12 px-7 bg-primary hover:bg-primary/90 text-white">View Full Meal Plan</Button>
+=======
+              <Button className="h-12 px-7 bg-primary hover:bg-primary/90">View Full Meal Plan</Button>
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
             </Link>
           </div>
         </section>
@@ -81,12 +85,16 @@ export default function HomePage() {
                   <div className="font-medium">{dish || "—"}</div>
                   <div className="mt-3 flex items-center gap-2">
                     <RecipeDialog dish={dish} />
+<<<<<<< HEAD
                     <Button
                       size="sm"
                       variant="outline"
                       onClick={() => markCooked(dish)}
                       className="text-primary border-primary hover:bg-primary hover:text-white"
                     >
+=======
+                    <Button size="sm" variant="outline" onClick={() => markCooked(dish)}>
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
                       Mark as Cooked
                     </Button>
                     {miss.length > 0 && (
@@ -116,12 +124,20 @@ export default function HomePage() {
         {/* 4. Action Buttons */}
         <section className="flex flex-wrap gap-3">
           <Link href="/meal-plan">
+<<<<<<< HEAD
             <Button size="lg" className="h-12 px-7 bg-primary text-white hover:bg-primary/90">
+=======
+            <Button size="lg" className="h-12 px-7">
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
               View Full Meal Plan
             </Button>
           </Link>
           <Link href="/shopping-list">
+<<<<<<< HEAD
             <Button size="lg" className="h-12 px-7 bg-primary text-white hover:bg-primary/90">
+=======
+            <Button size="lg" variant="secondary" className="h-12 px-7">
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
               View Shopping List
             </Button>
           </Link>

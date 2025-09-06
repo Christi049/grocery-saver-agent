@@ -1,0 +1,426 @@
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+  "input": {
+    "dietary_restriction": "Vegan",
+    "ingredients": [
+      {"name": "Spinach", "expiry": "2025-09-04"},
+      {"name": "Bananas", "expiry": "2025-09-05"},
+      {"name": "Chickpeas", "expiry": "2025-10-01"},
+      {"name": "Avocado", "expiry": "2025-09-06"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Green smoothie (spinach, banana, plant milk)",
+        "lunch": "Chickpea and avocado salad wrap",
+        "dinner": "Creamy spinach and chickpea curry with rice"
+      },
+      "Tuesday": {
+        "breakfast": "Oatmeal with sliced banana and a dollop of peanut butter",
+        "lunch": "Leftover chickpea and spinach curry",
+        "dinner": "Garlic sautéed spinach with mashed chickpeas on toast"
+      },
+      "Wednesday": {
+        "breakfast": "Avocado toast on whole wheat bread",
+        "lunch": "Green salad with chickpeas, avocado, and lemon-tahini dressing",
+        "dinner": "Spinach and chickpea burger patties with sweet potato fries"
+      }
+    },
+    "shopping_list": ["Plant Milk", "Whole Wheat Bread", "Tahini"]
+  }
+}
+
+
+
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+  "input": {
+    "dietary_restriction": "Vegetarian",
+    "ingredients": [
+      {"name": "Paneer", "expiry": "2025-09-05"},
+      {"name": "Palak (Spinach)", "expiry": "2025-09-04"},
+      {"name": "Sweet Corn", "expiry": "2025-09-10"},
+      {"name": "Potatoes", "expiry": "2025-09-15"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Paneer Paratha with curd",
+        "lunch": "Palak Paneer with Jeera Rice",
+        "dinner": "Sweet Corn Soup and Masala Toast"
+      },
+      "Tuesday": {
+        "breakfast": "Palak Poori with Aloo Sabzi",
+        "lunch": "Leftover Palak Paneer with Roti",
+        "dinner": "Paneer and Sweet Corn Tikki (cutlets) with chutney"
+      }
+    },
+    "shopping_list": ["Yogurt", "Bread", "Cumin Seeds"]
+  }
+}
+
+
+
+
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+  "input": {
+    "dietary_restriction": "Vegan",
+    "ingredients": [
+      {"name": "Chickpeas (Kabuli Chana)", "expiry": "2025-10-01"},
+      {"name": "Coconut", "expiry": "2025-09-06"},
+      {"name": "Okra (Bhindi)", "expiry": "2025-09-05"},
+      {"name": "Tomatoes", "expiry": "2025-09-05"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Chana Dal Poha (flattened rice)",
+        "lunch": "Chana Masala with Roti",
+        "dinner": "Bhindi Masala and Tomato Onion Salad"
+      },
+      "Tuesday": {
+        "breakfast": "Tomato Onion Uttapam (using chickpea flour)",
+        "lunch": "Leftover Chana Masala with Rice",
+        "dinner": "Coconut-based Veg Kurma with Bhindi"
+      }
+    },
+    "shopping_list": ["Poha", "Onions", "Curry Leaves"]
+  }
+}
+
+
+
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+  "input": {
+    "dietary_restriction": "Nut-Free",
+    "ingredients": [
+      {"name": "Potatoes", "expiry": "2025-09-15"},
+      {"name": "Cauliflower (Gobi)", "expiry": "2025-09-05"},
+      {"name": "Peas (Matar)", "expiry": "2025-09-10"},
+      {"name": "Pumpkin (Kaddu)", "expiry": "2025-09-08"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Aloo Gobi Paratha",
+        "lunch": "Matar Gobi Masala with Poori",
+        "dinner": "Kaddu Ki Sabzi (pumpkin curry) with Roti"
+      },
+      "Tuesday": {
+        "breakfast": "Aloo Matar Stuffed Paratha",
+        "lunch": "Leftover Matar Gobi with Jeera Rice",
+        "dinner": "Gobi Manchurian (nut-free sauce) with fried rice"
+      }
+    },
+    "shopping_list": ["Wheat Flour", "Soy Sauce", "Spring Onions"]
+  }
+}
+
+
+
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+  "input": {
+    "dietary_restriction": "Low Glycemic Index",
+    "ingredients": [
+      {"name": "Bitter Gourd (Karela)", "expiry": "2025-09-05"},
+      {"name": "Fenugreek Leaves (Methi)", "expiry": "2025-09-04"},
+      {"name": "Brown Rice", "expiry": "2025-12-01"},
+      {"name": "Cucumber", "expiry": "2025-09-07"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Methi Thepla (made with whole wheat and chickpea flour)",
+        "lunch": "Stuffed Karela with Brown Rice and Cucumber Raita",
+        "dinner": "Methi Malai Matar (using low-fat milk) with Roti"
+      },
+      "Tuesday": {
+        "breakfast": "Brown Rice Poha with peanuts",
+        "lunch": "Leftover Karela and Brown Rice",
+        "dinner": "Methi and Brown Rice Khichdi with a side of salad"
+      }
+    },
+    "shopping_list": ["Whole Wheat Flour", "Peanuts", "Low-fat Milk"]
+  }
+}
+
+
+
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+  "input": {
+    "dietary_restriction": "Low-Fat",
+    "ingredients": [
+      {"name": "Brown Lentils (Masoor Dal)", "expiry": "2025-11-01"},
+      {"name": "Ridge Gourd (Turai)", "expiry": "2025-09-05"},
+      {"name": "Tomatoes", "expiry": "2025-09-05"},
+      {"name": "Cabbage", "expiry": "2025-09-08"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Moong Dal Chilla (non-fried)",
+        "lunch": "Masoor Dal with Turai Sabzi (steamed)",
+        "dinner": "Cabbage and Peas Stir-fry (sukhi sabzi) with Roti"
+      },
+      "Tuesday": {
+        "breakfast": "Vegetable Oats Upma (with tomatoes and cabbage)",
+        "lunch": "Leftover Dal and Sabzi with Rice",
+        "dinner": "Tomato Saar (rasam) with steamed rice and poppadum"
+      }
+    },
+    "shopping_list": ["Oats", "Moong Dal", "Rasam Powder"]
+  }
+}
+
+
+
+
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+  "input": {
+    "dietary_restriction": "High-Protein",
+    "ingredients": [
+      {"name": "Chicken Breast", "expiry": "2025-09-04"},
+      {"name": "Greek Yogurt", "expiry": "2025-09-06"},
+      {"name": "Soya Chunks", "expiry": "2025-12-01"},
+      {"name": "Capsicum", "expiry": "2025-09-07"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Egg Bhurji (scrambled eggs) with whole wheat toast",
+        "lunch": "Grilled Chicken Salad with Greek Yogurt dressing",
+        "dinner": "Kadai Chicken with Roti"
+      },
+      "Tuesday": {
+        "breakfast": "Soya Keema Paratha",
+        "lunch": "Leftover Kadai Chicken with Rice",
+        "dinner": "Soya Chunk and Capsicum Curry with Quinoa"
+      }
+    },
+    "shopping_list": ["Eggs", "Kadai Masala", "Quinoa"]
+  }
+}
+
+
+
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+  "input": {
+    "dietary_restriction": "Low-Sodium",
+    "ingredients": [
+      {"name": "Bottle Gourd (Lauki)", "expiry": "2025-09-05"},
+      {"name": "Carrots", "expiry": "2025-09-10"},
+      {"name": "Lemon", "expiry": "2025-09-15"},
+      {"name": "Cucumber", "expiry": "2025-09-07"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Lauki Juice with a pinch of rock salt",
+        "lunch": "Steamed Lauki and Carrot subzi (seasoned with herbs) with Roti",
+        "dinner": "Kachumber Salad (cucumber, tomato, lemon juice)"
+      },
+      "Tuesday": {
+        "breakfast": "Vegetable Poha (low salt, seasoned with lemon)",
+        "lunch": "Lauki Dal (minimal salt)",
+        "dinner": "Carrot and Cucumber Raita (low salt) with Khichdi"
+      }
+    },
+    "shopping_list": ["Poha", "Moong Dal", "Herbs (Coriander, Mint)"]
+  }
+}
+
+
+
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+  "input": {
+    "dietary_restriction": "Kid-Friendly",
+    "ingredients": [
+      {"name": "Chicken Mince", "expiry": "2025-09-05"},
+      {"name": "Potatoes", "expiry": "2025-09-15"},
+      {"name": "Cheddar Cheese", "expiry": "2025-09-07"},
+      {"name": "Broccoli", "expiry": "2025-09-06"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Cheesy Scrambled Eggs",
+        "lunch": "Pasta with hidden veggie (broccoli) tomato sauce",
+        "dinner": "Mini Chicken Burger Sliders with baked potato wedges"
+      },
+      "Tuesday": {
+        "breakfast": "Potato and Cheese Hash Browns",
+        "lunch": "Leftover pasta",
+        "dinner": "Cheesy Chicken and Broccoli Quesadillas"
+      }
+    },
+    "shopping_list": ["Eggs", "Pasta", "Burger Buns", "Tortillas"]
+  }
+}
+
+
+
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+  "input": {
+    "dietary_restriction": "Keto",
+    "ingredients": [
+      {"name": "Avocado", "expiry": "2025-09-06"},
+      {"name": "Bacon", "expiry": "2025-09-10"},
+      {"name": "Zucchini", "expiry": "2025-09-07"},
+      {"name": "Feta Cheese", "expiry": "2025-09-09"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Avocado and Bacon Egg Cups",
+        "lunch": "Cobb Salad with bacon, avocado, and feta",
+        "dinner": "Zucchini Noodles (Zoodles) with Alfredo Sauce and Bacon"
+      },
+      "Tuesday": {
+        "breakfast": "Keto Smoothie (avocado, spinach, coconut milk)",
+        "lunch": "Leftover Zoodles",
+        "dinner": "Pan-Seared Chicken Thigh with Feta and Zucchini"
+      }
+    },
+    "shopping_list": ["Eggs", "Chicken", "Coconut Milk", "Spinach"]
+  }
+}
+
+
+
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+  "input": {
+    "dietary_restriction": "Dairy-Free",
+    "ingredients": [
+      {"name": "Ground Turkey", "expiry": "2025-09-05"},
+      {"name": "Bell Peppers", "expiry": "2025-09-08"},
+      {"name": "Sweet Potato", "expiry": "2025-09-20"},
+      {"name": "Kale", "expiry": "2025-09-05"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Sautéed Kale with Fried Egg (in olive oil)",
+        "lunch": "Dairy-Free Turkey and Sweet Potato Chili",
+        "dinner": "Stir-fried Ground Turkey with Bell Peppers (using tamari)"
+      },
+      "Tuesday": {
+        "breakfast": "Sweet Potato Hash with Turkey Crumbles",
+        "lunch": "Leftover Turkey Chili",
+        "dinner": "Stuffed Bell Peppers with Turkey and Quinoa"
+      }
+    },
+    "shopping_list": ["Eggs", "Canned Tomatoes", "Quinoa", "Tamari"]
+  }
+}
+
+
+
+
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping.",
+  "input": {
+    "dietary_restriction": "Gluten-Free",
+    "ingredients": [
+      {"name": "Salmon Fillets", "expiry": "2025-09-04"},
+      {"name": "Quinoa", "expiry": "2025-12-01"},
+      {"name": "Asparagus", "expiry": "2025-09-05"},
+      {"name": "Mushrooms", "expiry": "2025-09-06"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Quinoa Porridge with berries",
+        "lunch": "Salmon and Quinoa Bowl with roasted asparagus",
+        "dinner": "Creamy Mushroom Soup (with GF flour) and side salad"
+      },
+      "Tuesday": {
+        "breakfast": "Mushroom and Asparagus Omelette",
+        "lunch": "Leftover Salmon Quinoa Bowl",
+        "dinner": "Herb-Baked Salmon with Sautéed Mushrooms"
+      }
+    },
+    "shopping_list": ["Berries", "Gluten-Free Flour", "Salad Greens"]
+  }
+}
+
+
+
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied South Indian dishes, and minimal extra shopping.",
+  "input": {
+    "dietary_restriction": "Vegan",
+    "ingredients": [
+      {"name": "Idli/Dosa Batter", "expiry": "2025-09-05"},
+      {"name": "Coconut", "expiry": "2025-09-06"},
+      {"name": "Drumsticks", "expiry": "2025-09-08"},
+      {"name": "Raw Banana", "expiry": "2025-09-07"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Plain Dosa with Tomato-Onion Chutney (no curd)",
+        "lunch": "Sambar with Drumsticks and Raw Banana, Steamed Rice, Porial",
+        "dinner": "Lemon Rice with Appalam (no curd side)"
+      },
+      "Tuesday": {
+        "breakfast": "Rava Idli with Coconut Chutney",
+        "lunch": "Keerai (Spinach) Masiyal with Rice",
+        "dinner": "Leftover Lemon Rice with Vadai"
+      }
+    },
+    "shopping_list": ["Semolina (Rava)", "Spinach", "Toor Dal", "Mustard Seeds"]
+  }
+}
+
+
+
+
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied South Indian dishes, and minimal extra shopping.",
+  "input": {
+    "dietary_restriction": "Low Glycemic Index",
+    "ingredients": [
+      {"name": "Ragi Flour", "expiry": "2025-11-01"},
+      {"name": "Buttermilk (Moru)", "expiry": "2025-09-05"},
+      {"name": "Bitter Gourd (Pavakkai)", "expiry": "2025-09-05"},
+      {"name": "Cabbage", "expiry": "2025-09-08"}
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Ragi Rava Dosa with Mint Chutney",
+        "lunch": "Brown Rice, Pavakkai Poriyal, Moru (spiced buttermilk)",
+        "dinner": "Cabbage Kootu with a small portion of Brown Rice"
+      },
+      "Tuesday": {
+        "breakfast": "Ragi Idli with Sambar (less oil)",
+        "lunch": "Leftover Kootu and Moru with Rice",
+        "dinner": "Upma made with Ragi and Vegetables"
+      }
+    },
+    "shopping_list": ["Brown Rice", "Semolina (Rava)", "Moong Dal", "Mint Leaves"]
+  }
+}

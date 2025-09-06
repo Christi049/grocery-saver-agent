@@ -132,8 +132,11 @@
   body {
     @apply bg-background text-foreground;
   }
+<<<<<<< HEAD
   /* Adding cursor pointer to all buttons globally */
   button {
     @apply cursor-pointer;
   }
+=======
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
 }

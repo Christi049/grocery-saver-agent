@@ -74,11 +74,15 @@ export default function SettingsPage() {
               </div>
               <div className="mt-3 flex gap-2">
                 <Input placeholder="Add custom allergy" value={custom} onChange={(e) => setCustom(e.target.value)} />
+<<<<<<< HEAD
                 <Button
                   variant="secondary"
                   onClick={addCustom}
                   className="h-10 px-4 bg-secondary text-primary hover:bg-primary hover:text-white"
                 >
+=======
+                <Button variant="secondary" onClick={addCustom}>
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
                   Add
                 </Button>
               </div>
@@ -113,7 +117,11 @@ export default function SettingsPage() {
               </div>
             )}
           </section>
+<<<<<<< HEAD
           <Button className="h-12 px-7 bg-primary text-white hover:bg-primary/90" onClick={save}>
+=======
+          <Button className="bg-emerald-600 hover:bg-emerald-700" onClick={save}>
+>>>>>>> a37c6c975e999f32c50f6779983029e33bb37b94
             Save Preferences
           </Button>
         </div>
