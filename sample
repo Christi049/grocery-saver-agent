@@ -1,0 +1,100 @@
+{
+  "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+  "input": {
+    "serving_size": 2,
+    "dietary_restrictions": ["Vegetarian"],
+    "allergens": ["None"],
+    "ingredients": [
+      { "name": "Yogurt", "quantity": "150g", "expiry": "2025-09-03" },
+      { "name": "Milk", "quantity": "500ml", "expiry": "2025-09-03" },
+      { "name": "Paneer", "quantity": "250g", "expiry": "2025-09-04" },
+      { "name": "Bell peppers", "quantity": "2 large", "expiry": "2025-09-05" },
+      { "name": "Tomatoes", "quantity": "3 large", "expiry": "2025-09-06" },
+      { "name": "Onions", "quantity": "4 medium", "expiry": "2025-09-10" }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": {
+          "description_for_model": "Lassi (Yogurt drink) using the full 150g of yogurt and 100ml of milk, with toast.",
+          "display_text": "Yogurt Lassi and Toast"
+        },
+        "lunch": {
+          "description_for_model": "Kadai Paneer using 125g of paneer, 1 bell pepper, 1 tomato, and 1 onion, served with roti.",
+          "display_text": "Kadai Paneer with Roti"
+        },
+        "dinner": {
+          "description_for_model": "Leftover Kadai Paneer, served with rice.",
+          "display_text": "Leftover Kadai Paneer with Rice"
+        }
+      },
+      "Tuesday": {
+        "breakfast": {
+          "description_for_model": "A smoothie using 200ml of milk and a banana.",
+          "display_text": "Banana and Milk Smoothie"
+        },
+        "lunch": {
+          "description_for_model": "Paneer Bhurji using the remaining 125g of paneer, 1 onion, and a tomato, served with paratha.",
+          "display_text": "Paneer Bhurji with Paratha"
+        },
+        "dinner": {
+          "description_for_model": "Tomato and Bell Pepper Soup using the remaining 2 tomatoes, 1 bell pepper, and 1 onion, served with toast.",
+          "display_text": "Tomato and Bell Pepper Soup"
+        }
+      },
+      "Wednesday": {
+        "breakfast": {
+          "description_for_model": "Onion Paratha with a side of pickle.",
+          "display_text": "Onion Paratha with Pickle"
+        },
+        "lunch": {
+          "description_for_model": "Leftover tomato and bell pepper soup.",
+          "display_text": "Leftover Tomato and Bell Pepper Soup"
+        },
+        "dinner": {
+          "description_for_model": "Simple stir-fry of all remaining onions and bell peppers, served with rice.",
+          "display_text": "Veggie Stir-fry with Rice"
+        }
+      },
+      "Thursday": {
+        "breakfast": {
+          "description_for_model": "Toast with jam and a glass of milk (uses remaining 200ml of milk).",
+          "display_text": "Toast and Milk"
+        },
+        "lunch": {
+          "description_for_model": "Leftover veggie stir-fry.",
+          "display_text": "Leftover Veggie Stir-fry"
+        },
+        "dinner": {
+          "description_for_model": "Spaghetti with a simple onion and tomato sauce.",
+          "display_text": "Spaghetti with Tomato Sauce"
+        }
+      },
+      "Friday": {
+        "breakfast": {
+          "description_for_model": "Oatmeal with fruit.",
+          "display_text": "Oatmeal with Fruit"
+        },
+        "lunch": {
+          "description_for_model": "Leftover spaghetti with tomato sauce.",
+          "display_text": "Leftover Spaghetti"
+        },
+        "dinner": {
+          "description_for_model": "A large vegetable sandwich with chutney.",
+          "display_text": "Vegetable Sandwich"
+        }
+      }
+    },
+    "shopping_list": [
+      "Roti",
+      "Rice",
+      "Bananas",
+      "Paratha",
+      "Jam",
+      "Oatmeal",
+      "Spaghetti",
+      "Sandwich bread"
+    ]
+  }
+}
