@@ -1,4 +1,4 @@
-  [
+[
   {
     "instruction": "Suggest a weekly meal plan for 4 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
     "input": {
@@ -1008,7 +1008,7 @@
     }
   },
   {
-    "instruction": "Suggest a weekly meal plan for a family of 4. Prioritize using the pork and cabbage. The plan should be low-carb and minimize extra shopping.",
+    "instruction": "Suggest a weekly meal plan for 4 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
     "input": {
       "serving_size": 4,
       "dietary_restrictions": ["Low-Carb"],
@@ -1055,7 +1055,7 @@
     }
   },
   {
-    "instruction": "Suggest a weekly meal plan for 1 person. This plan must be pescetarian. Use the expiring shrimp and bell peppers first and keep the shopping list short.",
+    "instruction": "Suggest a weekly meal plan for 1 person, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
     "input": {
       "serving_size": 1,
       "dietary_restrictions": ["Pescetarian"],
@@ -1102,7 +1102,7 @@
     }
   },
   {
-    "instruction": "Suggest a weekly meal plan for 6 people with no dietary restrictions. Prioritize using the whole chickens and potatoes. Minimize waste and extra shopping.",
+    "instruction": "Suggest a weekly meal plan for 6 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
     "input": {
       "serving_size": 6,
       "dietary_restrictions": ["None"],
@@ -1163,7 +1163,7 @@
     }
   },
   {
-    "instruction": "Suggest a weekly meal plan for 3 people. This plan must be both vegan and gluten-free. Use the expiring jackfruit and gluten-free buns.",
+    "instruction": "Suggest a weekly meal plan for 3 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
     "input": {
       "serving_size": 3,
       "dietary_restrictions": ["Vegan", "Gluten-Free"],
@@ -1210,7 +1210,7 @@
     }
   },
   {
-    "instruction": "Suggest a weekly meal plan for 2 people. The plan must be vegetarian and avoid nuts. Prioritize using the expiring halloumi and zucchini.",
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
     "input": {
       "serving_size": 2,
       "dietary_restrictions": ["Vegetarian"],
@@ -1257,7 +1257,7 @@
     }
   },
   {
-    "instruction": "Suggest a weekly meal plan for 5 people. It's a busy week, so meals should be quick. Use the minced beef and pasta first.",
+    "instruction": "Suggest a weekly meal plan for 5 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
     "input": {
       "serving_size": 5,
       "dietary_restrictions": ["None"],
@@ -1304,7 +1304,7 @@
     }
   },
   {
-    "instruction": "Suggest a weekly meal plan for 1 person with a dairy allergy. Use the canned tuna and gluten-free pasta.",
+    "instruction": "Suggest a weekly meal plan for 1 person, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
     "input": {
       "serving_size": 1,
       "dietary_restrictions": ["Dairy-Free"],
@@ -1351,7 +1351,7 @@
     }
   },
   {
-    "instruction": "Suggest a weekly meal plan for 3 people. The plan must be vegetarian. Prioritize the expiring mushrooms and cream.",
+    "instruction": "Suggest a weekly meal plan for 3 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
     "input": {
       "serving_size": 3,
       "dietary_restrictions": ["Vegetarian"],
@@ -1398,7 +1398,7 @@
     }
   },
   {
-    "instruction": "Suggest a weekly meal plan for 4 people with a gluten allergy. The plan should use the ground turkey and sweet potatoes.",
+    "instruction": "Suggest a weekly meal plan for 4 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
     "input": {
       "serving_size": 4,
       "dietary_restrictions": ["Gluten-Free"],
@@ -1445,7 +1445,7 @@
     }
   },
   {
-    "instruction": "Suggest a weekly meal plan for 2 people following a pescetarian diet. Use the cod and green beans first.",
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
     "input": {
       "serving_size": 2,
       "dietary_restrictions": ["Pescetarian"],
