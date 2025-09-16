@@ -4246,3 +4246,742 @@
     }
   }
 ]
+[
+  {
+    "instruction": "Generate a 3-day meal plan for one person. The plan must be strictly vegan and gluten-free. Prioritize using the ingredients close to their expiry date.",
+    "input": {
+      "serving_size": 1,
+      "dietary_restrictions": ["Vegan", "Gluten-Free"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Tofu", "quantity": "200g", "expiry": "2025-09-17" },
+        { "name": "Broccoli", "quantity": "1 head", "expiry": "2025-09-18" },
+        { "name": "Quinoa", "quantity": "1 cup", "expiry": "2026-03-10" },
+        { "name": "Spinach", "quantity": "100g", "expiry": "2025-09-17" },
+        { "name": "Almond Milk", "quantity": "500ml", "expiry": "2025-09-19" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Tofu scramble using 100g of tofu and half the spinach.",
+            "display_text": "Tofu Scramble with Spinach"
+          },
+          "lunch": {
+            "description_for_model": "Quinoa salad with the remaining spinach and some chopped broccoli.",
+            "display_text": "Quinoa and Broccoli Salad"
+          },
+          "dinner": {
+            "description_for_model": "Stir-fry with the remaining 100g of tofu and most of the broccoli.",
+            "display_text": "Tofu and Broccoli Stir-fry"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Smoothie with almond milk and a banana from the shopping list.",
+            "display_text": "Banana Almond Milk Smoothie"
+          },
+          "lunch": {
+            "description_for_model": "Leftover Tofu and Broccoli Stir-fry.",
+            "display_text": "Leftover Stir-fry"
+          },
+          "dinner": {
+            "description_for_model": "Simple quinoa bowl with remaining broccoli.",
+            "display_text": "Quinoa with Steamed Broccoli"
+          }
+        }
+      },
+      "shopping_list": [ "Banana", "Gluten-Free Bread" ]
+    }
+  },
+  {
+    "instruction": "Create a weekend meal plan for 2 people. The users are non-vegetarian and have a peanut allergy. Use the chicken and eggs first.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Non-Vegetarian"],
+      "allergens": ["Peanuts"],
+      "ingredients": [
+        { "name": "Chicken Breast", "quantity": "500g", "expiry": "2025-09-17" },
+        { "name": "Eggs", "quantity": "6", "expiry": "2025-09-20" },
+        { "name": "Mushrooms", "quantity": "200g", "expiry": "2025-09-18" },
+        { "name": "Onions", "quantity": "3", "expiry": "2025-09-25" },
+        { "name": "Garlic", "quantity": "1 bulb", "expiry": "2025-10-01" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs using 4 eggs, served with toast.",
+            "display_text": "Scrambled Eggs on Toast"
+          },
+          "lunch": {
+            "description_for_model": "Chicken and mushroom stir-fry using 250g of chicken and half the mushrooms.",
+            "display_text": "Chicken & Mushroom Stir-fry"
+          },
+          "dinner": {
+            "description_for_model": "Garlic chicken pasta using the remaining 250g of chicken.",
+            "display_text": "Garlic Chicken Pasta"
+          }
+        },
+        "Sunday": {
+          "breakfast": {
+            "description_for_model": "Mushroom omelette using the remaining 2 eggs and mushrooms.",
+            "display_text": "Mushroom Omelette"
+          },
+          "lunch": {
+            "description_for_model": "Leftover Garlic Chicken Pasta.",
+            "display_text": "Leftover Pasta"
+          },
+          "dinner": {
+            "description_for_model": "Simple onion soup.",
+            "display_text": "French Onion Soup"
+          }
+        }
+      },
+      "shopping_list": [ "Bread", "Pasta", "Cheese" ]
+    }
+  },
+  {
+    "instruction": "Suggest a 2-day dinner plan for a family of 4 following a strict Jain diet. No root vegetables. Use the paneer and bell peppers before they expire.",
+    "input": {
+      "serving_size": 4,
+      "dietary_restrictions": ["Jain", "Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Paneer", "quantity": "800g", "expiry": "2025-09-18" },
+        { "name": "Bell Peppers", "quantity": "4", "expiry": "2025-09-19" },
+        { "name": "Tomatoes", "quantity": "6", "expiry": "2025-09-20" },
+        { "name": "Yogurt", "quantity": "500g", "expiry": "2025-09-19" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Tuesday": {
+          "dinner": {
+            "description_for_model": "Paneer Tikka Masala without onion or garlic. Uses 400g paneer, 2 bell peppers, and 4 tomatoes.",
+            "display_text": "Jain Paneer Tikka Masala"
+          }
+        },
+        "Wednesday": {
+          "dinner": {
+            "description_for_model": "Stuffed Bell Peppers using the remaining 400g of paneer, 2 bell peppers, and 2 tomatoes, mixed with spices.",
+            "display_text": "Paneer-Stuffed Bell Peppers"
+          }
+        }
+      },
+      "shopping_list": [ "Rice", "Jain-friendly spices", "Coriander" ]
+    }
+  },
+  {
+    "instruction": "Provide a 4-day meal plan for one person who is lactose-intolerant. Focus on using the vegetables.",
+    "input": {
+      "serving_size": 1,
+      "dietary_restrictions": ["Lactose-Intolerant"],
+      "allergens": ["Dairy"],
+      "ingredients": [
+        { "name": "Lentils", "quantity": "500g", "expiry": "2026-01-01" },
+        { "name": "Cauliflower", "quantity": "1 head", "expiry": "2025-09-19" },
+        { "name": "Carrots", "quantity": "4", "expiry": "2025-09-22" },
+        { "name": "Spinach", "quantity": "200g", "expiry": "2025-09-18" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Day 1": {
+          "lunch": {
+            "description_for_model": "Lentil soup using 100g of lentils, half the spinach, and 2 carrots.",
+            "display_text": "Lentil and Spinach Soup"
+          },
+          "dinner": {
+            "description_for_model": "Roasted cauliflower with spices.",
+            "display_text": "Spiced Roasted Cauliflower"
+          }
+        },
+        "Day 2": {
+          "lunch": {
+            "description_for_model": "Leftover Lentil and Spinach Soup.",
+            "display_text": "Leftover Lentil Soup"
+          },
+          "dinner": {
+            "description_for_model": "Cauliflower and carrot stir-fry with the remaining vegetables.",
+            "display_text": "Cauliflower Carrot Stir-fry"
+          }
+        }
+      },
+      "shopping_list": [ "Oat Milk", "Rice", "Tofu" ]
+    }
+  },
+  {
+    "instruction": "Plan 3 dinners for a family of 6. Use the minced lamb first. The plan should be budget-friendly and use common ingredients.",
+    "input": {
+      "serving_size": 6,
+      "dietary_restrictions": ["Non-Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Minced Lamb", "quantity": "1.5kg", "expiry": "2025-09-17" },
+        { "name": "Potatoes", "quantity": "2kg", "expiry": "2025-09-28" },
+        { "name": "Onions", "quantity": "1kg", "expiry": "2025-09-30" },
+        { "name": "Canned Tomatoes", "quantity": "3 cans", "expiry": "2026-05-20" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Tuesday": {
+          "dinner": {
+            "description_for_model": "Shepherd's Pie using 750g of minced lamb, 1kg of potatoes, onions, and one can of tomatoes.",
+            "display_text": "Shepherd's Pie"
+          }
+        },
+        "Wednesday": {
+          "dinner": {
+            "description_for_model": "Lamb Keema Curry using the remaining 750g of lamb, onions, and another can of tomatoes. Served with rice.",
+            "display_text": "Lamb Keema with Rice"
+          }
+        },
+        "Thursday": {
+          "dinner": {
+            "description_for_model": "Aloo Matar (Potato and Pea Curry) using remaining potatoes. Peas will need to be purchased.",
+            "display_text": "Aloo Matar"
+          }
+        }
+      },
+      "shopping_list": [ "Frozen Peas", "Rice", "Spices", "Garlic", "Ginger" ]
+    }
+  },
+  {
+    "instruction": "Suggest a recipe for a gluten-free dessert for 4 people using the expiring apples. The user also has eggs and almond flour.",
+    "input": {
+      "serving_size": 4,
+      "dietary_restrictions": ["Gluten-Free"],
+      "allergens": ["Soy"],
+      "ingredients": [
+        { "name": "Apples", "quantity": "4", "expiry": "2025-09-18" },
+        { "name": "Eggs", "quantity": "3", "expiry": "2025-09-24" },
+        { "name": "Almond Flour", "quantity": "2 cups", "expiry": "2025-12-15" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Dessert Special": {
+          "dessert": {
+            "description_for_model": "A gluten-free apple crumble. The apples will be sliced and cooked down, and the crumble topping made from almond flour, butter, and sugar.",
+            "display_text": "Gluten-Free Apple Crumble"
+          }
+        }
+      },
+      "shopping_list": [ "Butter", "Cinnamon", "Sugar" ]
+    }
+  },
+  {
+    "instruction": "Generate a 5-day dinner plan for a student living alone. Meals should be quick and easy. Prioritize using the pasta and chicken.",
+    "input": {
+      "serving_size": 1,
+      "dietary_restrictions": ["None"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Pasta", "quantity": "500g", "expiry": "2026-08-01" },
+        { "name": "Chicken Thighs", "quantity": "400g", "expiry": "2025-09-18" },
+        { "name": "Jar of Tomato Sauce", "quantity": "1", "expiry": "2026-02-01" },
+        { "name": "Cheese", "quantity": "100g", "expiry": "2025-09-25" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Day 1": { "dinner": { "description_for_model": "Pasta with tomato sauce using 125g pasta and half the sauce.", "display_text": "Pasta with Tomato Sauce" } },
+        "Day 2": { "dinner": { "description_for_model": "Baked chicken using two chicken thighs, seasoned well.", "display_text": "Simple Baked Chicken" } },
+        "Day 3": { "dinner": { "description_for_model": "Chicken pasta using remaining chicken, pasta, and sauce.", "display_text": "Chicken Tomato Pasta" } },
+        "Day 4": { "dinner": { "description_for_model": "Cheesy pasta using remaining pasta and cheese.", "display_text": "Cheesy Pasta" } },
+        "Day 5": { "dinner": { "description_for_model": "Leftover cheesy pasta.", "display_text": "Leftover Pasta" } }
+      },
+      "shopping_list": [ "Salad bag", "Garlic bread" ]
+    }
+  },
+  {
+    "instruction": "Create two meals for 3 people. The user eats fish but is allergic to shellfish. Use the salmon first.",
+    "input": {
+      "serving_size": 3,
+      "dietary_restrictions": ["Pescatarian"],
+      "allergens": ["Shellfish"],
+      "ingredients": [
+        { "name": "Salmon Fillets", "quantity": "3", "expiry": "2025-09-17" },
+        { "name": "Asparagus", "quantity": "1 bunch", "expiry": "2025-09-19" },
+        { "name": "Lemons", "quantity": "2", "expiry": "2025-09-26" },
+        { "name": "Potatoes", "quantity": "500g", "expiry": "2025-09-29" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Meal 1": { "dinner": { "description_for_model": "Baked salmon with lemon and roasted asparagus, using all the salmon and half the asparagus.", "display_text": "Lemon Baked Salmon with Asparagus" } },
+        "Meal 2": { "lunch": { "description_for_model": "Potato and asparagus salad using the remaining ingredients.", "display_text": "Warm Potato and Asparagus Salad" } }
+      },
+      "shopping_list": [ "Olive oil", "Herbs (e.g., Dill)" ]
+    }
+  },
+  {
+    "instruction": "Suggest a 3-day lunch plan for 2 people. The meal should be Indian vegetarian. Use the lentils and vegetables.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Toor Dal (Lentils)", "quantity": "300g", "expiry": "2026-06-15" },
+        { "name": "Okra (Bhindi)", "quantity": "250g", "expiry": "2025-09-18" },
+        { "name": "Tomatoes", "quantity": "4", "expiry": "2025-09-20" },
+        { "name": "Onions", "quantity": "3", "expiry": "2025-09-27" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Day 1": { "lunch": { "description_for_model": "Bhindi Masala (Okra stir-fry) using all the okra, 1 onion, and 2 tomatoes, served with roti.", "display_text": "Bhindi Masala with Roti" } },
+        "Day 2": { "lunch": { "description_for_model": "Dal Tadka using 150g of toor dal, 1 onion, and 2 tomatoes, served with rice.", "display_text": "Dal Tadka with Rice" } },
+        "Day 3": { "lunch": { "description_for_model": "Leftover Dal Tadka with roti.", "display_text": "Leftover Dal with Roti" } }
+      },
+      "shopping_list": [ "Roti/Chapathi", "Rice", "Yogurt", "Ghee" ]
+    }
+  },
+  {
+    "instruction": "Generate a 2-day low-carb meal plan for one person. Avoid grains and sugars. Use the eggs and avocado.",
+    "input": {
+      "serving_size": 1,
+      "dietary_restrictions": ["Low-Carb"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Eggs", "quantity": "6", "expiry": "2025-09-23" },
+        { "name": "Avocado", "quantity": "2", "expiry": "2025-09-18" },
+        { "name": "Chicken Breast", "quantity": "250g", "expiry": "2025-09-19" },
+        { "name": "Spinach", "quantity": "1 bag", "expiry": "2025-09-18" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Day 1": {
+          "breakfast": { "description_for_model": "Scrambled eggs (2) with half an avocado.", "display_text": "Scrambled Eggs and Avocado" },
+          "lunch": { "description_for_model": "Grilled chicken salad using 125g chicken, spinach, and half an avocado.", "display_text": "Grilled Chicken Salad" },
+          "dinner": { "description_for_model": "Chicken and spinach stir-fry with the remaining 125g chicken.", "display_text": "Chicken and Spinach Sauté" }
+        },
+        "Day 2": {
+          "breakfast": { "description_for_model": "Omelette with 2 eggs and remaining spinach.", "display_text": "Spinach Omelette" },
+          "lunch": { "description_for_model": "Leftover Chicken and Spinach Sauté.", "display_text": "Leftover Sauté" },
+          "dinner": { "description_for_model": "Boiled eggs (2) with the remaining avocado.", "display_text": "Boiled Eggs with Avocado" }
+        }
+      },
+      "shopping_list": [ "Cheese", "Olive Oil", "Bell Pepper" ]
+    }
+  },
+  {
+    "instruction": "Plan a simple breakfast and lunch for 3 people for one day. Must be vegetarian.",
+    "input": {
+      "serving_size": 3,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Bread", "quantity": "1 loaf", "expiry": "2025-09-19" },
+        { "name": "Cheese Slices", "quantity": "12", "expiry": "2025-09-25" },
+        { "name": "Tomatoes", "quantity": "3", "expiry": "2025-09-21" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Day 1": {
+          "breakfast": { "description_for_model": "Toast with butter. Will require purchasing butter.", "display_text": "Buttered Toast" },
+          "lunch": { "description_for_model": "Grilled cheese and tomato sandwiches using 6 slices of bread, 6 slices of cheese, and all the tomatoes.", "display_text": "Grilled Cheese and Tomato Sandwiches" }
+        }
+      },
+      "shopping_list": ["Butter", "Apples"]
+    }
+  },
+  {
+    "instruction": "Suggest a high-protein dinner for 2 people. Use the steak and broccoli.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["High-Protein", "Non-Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Beef Steak", "quantity": "400g", "expiry": "2025-09-17" },
+        { "name": "Broccoli", "quantity": "1 large head", "expiry": "2025-09-20" },
+        { "name": "Garlic", "quantity": "3 cloves", "expiry": "2025-10-05" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Dinner": {
+          "main": { "description_for_model": "Pan-seared beef steak with garlic and a side of steamed broccoli. All ingredients will be used.", "display_text": "Garlic Steak with Steamed Broccoli" }
+        }
+      },
+      "shopping_list": ["Butter", "Potatoes (for mashing)"]
+    }
+  },
+  {
+    "instruction": "Create a vegan meal plan for a couple for 2 days. The user is allergic to nuts.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Vegan"],
+      "allergens": ["Nuts"],
+      "ingredients": [
+        { "name": "Chickpeas", "quantity": "1 can", "expiry": "2026-07-20" },
+        { "name": "Sweet Potatoes", "quantity": "2 large", "expiry": "2025-09-28" },
+        { "name": "Kale", "quantity": "1 bunch", "expiry": "2025-09-18" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Day 1": { "dinner": { "description_for_model": "Sweet potato and chickpea curry. Uses both sweet potatoes, the can of chickpeas, and half the kale.", "display_text": "Sweet Potato and Chickpea Curry" } },
+        "Day 2": {
+          "lunch": { "description_for_model": "Leftover sweet potato curry.", "display_text": "Leftover Curry" },
+          "dinner": { "description_for_model": "Sautéed kale with garlic.", "display_text": "Garlic Kale Sauté" }
+        }
+      },
+      "shopping_list": ["Coconut Milk", "Rice", "Garlic", "Onion"]
+    }
+  },
+  {
+    "instruction": "Plan a week of breakfasts for one person using the expiring yogurt and oats.",
+    "input": {
+      "serving_size": 1,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Greek Yogurt", "quantity": "500g", "expiry": "2025-09-20" },
+        { "name": "Rolled Oats", "quantity": "1kg", "expiry": "2026-04-01" },
+        { "name": "Berries", "quantity": "1 punnet", "expiry": "2025-09-18" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Day 1-3": { "breakfast": { "description_for_model": "A bowl of yogurt (approx. 100g per day) topped with the fresh berries until they are used up.", "display_text": "Yogurt with Fresh Berries" } },
+        "Day 4-5": { "breakfast": { "description_for_model": "The remaining yogurt (approx. 100g per day) mixed with honey or jam.", "display_text": "Yogurt with Honey/Jam" } },
+        "Day 6-7": { "breakfast": { "description_for_model": "Cooked oatmeal (porridge).", "display_text": "Oatmeal Porridge" } }
+      },
+      "shopping_list": ["Honey", "Milk", "Bananas"]
+    }
+  },
+  {
+    "instruction": "Suggest a simple soup and sandwich combo for 4 people for lunch.",
+    "input": {
+      "serving_size": 4,
+      "dietary_restrictions": ["None"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Tomatoes", "quantity": "800g", "expiry": "2025-09-19" },
+        { "name": "Onions", "quantity": "2", "expiry": "2025-09-30" },
+        { "name": "Bread", "quantity": "1 loaf", "expiry": "2025-09-20" },
+        { "name": "Chicken Slices (deli)", "quantity": "200g", "expiry": "2025-09-22" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Lunch": { "main": { "description_for_model": "Homemade tomato soup using all tomatoes and onions. Served with chicken sandwiches using the bread and deli chicken.", "display_text": "Tomato Soup and Chicken Sandwiches" } }
+      },
+      "shopping_list": ["Vegetable Broth", "Butter", "Lettuce", "Mayonnaise"]
+    }
+  },
+  {
+    "instruction": "I have leftover rice. What can I make for a family of 5? We are vegetarian.",
+    "input": {
+      "serving_size": 5,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Cooked Rice", "quantity": "approx 4 cups", "expiry": "2025-09-17" },
+        { "name": "Mixed Vegetables (frozen)", "quantity": "500g", "expiry": "2026-01-10" },
+        { "name": "Onion", "quantity": "1", "expiry": "2025-09-26" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Dinner": { "main": { "description_for_model": "Vegetable Fried Rice using the leftover cooked rice, frozen vegetables, and onion. Soy sauce and other seasonings will be needed.", "display_text": "Vegetable Fried Rice" } }
+      },
+      "shopping_list": ["Soy Sauce", "Sesame Oil", "Tofu (optional)"]
+    }
+  },
+  {
+    "instruction": "Generate a 3-day meal plan for a family of 3. Must be non-vegetarian and gluten-free.",
+    "input": {
+      "serving_size": 3,
+      "dietary_restrictions": ["Non-Vegetarian", "Gluten-Free"],
+      "allergens": ["Gluten"],
+      "ingredients": [
+        { "name": "Minced Beef", "quantity": "600g", "expiry": "2025-09-18" },
+        { "name": "Zucchini", "quantity": "3", "expiry": "2025-09-20" },
+        { "name": "Bell Pepper", "quantity": "2", "expiry": "2025-09-21" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Day 1": { "dinner": { "description_for_model": "Chilli con carne using all the minced beef. Serve with rice.", "display_text": "Beef Chilli with Rice" } },
+        "Day 2": { "dinner": { "description_for_model": "Zucchini noodles ('zoodles') with leftover beef chilli.", "display_text": "Chilli with Zucchini Noodles" } },
+        "Day 3": { "dinner": { "description_for_model": "Stuffed bell peppers using the remaining zucchini and some cheese to be purchased.", "display_text": "Veggie Stuffed Bell Peppers" } }
+      },
+      "shopping_list": ["Canned Kidney Beans", "Canned Tomatoes", "Rice", "Cheese"]
+    }
+  },
+  {
+    "instruction": "I need a quick lunch for 1 person. I have eggs and bread.",
+    "input": {
+      "serving_size": 1,
+      "dietary_restrictions": ["None"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Eggs", "quantity": "2", "expiry": "2025-09-28" },
+        { "name": "Bread", "quantity": "2 slices", "expiry": "2025-09-20" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Lunch": { "main": { "description_for_model": "A simple two-egg omelette served with two slices of toast.", "display_text": "Omelette with Toast" } }
+      },
+      "shopping_list": ["Butter", "Milk (for omelette)"]
+    }
+  },
+  {
+    "instruction": "Plan a healthy, low-calorie dinner for two. Use the fish and green beans.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Low-Calorie", "Pescatarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "White Fish Fillets (e.g., Cod)", "quantity": "300g", "expiry": "2025-09-17" },
+        { "name": "Green Beans", "quantity": "250g", "expiry": "2025-09-19" },
+        { "name": "Lemon", "quantity": "1", "expiry": "2025-09-27" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Dinner": { "main": { "description_for_model": "Steamed fish with lemon and herbs, served with blanched green beans. A very light and healthy meal using all ingredients.", "display_text": "Steamed Lemon Fish with Green Beans" } }
+      },
+      "shopping_list": ["Fresh dill or parsley", "Olive oil"]
+    }
+  },
+  {
+    "instruction": "I have a lot of potatoes and onions. Suggest two vegetarian dinners for a family of 4.",
+    "input": {
+      "serving_size": 4,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Potatoes", "quantity": "1.5kg", "expiry": "2025-09-30" },
+        { "name": "Onions", "quantity": "500g", "expiry": "2025-10-05" },
+        { "name": "Yogurt", "quantity": "200g", "expiry": "2025-09-21" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Dinner 1": { "main": { "description_for_model": "Aloo Gobi (Potato and Cauliflower curry). This will use about half the potatoes and onions. Will need to buy cauliflower.", "display_text": "Aloo Gobi with Roti" } },
+        "Dinner 2": { "main": { "description_for_model": "Potato and onion bake, layered with cheese and cream (to be purchased). Uses the remaining potatoes and onions.", "display_text": "Cheesy Potato and Onion Bake" } }
+      },
+      "shopping_list": ["Cauliflower", "Ginger", "Garlic", "Tomatoes", "Spices", "Cheese", "Cream", "Roti"]
+    }
+  },
+  {
+    "instruction": "Create a meal plan for a bodybuilder for one day (3 meals). Serving size is 1. Focus on high protein. Use the chicken and eggs.",
+    "input": {
+      "serving_size": 1,
+      "dietary_restrictions": ["High-Protein", "Non-Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Chicken Breast", "quantity": "500g", "expiry": "2025-09-18" },
+        { "name": "Eggs", "quantity": "6", "expiry": "2025-09-26" },
+        { "name": "Broccoli", "quantity": "1 head", "expiry": "2025-09-20" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Day 1": {
+          "breakfast": { "description_for_model": "An omelette made with 4 egg whites and 1 whole egg.", "display_text": "High-Protein Egg White Omelette" },
+          "lunch": { "description_for_model": "250g of grilled chicken breast with half of the broccoli, steamed.", "display_text": "Grilled Chicken and Steamed Broccoli" },
+          "dinner": { "description_for_model": "The remaining 250g of chicken breast, stir-fried with the rest of the broccoli.", "display_text": "Chicken and Broccoli Stir-fry" }
+        }
+      },
+      "shopping_list": ["Brown Rice", "Sweet Potatoes", "Olive Oil"]
+    }
+  },
+  {
+    "instruction": "I'm having a party for 6. Suggest a simple vegetarian appetizer using the mushrooms and cheese.",
+    "input": {
+      "serving_size": 6,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Large Mushrooms", "quantity": "12", "expiry": "2025-09-18" },
+        { "name": "Cream Cheese", "quantity": "200g", "expiry": "2025-09-24" },
+        { "name": "Garlic", "quantity": "1 bulb", "expiry": "2025-10-10" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Appetizer": { "dish": { "description_for_model": "Stuffed mushrooms using the cream cheese, minced garlic, and herbs. All ingredients will be used.", "display_text": "Garlic and Herb Stuffed Mushrooms" } }
+      },
+      "shopping_list": ["Fresh Parsley", "Breadcrumbs", "Olive Oil"]
+    }
+  },
+  {
+    "instruction": "Plan a 2-day meal schedule for a toddler (age 2). Serving size is 1. Meals should be simple and soft. User is vegetarian.",
+    "input": {
+      "serving_size": 1,
+      "dietary_restrictions": ["Vegetarian", "Toddler-Friendly"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Yogurt", "quantity": "250g", "expiry": "2025-09-20" },
+        { "name": "Banana", "quantity": "2", "expiry": "2025-09-19" },
+        { "name": "Sweet Potato", "quantity": "1", "expiry": "2025-09-28" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Day 1": {
+          "breakfast": { "description_for_model": "Half a mashed banana mixed with 100g of yogurt.", "display_text": "Mashed Banana with Yogurt" },
+          "lunch": { "description_for_model": "Mashed sweet potato (half of it, boiled and mashed).", "display_text": "Mashed Sweet Potato" }
+        },
+        "Day 2": {
+          "breakfast": { "description_for_model": "The other half of the mashed banana.", "display_text": "Mashed Banana" },
+          "lunch": { "description_for_model": "Leftover mashed sweet potato.", "display_text": "Leftover Sweet Potato" }
+        }
+      },
+      "shopping_list": ["Oats (for porridge)", "Soft cooked carrots", "Lentils (for dal)"]
+    }
+  },
+  {
+    "instruction": "The user is on a ketogenic diet. Plan two meals for 2 people using the available ingredients.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Keto", "Low-Carb"],
+      "allergens": ["Gluten"],
+      "ingredients": [
+        { "name": "Avocado", "quantity": "2", "expiry": "2025-09-18" },
+        { "name": "Bacon", "quantity": "200g", "expiry": "2025-09-22" },
+        { "name": "Eggs", "quantity": "4", "expiry": "2025-09-28" },
+        { "name": "Cheese", "quantity": "100g", "expiry": "2025-09-30" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Meal 1": { "meal": { "description_for_model": "Bacon and eggs. Cook all the bacon and scramble the 4 eggs. Serve with sliced avocado.", "display_text": "Bacon, Eggs, and Avocado" } },
+        "Meal 2": { "meal": { "description_for_model": "A simple cheese omelette using any leftover eggs and all the cheese. If no eggs are left, this can be cheese crisps.", "display_text": "Cheese Omelette or Cheese Crisps" } }
+      },
+      "shopping_list": ["Spinach", "Heavy Cream"]
+    }
+  },
+  {
+    "instruction": "I have some pork chops. Suggest a meal for 4 people.",
+    "input": {
+      "serving_size": 4,
+      "dietary_restrictions": ["Non-Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Pork Chops", "quantity": "4 thick-cut", "expiry": "2025-09-18" },
+        { "name": "Apples", "quantity": "2", "expiry": "2025-09-21" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Dinner": { "main": { "description_for_model": "Pan-fried pork chops served with a homemade apple sauce using both apples.", "display_text": "Pork Chops with Apple Sauce" } }
+      },
+      "shopping_list": ["Potatoes", "Green Beans", "Onion", "Cinnamon"]
+    }
+  },
+  {
+    "instruction": "I am a vegan student. Suggest a cheap and easy 3-day dinner plan for one.",
+    "input": {
+      "serving_size": 1,
+      "dietary_restrictions": ["Vegan"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Red Lentils", "quantity": "250g", "expiry": "2026-09-01" },
+        { "name": "Onion", "quantity": "1", "expiry": "2025-09-25" },
+        { "name": "Canned Tomatoes", "quantity": "1 can", "expiry": "2026-08-15" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Day 1": { "dinner": { "description_for_model": "A large pot of red lentil dal using all the ingredients. It will be enough for three meals.", "display_text": "Red Lentil Dal with Rice" } },
+        "Day 2": { "dinner": { "description_for_model": "Leftover red lentil dal.", "display_text": "Leftover Dal" } },
+        "Day 3": { "dinner": { "description_for_model": "Final portion of the leftover red lentil dal.", "display_text": "Leftover Dal" } }
+      },
+      "shopping_list": ["Rice", "Garlic", "Spices (turmeric, cumin)"]
+    }
+  },
+  {
+    "instruction": "Create a fancy but easy dinner for a date night at home for 2 people. Use the scallops.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Pescatarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Scallops", "quantity": "300g", "expiry": "2025-09-17" },
+        { "name": "Lemon", "quantity": "1", "expiry": "2025-09-26" },
+        { "name": "Garlic", "quantity": "2 cloves", "expiry": "2025-10-04" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Dinner": { "main": { "description_for_model": "Pan-seared scallops with a lemon-garlic butter sauce. All ingredients will be used.", "display_text": "Lemon Garlic Butter Scallops" } }
+      },
+      "shopping_list": ["Butter", "Fresh Parsley", "Pasta or Risotto Rice", "White Wine"]
+    }
+  },
+  {
+    "instruction": "I follow a Mediterranean diet. Plan two lunches for one person.",
+    "input": {
+      "serving_size": 1,
+      "dietary_restrictions": ["Mediterranean"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Cucumber", "quantity": "1", "expiry": "2025-09-21" },
+        { "name": "Tomatoes", "quantity": "2", "expiry": "2025-09-20" },
+        { "name": "Feta Cheese", "quantity": "100g", "expiry": "2025-09-26" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Lunch 1": { "main": { "description_for_model": "A Greek salad using half of all ingredients.", "display_text": "Greek Salad" } },
+        "Lunch 2": { "main": { "description_for_model": "Another Greek salad using the remaining ingredients.", "display_text": "Greek Salad" } }
+      },
+      "shopping_list": ["Red Onion", "Kalamata Olives", "Olive Oil", "Oregano"]
+    }
+  },
+  {
+    "instruction": "I have leftover roast chicken. Suggest a lunch for 2.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Non-Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Cooked Roast Chicken", "quantity": "approx 250g", "expiry": "2025-09-17" },
+        { "name": "Bread", "quantity": "4 slices", "expiry": "2025-09-19" },
+        { "name": "Lettuce", "quantity": "a few leaves", "expiry": "2025-09-18" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Lunch": { "main": { "description_for_model": "Chicken salad sandwiches. The cooked chicken will be shredded and mixed with mayonnaise. Served on bread with lettuce.", "display_text": "Chicken Salad Sandwiches" } }
+      },
+      "shopping_list": ["Mayonnaise", "Celery (optional)", "Grapes (optional)"]
+    }
+  },
+  {
+    "instruction": "Plan a full day of meals (3) for a family of 4 who are vegetarian. Use the expiring paneer and milk.",
+    "input": {
+      "serving_size": 4,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Paneer", "quantity": "500g", "expiry": "2025-09-18" },
+        { "name": "Milk", "quantity": "1 litre", "expiry": "2025-09-18" },
+        { "name": "Tomatoes", "quantity": "5", "expiry": "2025-09-21" },
+        { "name": "Onions", "quantity": "4", "expiry": "2025-09-28" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Day 1": {
+          "breakfast": { "description_for_model": "Oatmeal porridge for four, using 500ml of the milk.", "display_text": "Oatmeal Porridge" },
+          "lunch": { "description_for_model": "Paneer Bhurji (scrambled paneer) using 250g of paneer, 2 onions, and 2 tomatoes. Served with roti.", "display_text": "Paneer Bhurji with Roti" },
+          "dinner": { "description_for_model": "Matar Paneer (Peas and Paneer curry) using the remaining 250g of paneer, onions, and tomatoes. The remaining 500ml milk can be used to make the gravy richer.", "display_text": "Matar Paneer with Rice" }
+        }
+      },
+      "shopping_list": ["Oats", "Roti", "Rice", "Frozen Peas", "Spices", "Ginger", "Garlic"]
+    }
+  }
+]
