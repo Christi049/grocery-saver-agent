@@ -1,0 +1,1010 @@
+[
+  {
+    "instruction": "Suggest a weekly meal plan for 4 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 4,
+      "dietary_restrictions": ["Vegan"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Spinach", "quantity": "500g", "expiry": "2025-09-04"},
+        {"name": "Cauliflower", "quantity": "1 large head", "expiry": "2025-09-05"},
+        {"name": "Tomatoes", "quantity": "8 medium", "expiry": "2025-09-06"},
+        {"name": "Onions", "quantity": "6 medium", "expiry": "2025-09-10"},
+        {"name": "Lentils", "quantity": "500g", "expiry": "2025-10-01"},
+        {"name": "Garlic", "quantity": "1 head", "expiry": "2025-09-07"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Hearty soup using 200g of lentils, 2 onions, and several cloves of garlic. Served with 4 slices of garlic toast.",
+            "display_text": "Lentil soup with garlic toast"
+          },
+          "lunch": {
+            "description_for_model": "Curry made with half the cauliflower, remaining 300g of lentils, 2 tomatoes, and 1 onion. Served with rice.",
+            "display_text": "Cauliflower and lentil curry with rice"
+          },
+          "dinner": {
+            "description_for_model": "Using the leftover cauliflower and lentil curry from lunch, served with roti.",
+            "display_text": "Leftover curry with roti"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Parathas stuffed with a mix of 2 chopped onions and minced garlic.",
+            "display_text": "Onion and garlic paratha"
+          },
+          "lunch": {
+            "description_for_model": "A simple stir-fry using all 500g of spinach, 3 tomatoes, and the remaining garlic, served over rice.",
+            "display_text": "Spinach and tomato stir-fry with rice"
+          },
+          "dinner": {
+            "description_for_model": "Reheating the leftover stir-fry from lunch.",
+            "display_text": "Leftover stir-fry"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Fritters made from the remaining half of the cauliflower head, spiced and fried.",
+            "display_text": "Cauliflower fritters"
+          },
+          "lunch": {
+            "description_for_model": "A simple soup using the remaining 3 tomatoes and some lentils if any are left.",
+            "display_text": "Tomato and lentil soup"
+          },
+          "dinner": {
+            "description_for_model": "Fried rice using leftover rice, any remaining spinach, and minced garlic.",
+            "display_text": "Spinach and garlic fried rice"
+          }
+        }
+      },
+      "shopping_list": ["Bread", "Roti flour", "Rice", "Paratha flour"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Keto"],
+      "allergens": ["Dairy"],
+      "ingredients": [
+        {"name": "Ground chicken", "quantity": "750g", "expiry": "2025-09-04"},
+        {"name": "Broccoli", "quantity": "1 head", "expiry": "2025-09-05"},
+        {"name": "Bell peppers", "quantity": "3", "expiry": "2025-09-06"},
+        {"name": "Mushrooms", "quantity": "300g", "expiry": "2025-09-04"},
+        {"name": "Eggs", "quantity": "12", "expiry": "2025-09-05"},
+        {"name": "Spinach", "quantity": "250g", "expiry": "2025-09-04"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "An omelette using 4 eggs, 150g of mushrooms, and half the spinach (125g).",
+            "display_text": "Mushroom and spinach omelette"
+          },
+          "lunch": {
+            "description_for_model": "A stir-fry made with 300g ground chicken and half the head of broccoli.",
+            "display_text": "Ground chicken and broccoli stir-fry"
+          },
+          "dinner": {
+            "description_for_model": "Serving the leftover stir-fry from lunch.",
+            "display_text": "Leftover stir-fry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs (4) with chopped bell peppers.",
+            "display_text": "Scrambled eggs with vegetables"
+          },
+          "lunch": {
+            "description_for_model": "Patties made from 300g of ground chicken, served without a bun with sliced bell peppers.",
+            "display_text": "Chicken patty burger (no bun) with bell peppers"
+          },
+          "dinner": {
+            "description_for_model": "A creamy soup made by blending the remaining broccoli and mushrooms with a non-dairy base.",
+            "display_text": "Broccoli and mushroom soup"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "An omelette made with the remaining 4 eggs and any leftover mushrooms and bell peppers.",
+            "display_text": "Mushroom and bell pepper omelette"
+          },
+          "lunch": {
+            "description_for_model": "A simple curry using the remaining 150g of chicken and 125g of spinach.",
+            "display_text": "Chicken and spinach curry"
+          },
+          "dinner": {
+            "description_for_model": "Reheating the leftover chicken and spinach curry.",
+            "display_text": "Leftover curry"
+          }
+        }
+      },
+      "shopping_list": ["Coconut milk", "Avocado"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 3 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 3,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Paneer", "quantity": "600g", "expiry": "2025-09-04"},
+        {"name": "Tomatoes", "quantity": "1kg", "expiry": "2025-09-06"},
+        {"name": "Potatoes", "quantity": "1kg", "expiry": "2025-09-12"},
+        {"name": "Peas", "quantity": "500g", "expiry": "2025-09-06"},
+        {"name": "Onions", "quantity": "500g", "expiry": "2025-09-10"},
+        {"name": "Ginger", "quantity": "50g", "expiry": "2025-09-07"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Parathas stuffed with 300g of mashed potatoes and spices.",
+            "display_text": "Aloo paratha with chutney"
+          },
+          "lunch": {
+            "description_for_model": "A rich curry using 200g of paneer, 250g of peas, tomatoes, and onions.",
+            "display_text": "Paneer and peas curry with rice"
+          },
+          "dinner": {
+            "description_for_model": "Serving the leftover paneer and peas curry from lunch.",
+            "display_text": "Leftover curry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Scrambled paneer (200g) cooked with onions, tomatoes, and spices, served with roti.",
+            "display_text": "Paneer bhurji with roti"
+          },
+          "lunch": {
+            "description_for_model": "A dry curry made with 500g potatoes and cauliflower.",
+            "display_text": "Aloo Gobhi (Potato and cauliflower curry)"
+          },
+          "dinner": {
+            "description_for_model": "Reheating the leftover Aloo Gobhi.",
+            "display_text": "Leftover Aloo Gobhi"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "Using 3 eggs, scrambled with chopped onions and the remaining peas.",
+            "display_text": "Scrambled eggs with onions and peas"
+          },
+          "lunch": {
+            "description_for_model": "Making veggie burgers and serving them with fries made from the remaining potatoes.",
+            "display_text": "Veggie burger with potato fries"
+          },
+          "dinner": {
+            "description_for_model": "Stir-frying the remaining 200g of paneer with various vegetables, served with rice.",
+            "display_text": "Paneer and vegetable stir-fry with rice"
+          }
+        }
+      },
+      "shopping_list": ["Cauliflower", "Naan", "Roti", "Fries", "Eggs", "Veggie burger patties"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 5 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 5,
+      "dietary_restrictions": ["None"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Fish (Salmon)", "quantity": "1.5kg", "expiry": "2025-09-04"},
+        {"name": "Potatoes", "quantity": "2kg", "expiry": "2025-09-12"},
+        {"name": "Carrots", "quantity": "1kg", "expiry": "2025-09-06"},
+        {"name": "Onions", "quantity": "1kg", "expiry": "2025-09-10"},
+        {"name": "Soy sauce", "quantity": "1 bottle", "expiry": "2025-11-20"},
+        {"name": "Lemon", "quantity": "4", "expiry": "2025-09-07"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs (10) mixed with chopped onions and carrots.",
+            "display_text": "Scrambled eggs with onions and carrots"
+          },
+          "lunch": {
+            "description_for_model": "Grilling 750g of salmon and roasting 1kg of potatoes and 500g of carrots.",
+            "display_text": "Grilled salmon with roasted potatoes and carrots"
+          },
+          "dinner": {
+            "description_for_model": "Serving the leftover grilled salmon and roasted vegetables from lunch.",
+            "display_text": "Leftover grilled salmon"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Patties made from flaked leftover salmon and mashed potatoes.",
+            "display_text": "Fish patties with a side of potatoes"
+          },
+          "lunch": {
+            "description_for_model": "A traditional Kerala-style fish curry using the remaining 750g of salmon.",
+            "display_text": "Fish curry with rice"
+          },
+          "dinner": {
+            "description_for_model": "Reheating the leftover fish curry.",
+            "display_text": "Leftover curry"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "Making pancakes for the family.",
+            "display_text": "Pancakes with syrup"
+          },
+          "lunch": {
+            "description_for_model": "A classic Western dish of battered, fried fish served with potato fries (chips).",
+            "display_text": "Fish and chips"
+          },
+          "dinner": {
+            "description_for_model": "Creating small cakes from any remaining fish, breaded and fried, served with a squeeze of lemon.",
+            "display_text": "Fish cakes with a side of lemon"
+          }
+        }
+      },
+      "shopping_list": ["Eggs", "Roti", "Toast", "Syrup", "Pancakes mix", "Batter mix"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 1 person, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 1,
+      "dietary_restrictions": ["Vegan"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Millets", "quantity": "500g", "expiry": "2025-09-20"},
+        {"name": "Potatoes", "quantity": "500g", "expiry": "2025-09-12"},
+        {"name": "Chickpeas", "quantity": "1 can (400g)", "expiry": "2025-09-05"},
+        {"name": "Onions", "quantity": "2 medium", "expiry": "2025-09-10"},
+        {"name": "Tomatoes", "quantity": "3 medium", "expiry": "2025-09-06"},
+        {"name": "Cilantro", "quantity": "1 bunch", "expiry": "2025-09-07"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "A warm porridge made from 100g of millets.",
+            "display_text": "Millet porridge with a side of fresh fruit"
+          },
+          "lunch": {
+            "description_for_model": "A simple curry using the full can of chickpeas, 1 tomato, and 1 onion, served with cooked millets instead of rice.",
+            "display_text": "Chickpea curry with millet rice"
+          },
+          "dinner": {
+            "description_for_model": "Eating the leftover chickpea curry from lunch.",
+            "display_text": "Leftover curry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Spiced potato patties (200g of potatoes), shallow-fried. Served with cilantro chutney.",
+            "display_text": "Aloo Tikki (potato patties) with mint chutney"
+          },
+          "lunch": {
+            "description_for_model": "A savory porridge-like dish (upma) made with millets, 1 onion, and 1 tomato.",
+            "display_text": "Millet upma with onions and tomatoes"
+          },
+          "dinner": {
+            "description_for_model": "Reheating the leftover upma from lunch.",
+            "display_text": "Leftover upma"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Fritters made from grated potatoes and chopped onions.",
+            "display_text": "Potato and onion fritters"
+          },
+          "lunch": {
+            "description_for_model": "A dry stir-fry using leftover chickpeas and remaining potatoes, served with roti.",
+            "display_text": "Chickpea and potato stir-fry with roti"
+          },
+          "dinner": {
+            "description_for_model": "Eating the leftover stir-fry from lunch.",
+            "display_text": "Leftover stir-fry"
+          }
+        }
+      },
+      "shopping_list": ["Fruit", "Chutney ingredients", "Roti flour", "Burger buns"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["None"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Bacon", "quantity": "400g", "expiry": "2025-09-04"},
+        {"name": "Eggs", "quantity": "12", "expiry": "2025-09-05"},
+        {"name": "Bread", "quantity": "1 loaf", "expiry": "2025-09-05"},
+        {"name": "Tomatoes", "quantity": "4 medium", "expiry": "2025-09-06"},
+        {"name": "Avocados", "quantity": "2", "expiry": "2025-09-04"},
+        {"name": "Cheese", "quantity": "250g", "expiry": "2025-09-07"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Scrambling 4 eggs with 100g of chopped bacon and 50g of cheese.",
+            "display_text": "Scrambled eggs with bacon and cheese"
+          },
+          "lunch": {
+            "description_for_model": "A simple sandwich with 100g of bacon and sliced tomatoes.",
+            "display_text": "Bacon and tomato sandwich"
+          },
+          "dinner": {
+            "description_for_model": "A quick stir-fry using 2 eggs and 100g of bacon, served with bread.",
+            "display_text": "Bacon and egg stir-fry with a side of bread"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "An omelette using 4 eggs, 100g of cheese, and 2 sliced tomatoes.",
+            "display_text": "Omelette with cheese and tomatoes"
+          },
+          "lunch": {
+            "description_for_model": "The classic BLT sandwich, using the remaining 100g of bacon, lettuce, and tomatoes.",
+            "display_text": "Bacon, lettuce, and tomato (BLT) sandwich"
+          },
+          "dinner": {
+            "description_for_model": "Making a simple pasta sauce with tomatoes and leftover bacon.",
+            "display_text": "Pasta with a simple tomato and bacon sauce"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Mashing 1 avocado on 2 slices of toast, topped with 2 fried eggs.",
+            "display_text": "Avocado toast with a fried egg"
+          },
+          "lunch": {
+            "description_for_model": "A grilled sandwich with the remaining 100g of cheese and 2 tomatoes.",
+            "display_text": "Grilled cheese and tomato sandwich"
+          },
+          "dinner": {
+            "description_for_model": "Reheating the leftover pasta from Tuesday night.",
+            "display_text": "Leftover pasta"
+          }
+        }
+      },
+      "shopping_list": ["Lettuce", "Pasta", "Pizza base", "Pancakes mix"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 4 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 4,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Rice flour", "quantity": "1kg", "expiry": "2025-09-20"},
+        {"name": "Jaggery", "quantity": "500g", "expiry": "2025-10-15"},
+        {"name": "Coconut", "quantity": "2 whole", "expiry": "2025-09-05"},
+        {"name": "Bananas", "quantity": "8", "expiry": "2025-09-04"},
+        {"name": "Cardamom", "quantity": "1 small pack", "expiry": "2025-11-20"},
+        {"name": "Ghee", "quantity": "200g", "expiry": "2025-09-10"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "A traditional Kerala breakfast, Puttu, made from rice flour and grated coconut, served with jaggery.",
+            "display_text": "Puttu with coconut and jaggery"
+          },
+          "lunch": {
+            "description_for_model": "Lacy rice pancakes (Appam) served with a vegetable stew made with coconut milk.",
+            "display_text": "Appam with coconut stew"
+          },
+          "dinner": {
+            "description_for_model": "A sweet Kerala snack, Unni Appam, made from a batter of rice flour, jaggery, and banana, then fried in ghee.",
+            "display_text": "Unni Appam (deep-fried rice and banana balls)"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "A smoothie blended with 4 bananas, milk, and a pinch of cardamom.",
+            "display_text": "Banana and cardamom smoothie"
+          },
+          "lunch": {
+            "description_for_model": "A simple lentil curry (dal).",
+            "display_text": "Simple dal with rice"
+          },
+          "dinner": {
+            "description_for_model": "Reheating the leftover dal from lunch.",
+            "display_text": "Leftover dal"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Slices of the remaining bananas coated in a rice flour batter and fried.",
+            "display_text": "Banana fritters"
+          },
+          "lunch": {
+            "description_for_model": "Rice cooked with grated coconut and spices.",
+            "display_text": "Coconut rice with a side of simple curry"
+          },
+          "dinner": {
+            "description_for_model": "Eating the leftover curry from lunch.",
+            "display_text": "Leftover curry"
+          }
+        }
+      },
+      "shopping_list": ["Curry powder", "Sambhar powder", "Pancakes mix", "Lentils", "Vegetables for stew"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 3 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 3,
+      "dietary_restrictions": ["None"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Ground beef", "quantity": "1kg", "expiry": "2025-09-04"},
+        {"name": "Potatoes", "quantity": "1.5kg", "expiry": "2025-09-12"},
+        {"name": "Onions", "quantity": "500g", "expiry": "2025-09-10"},
+        {"name": "Tomatoes", "quantity": "500g", "expiry": "2025-09-06"},
+        {"name": "Garlic", "quantity": "1 head", "expiry": "2025-09-07"},
+        {"name": "Bread", "quantity": "1 loaf", "expiry": "2025-09-05"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs (6) with chopped onions and tomatoes.",
+            "display_text": "Scrambled eggs with onions and tomatoes"
+          },
+          "lunch": {
+            "description_for_model": "A hearty curry using 400g of ground beef and 750g of potatoes.",
+            "display_text": "Ground beef and potato curry with rice"
+          },
+          "dinner": {
+            "description_for_model": "Serving the leftover curry from lunch.",
+            "display_text": "Leftover curry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Small patties made from 200g of ground beef and chopped onions.",
+            "display_text": "Ground beef and onion patties"
+          },
+          "lunch": {
+            "description_for_model": "A classic Western dish using remaining ground beef in a stew, topped with mashed potatoes (using remaining 750g).",
+            "display_text": "Shepherd's Pie"
+          },
+          "dinner": {
+            "description_for_model": "Eating the leftover Shepherd's Pie.",
+            "display_text": "Leftover Shepherd's Pie"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Making French toast with 6 slices of bread and 3 eggs.",
+            "display_text": "French toast"
+          },
+          "lunch": {
+            "description_for_model": "Creating meatballs from leftover ground beef to serve in sub sandwiches.",
+            "display_text": "Meatball subs"
+          },
+          "dinner": {
+            "description_for_model": "Finishing the leftover meatball subs.",
+            "display_text": "Leftover meatball subs"
+          }
+        }
+      },
+      "shopping_list": ["Eggs", "Roti", "Pancakes mix", "Avocado", "Cheese", "Sub rolls"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Gluten-Free"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Chicken", "quantity": "1kg", "expiry": "2025-09-04"},
+        {"name": "Quinoa", "quantity": "500g", "expiry": "2025-09-15"},
+        {"name": "Sweet potatoes", "quantity": "4 large", "expiry": "2025-09-12"},
+        {"name": "Broccoli", "quantity": "1 head", "expiry": "2025-09-06"},
+        {"name": "Onions", "quantity": "3 medium", "expiry": "2025-09-10"},
+        {"name": "Ginger", "quantity": "50g", "expiry": "2025-09-07"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "A savory quinoa dish cooked with chopped onions and grated ginger.",
+            "display_text": "Quinoa upma with onions and ginger"
+          },
+          "lunch": {
+            "description_for_model": "A simple stir-fry using 300g of chicken and the head of broccoli, served over cooked quinoa.",
+            "display_text": "Chicken and broccoli stir-fry with quinoa"
+          },
+          "dinner": {
+            "description_for_model": "Reheating the leftover stir-fry from lunch.",
+            "display_text": "Leftover stir-fry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Diced sweet potatoes (2) pan-fried with onions and spices.",
+            "display_text": "Sweet potato hash"
+          },
+          "lunch": {
+            "description_for_model": "Roasting 400g of chicken pieces along with the remaining 2 sweet potatoes.",
+            "display_text": "Roasted chicken with sweet potatoes"
+          },
+          "dinner": {
+            "description_for_model": "Eating the leftover roasted chicken and sweet potatoes.",
+            "display_text": "Leftover roasted chicken"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "A warm tea infused with grated ginger, served with a side of leftover roasted vegetables.",
+            "display_text": "Ginger tea with a side of roasted vegetables"
+          },
+          "lunch": {
+            "description_for_model": "A simple soup made with leftover chicken and broccoli.",
+            "display_text": "Chicken and broccoli soup"
+          },
+          "dinner": {
+            "description_for_model": "Finishing the leftover soup.",
+            "display_text": "Leftover soup"
+          }
+        }
+      },
+      "shopping_list": ["Eggs", "Dal", "Rice"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 6 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 6,
+      "dietary_restrictions": ["None"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Mutton", "quantity": "2kg", "expiry": "2025-09-04"},
+        {"name": "Tapioca (Kappa)", "quantity": "2kg", "expiry": "2025-09-05"},
+        {"name": "Coconut", "quantity": "3 whole", "expiry": "2025-09-05"},
+        {"name": "Green chilies", "quantity": "100g", "expiry": "2025-09-07"},
+        {"name": "Ginger", "quantity": "100g", "expiry": "2025-09-10"},
+        {"name": "Curry leaves", "quantity": "1 large bunch", "expiry": "2025-09-07"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Serving Appam with a mild, flavorful Mutton Stew made with 500g of mutton and coconut milk.",
+            "display_text": "Appam with Mutton Stew"
+          },
+          "lunch": {
+            "description_for_model": "A classic Kerala dish using 750g of mutton in a spicy curry, served with 1kg of boiled tapioca.",
+            "display_text": "Mutton curry with tapioca"
+          },
+          "dinner": {
+            "description_for_model": "Reheating the leftover mutton and tapioca curry.",
+            "display_text": "Leftover curry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Serving Puttu (steamed rice and coconut cake) with a black chickpea curry (Kadala).",
+            "display_text": "Puttu with Kadala Curry"
+          },
+          "lunch": {
+            "description_for_model": "A dry dish made by cooking the remaining 750g of mutton with the remaining 1kg of mashed tapioca and spices.",
+            "display_text": "Kappa Biryani with mutton"
+          },
+          "dinner": {
+            "description_for_model": "Eating the leftover Kappa Biryani.",
+            "display_text": "Leftover Kappa Biryani"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Steamed rice cakes (Idli) served with a chutney made from one of the coconuts.",
+            "display_text": "Idli with coconut chutney"
+          },
+          "lunch": {
+            "description_for_model": "A curry made with leftover mutton and freshly grated coconut.",
+            "display_text": "Mutton and coconut curry with rice"
+          },
+          "dinner": {
+            "description_for_model": "Finishing the leftover curry.",
+            "display_text": "Leftover curry"
+          }
+        }
+      },
+      "shopping_list": ["Appam mix", "Kadala", "Bread", "Eggs", "Pancakes mix", "Idli/Dosa Batter"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 3 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 3,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["Gluten"],
+      "ingredients": [
+        {"name": "Paneer", "quantity": "500g", "expiry": "2025-09-04"},
+        {"name": "Chickpeas", "quantity": "1 can (400g)", "expiry": "2025-09-05"},
+        {"name": "Lentils", "quantity": "500g", "expiry": "2025-09-06"},
+        {"name": "Tomatoes", "quantity": "6 medium", "expiry": "2025-09-07"},
+        {"name": "Onions", "quantity": "4 medium", "expiry": "2025-09-10"},
+        {"name": "Ginger", "quantity": "50g", "expiry": "2025-09-07"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "A savory dish made with quinoa, onions, and tomatoes.",
+            "display_text": "Quinoa Upma with onions and tomatoes"
+          },
+          "lunch": {
+            "description_for_model": "A creamy curry made with 250g of paneer, tomatoes, and onions, served with rice.",
+            "display_text": "Paneer Tikka Masala with rice"
+          },
+          "dinner": {
+            "description_for_model": "Eating the leftover Paneer Tikka Masala.",
+            "display_text": "Leftover Paneer Tikka Masala"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Fritters made from a batter of 150g of ground lentils.",
+            "display_text": "Lentil fritters"
+          },
+          "lunch": {
+            "description_for_model": "A classic North Indian curry using the can of chickpeas.",
+            "display_text": "Chickpea curry with rice"
+          },
+          "dinner": {
+            "description_for_model": "Reheating the leftover chickpea curry.",
+            "display_text": "Leftover curry"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "A smoothie blended with 2 tomatoes, a knob of ginger, and other fruits.",
+            "display_text": "Tomato and ginger smoothie"
+          },
+          "lunch": {
+            "description_for_model": "A simple soup made with 200g of lentils, served with gluten-free bread.",
+            "display_text": "Lentil soup with gluten-free bread"
+          },
+          "dinner": {
+            "description_for_model": "Finishing the leftover soup from lunch.",
+            "display_text": "Leftover soup"
+          }
+        }
+      },
+      "shopping_list": ["Quinoa", "Gluten-free bread", "Eggs", "Gluten-free roti flour", "Rice"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 1 person, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 1,
+      "dietary_restrictions": ["Vegan"],
+      "allergens": ["Soy"],
+      "ingredients": [
+        {"name": "Mushrooms", "quantity": "250g", "expiry": "2025-09-04"},
+        {"name": "Broccoli", "quantity": "1 small head", "expiry": "2025-09-05"},
+        {"name": "Zucchini", "quantity": "1 large", "expiry": "2025-09-05"},
+        {"name": "Sweet potatoes", "quantity": "2 large", "expiry": "2025-09-12"},
+        {"name": "Onions", "quantity": "2 medium", "expiry": "2025-09-10"},
+        {"name": "Garlic", "quantity": "1 head", "expiry": "2025-09-07"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Diced sweet potato (1) pan-fried with 1 chopped onion.",
+            "display_text": "Sweet potato hash with sautéed onions"
+          },
+          "lunch": {
+            "description_for_model": "A simple curry with the broccoli head and all the mushrooms, served with rice.",
+            "display_text": "Broccoli and mushroom curry with rice"
+          },
+          "dinner": {
+            "description_for_model": "Eating the leftover curry from lunch.",
+            "display_text": "Leftover curry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Fritters made from grated zucchini and leftover mushrooms.",
+            "display_text": "Zucchini and mushroom fritters"
+          },
+          "lunch": {
+            "description_for_model": "A blended soup using the remaining sweet potato and other vegetables.",
+            "display_text": "Sweet potato and vegetable soup"
+          },
+          "dinner": {
+            "description_for_model": "Finishing the leftover soup.",
+            "display_text": "Leftover soup"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "A bowl of oatmeal with sliced fresh fruit.",
+            "display_text": "Oatmeal with fresh fruit"
+          },
+          "lunch": {
+            "description_for_model": "Roasting any leftover vegetables like zucchini and onions, served with rice.",
+            "display_text": "Roasted vegetables with a side of rice"
+          },
+          "dinner": {
+            "description_for_model": "Eating the leftover roasted vegetables.",
+            "display_text": "Leftover roasted vegetables"
+          }
+        }
+      },
+      "shopping_list": ["Oatmeal", "Fruit", "Roti flour", "Pancakes mix", "Syrup", "Rice"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Keto"],
+      "allergens": ["Dairy"],
+      "ingredients": [
+        {"name": "Chicken", "quantity": "1kg", "expiry": "2025-09-04"},
+        {"name": "Spinach", "quantity": "250g", "expiry": "2025-09-04"},
+        {"name": "Avocados", "quantity": "3", "expiry": "2025-09-05"},
+        {"name": "Bell peppers", "quantity": "3", "expiry": "2025-09-06"},
+        {"name": "Eggs", "quantity": "12", "expiry": "2025-09-05"},
+        {"name": "Almond flour", "quantity": "200g", "expiry": "2025-10-01"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "A scramble made with 4 eggs and half the spinach (125g).",
+            "display_text": "Spinach and egg scramble"
+          },
+          "lunch": {
+            "description_for_model": "Grilling 300g of chicken breast, served with a salad made from 1 avocado.",
+            "display_text": "Grilled chicken with a side of avocado salad"
+          },
+          "dinner": {
+            "description_for_model": "A quick stir-fry using 300g of chicken and 1 bell pepper.",
+            "display_text": "Chicken and vegetable stir-fry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "A simple breakfast bowl with 1 sliced avocado and 2 hard-boiled eggs.",
+            "display_text": "Avocado and egg bowl"
+          },
+          "lunch": {
+            "description_for_model": "Making two burger patties from 200g of chicken, served in buns made from almond flour, with sliced bell peppers.",
+            "display_text": "Chicken patty burger (with almond flour bun) with bell peppers"
+          },
+          "dinner": {
+            "description_for_model": "Eating the leftover burger patties from lunch.",
+            "display_text": "Leftover burger patty"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "An omelette using 4 eggs and the last bell pepper.",
+            "display_text": "Bell pepper omelette"
+          },
+          "lunch": {
+            "description_for_model": "A simple soup with the remaining 200g of chicken and any leftover vegetables.",
+            "display_text": "Chicken and vegetable soup"
+          },
+          "dinner": {
+            "description_for_model": "Finishing the leftover soup.",
+            "display_text": "Leftover soup"
+          }
+        }
+      },
+      "shopping_list": ["Spices", "Lemon", "Onions"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 4 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 4,
+      "dietary_restrictions": ["None"],
+      "allergens": ["Shellfish"],
+      "ingredients": [
+        {"name": "Fish (Salmon)", "quantity": "800g", "expiry": "2025-09-04"},
+        {"name": "Chicken", "quantity": "1kg", "expiry": "2025-09-05"},
+        {"name": "Tomatoes", "quantity": "8 medium", "expiry": "2025-09-06"},
+        {"name": "Potatoes", "quantity": "1.5kg", "expiry": "2025-09-12"},
+        {"name": "Onions", "quantity": "6 medium", "expiry": "2025-09-10"},
+        {"name": "Coriander", "quantity": "1 bunch", "expiry": "2025-09-07"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs (8) with chopped onions and tomatoes.",
+            "display_text": "Scrambled eggs with onions and tomatoes"
+          },
+          "lunch": {
+            "description_for_model": "A Kerala-style curry using all 800g of fish, served with rice.",
+            "display_text": "Fish curry with rice"
+          },
+          "dinner": {
+            "description_for_model": "Eating the leftover fish curry.",
+            "display_text": "Leftover curry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "A quick stir-fry using 300g of chicken and 500g of potatoes.",
+            "display_text": "Chicken and potato stir-fry"
+          },
+          "lunch": {
+            "description_for_model": "Patties made from leftover fish, served with potatoes.",
+            "display_text": "Salmon patties with a side of potatoes"
+          },
+          "dinner": {
+            "description_for_model": "Roasting 400g of chicken with the remaining 1kg of potatoes.",
+            "display_text": "Roasted chicken and potatoes"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Making French toast for the family.",
+            "display_text": "French toast"
+          },
+          "lunch": {
+            "description_for_model": "A flavorful rice dish (biryani) made with the remaining 300g of chicken.",
+            "display_text": "Chicken biryani"
+          },
+          "dinner": {
+            "description_for_model": "Finishing the leftover biryani.",
+            "display_text": "Leftover biryani"
+          }
+        }
+      },
+      "shopping_list": ["Eggs", "Roti", "Pancakes mix", "Syrup", "Rice", "Bread"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["Nuts"],
+      "ingredients": [
+        {"name": "Tofu", "quantity": "400g", "expiry": "2025-09-04"},
+        {"name": "Peas", "quantity": "300g", "expiry": "2025-09-05"},
+        {"name": "Carrots", "quantity": "4 medium", "expiry": "2025-09-06"},
+        {"name": "Onions", "quantity": "3 medium", "expiry": "2025-09-10"},
+        {"name": "Ginger", "quantity": "50g", "expiry": "2025-09-07"},
+        {"name": "Coconut milk", "quantity": "400ml can", "expiry": "2025-09-05"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "A savory scramble using 200g of tofu and 1 chopped onion.",
+            "display_text": "Tofu scramble with onions"
+          },
+          "lunch": {
+            "description_for_model": "A curry made with the remaining 200g of tofu and all 300g of peas.",
+            "display_text": "Tofu and pea curry with rice"
+          },
+          "dinner": {
+            "description_for_model": "Eating the leftover curry with roti.",
+            "display_text": "Leftover curry with roti"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "A smoothie blended with 2 carrots and a knob of ginger.",
+            "display_text": "Carrot and ginger smoothie"
+          },
+          "lunch": {
+            "description_for_model": "A Kerala-style vegetable stew using the can of coconut milk and various vegetables.",
+            "display_text": "Coconut vegetable stew with rice"
+          },
+          "dinner": {
+            "description_for_model": "Reheating the leftover stew.",
+            "display_text": "Leftover stew"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Fritters made from peas and chopped onions.",
+            "display_text": "Peas and onion fritters"
+          },
+          "lunch": {
+            "description_for_model": "A quick stir-fry with leftover tofu, the remaining 2 carrots, and ginger.",
+            "display_text": "Tofu and carrot stir-fry with ginger"
+          },
+          "dinner": {
+            "description_for_model": "Finishing the leftover stir-fry.",
+            "display_text": "Leftover stir-fry"
+          }
+        }
+      },
+      "shopping_list": ["Mint", "Roti flour", "Bread", "Pancakes mix", "Syrup", "Rice"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 5 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 5,
+      "dietary_restrictions": ["None"],
+      "allergens": ["Gluten", "Dairy"],
+      "ingredients": [
+        {"name": "Ground beef", "quantity": "1.5kg", "expiry": "2025-09-04"},
+        {"name": "Tomatoes", "quantity": "1kg", "expiry": "2025-09-06"},
+        {"name": "Onions", "quantity": "1kg", "expiry": "2025-09-10"},
+        {"name": "Garlic", "quantity": "2 heads", "expiry": "2025-09-07"},
+        {"name": "Quinoa", "quantity": "500g", "expiry": "2025-09-20"},
+        {"name": "Sweet potatoes", "quantity": "1.5kg", "expiry": "2025-09-12"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "A savory quinoa dish cooked with chopped onions and tomatoes.",
+            "display_text": "Quinoa Upma with onions and tomatoes"
+          },
+          "lunch": {
+            "description_for_model": "A hearty curry with 700g of ground beef and 750g of sweet potatoes, served with rice.",
+            "display_text": "Ground beef and sweet potato curry with rice"
+          },
+          "dinner": {
+            "description_for_model": "Serving the leftover curry from lunch.",
+            "display_text": "Leftover curry"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Fritters made from grated sweet potatoes.",
+            "display_text": "Sweet potato fritters"
+          },
+          "lunch": {
+            "description_for_model": "A Shepherd's Pie made with the remaining 800g of ground beef, topped with mashed sweet potatoes (remaining 750g) instead of regular potatoes.",
+            "display_text": "Shepherd's Pie (with mashed sweet potato topping)"
+          },
+          "dinner": {
+            "description_for_model": "Eating the leftover Shepherd's Pie.",
+            "display_text": "Leftover Shepherd's Pie"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "A savory hash made from diced sweet potatoes and other vegetables.",
+            "display_text": "Sweet potato and vegetable hash"
+          },
+          "lunch": {
+            "description_for_model": "Forming the leftover ground beef into burger patties, served without buns with lettuce and tomato.",
+            "display_text": "Beef burger patty (no bun) with lettuce and tomato"
+          },
+          "dinner": {
+            "description_for_model": "Finishing the leftover burger patties.",
+            "display_text": "Leftover burger patty"
+          }
+        }
+      },
+      "shopping_list": ["Eggs", "Gluten-free bread", "Lettuce", "Rice"]
+    }
+  }
+]
