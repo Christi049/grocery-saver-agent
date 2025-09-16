@@ -1,0 +1,2420 @@
+[
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "None",
+    "allergens": "Shellfish, Dairy",
+    "ingredients": [
+      {
+        "name": "Fish (Snapper)",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Chicken",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Carrots",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Coconut milk",
+        "expiry": "2025-09-05"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Scrambled eggs with onions and potatoes",
+        "lunch": "Fish curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Tuesday": {
+        "breakfast": "Chicken and potato stir-fry",
+        "lunch": "Coconut chicken curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Wednesday": {
+        "breakfast": "Omelette with vegetables",
+        "lunch": "Roasted chicken and carrots",
+        "dinner": "Leftover roasted chicken and carrots"
+      },
+      "Thursday": {
+        "breakfast": "Chicken and carrot soup",
+        "lunch": "Fish fry with lemon rice",
+        "dinner": "Leftover fish fry and lemon rice"
+      },
+      "Friday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Chicken and vegetable skewers with rice",
+        "dinner": "Leftover skewers"
+      },
+      "Saturday": {
+        "breakfast": "Fish patties with potatoes",
+        "lunch": "Simple dal with roti",
+        "dinner": "Leftover dal"
+      },
+      "Sunday": {
+        "breakfast": "French toast",
+        "lunch": "Leftover dal",
+        "dinner": "Chicken and carrot curry with rice"
+      }
+    },
+    "shopping_list": [
+      "Eggs",
+      "Pancakes mix",
+      "Syrup",
+      "Lemon",
+      "Dal"
+    ]
+  }
+},{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Vegan",
+    "allergens": "Nuts, Soy",
+    "ingredients": [
+      {
+        "name": "Kidney beans",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Sweet potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Bell peppers",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Garlic",
+        "expiry": "2025-09-07"
+      },
+      {
+        "name": "Corn",
+        "expiry": "2025-09-06"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Sweet potato hash with sautéed onions",
+        "lunch": "Rajma Masala with rice",
+        "dinner": "Leftover Rajma Masala"
+      },
+      "Tuesday": {
+        "breakfast": "Bell pepper and corn fritters",
+        "lunch": "Three-bean and corn salad",
+        "dinner": "Leftover salad"
+      },
+      "Wednesday": {
+        "breakfast": "Sweet potato and bell pepper stir-fry",
+        "lunch": "Kidney bean and sweet potato curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Thursday": {
+        "breakfast": "Corn and vegetable upma",
+        "lunch": "Sweet potato soup with garlic toast",
+        "dinner": "Leftover soup"
+      },
+      "Friday": {
+        "breakfast": "Onion and garlic paratha",
+        "lunch": "Kidney bean and corn curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Saturday": {
+        "breakfast": "French toast",
+        "lunch": "Roasted vegetables with a side of kidney beans",
+        "dinner": "Leftover roasted vegetables"
+      },
+      "Sunday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Simple dal with rice",
+        "dinner": "Leftover dal"
+      }
+    },
+    "shopping_list": [
+      "Bread",
+      "Roti flour",
+      "Dal",
+      "Pancakes mix"
+    ]
+  }
+},{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Vegan",
+    "allergens": "Nuts",
+    "ingredients": [
+      {
+        "name": "Mushrooms",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Cauliflower",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Red lentils",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Garlic",
+        "expiry": "2025-09-07"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Red lentil soup with garlic toast",
+        "lunch": "Mushroom and lentil curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Tuesday": {
+        "breakfast": "Cauliflower fritters",
+        "lunch": "Roasted tomato soup with a side of rice",
+        "dinner": "Leftover roasted tomato soup"
+      },
+      "Wednesday": {
+        "breakfast": "Onion and garlic paratha",
+        "lunch": "Cauliflower and red lentil curry with roti",
+        "dinner": "Leftover curry"
+      },
+      "Thursday": {
+        "breakfast": "Mushroom and tomato stir-fry with rice",
+        "lunch": "Leftover stir-fry",
+        "dinner": "Simple dal with roti"
+      },
+      "Friday": {
+        "breakfast": "Tomato and onion upma",
+        "lunch": "Mushroom and garlic fritters",
+        "dinner": "Roasted cauliflower and tomatoes with a side of rice"
+      },
+      "Saturday": {
+        "breakfast": "French toast",
+        "lunch": "Simple vegetable stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Sunday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Leftover lentil curry",
+        "dinner": "Leftover lentil curry"
+      }
+    },
+    "shopping_list": [
+      "Bread",
+      "Roti flour",
+      "Pancakes mix"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "None",
+    "allergens": "Dairy, Gluten",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Green beans",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Carrots",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Rice",
+        "expiry": "2025-09-20"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Scrambled eggs with onions and carrots",
+        "lunch": "Chicken and potato curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Tuesday": {
+        "breakfast": "Potato fritters",
+        "lunch": "Roasted chicken and vegetables",
+        "dinner": "Leftover roasted chicken and vegetables"
+      },
+      "Wednesday": {
+        "breakfast": "Chicken and vegetable stir-fry with rice",
+        "lunch": "Leftover stir-fry",
+        "dinner": "Chicken and potato soup"
+      },
+      "Thursday": {
+        "breakfast": "Chicken and rice porridge",
+        "lunch": "Chicken and green bean stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Friday": {
+        "breakfast": "French toast",
+        "lunch": "Chicken and vegetable skewers",
+        "dinner": "Leftover skewers"
+      },
+      "Saturday": {
+        "breakfast": "Potato and carrot patties",
+        "lunch": "Chicken curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Sunday": {
+        "breakfast": "Simple dal with rice",
+        "lunch": "Leftover dal",
+        "dinner": "Simple chicken roast with a side of carrots"
+      }
+    },
+    "shopping_list": [
+      "Eggs",
+      "Toast",
+      "Pancakes mix",
+      "Syrup"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Vegetarian",
+    "allergens": "Eggs",
+    "ingredients": [
+      {
+        "name": "Paneer",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Spinach",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Ghee",
+        "expiry": "2025-09-10"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Poha with onions and tomatoes",
+        "lunch": "Palak Paneer with roti",
+        "dinner": "Leftover Palak Paneer"
+      },
+      "Tuesday": {
+        "breakfast": "Aloo Tikki with mint chutney",
+        "lunch": "Paneer and potato curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Wednesday": {
+        "breakfast": "Tomato and onion Upma",
+        "lunch": "Spinach and paneer stir-fry with roti",
+        "dinner": "Leftover stir-fry"
+      },
+      "Thursday": {
+        "breakfast": "Aloo paratha with chutney",
+        "lunch": "Tomato and onion curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Friday": {
+        "breakfast": "Paneer and spinach paratha",
+        "lunch": "Simple dal with rice",
+        "dinner": "Leftover dal"
+      },
+      "Saturday": {
+        "breakfast": "Potato and spinach fritters",
+        "lunch": "Veggie burger with a paneer patty",
+        "dinner": "Tomato soup with bread"
+      },
+      "Sunday": {
+        "breakfast": "French toast",
+        "lunch": "Ghee rice with a side of paneer curry",
+        "dinner": "Leftover curry"
+      }
+    },
+    "shopping_list": [
+      "Poha",
+      "Roti flour",
+      "Mint",
+      "Bread",
+      "Syrup"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "None",
+    "allergens": "Soy",
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Bell peppers",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Bread",
+        "expiry": "2025-09-05"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Scrambled eggs with onions and tomatoes",
+        "lunch": "Ground beef and potato curry with rice",
+        "dinner": "Leftover curry with roti"
+      },
+      "Tuesday": {
+        "breakfast": "Ground beef burger patties with bell peppers",
+        "lunch": "Shepherd's Pie (ground beef stew with mashed potato topping)",
+        "dinner": "Leftover Shepherd's Pie"
+      },
+      "Wednesday": {
+        "breakfast": "French toast",
+        "lunch": "Ground beef and vegetable stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Thursday": {
+        "breakfast": "Ground beef patties with onions and tomatoes",
+        "lunch": "Spaghetti Bolognese",
+        "dinner": "Leftover Bolognese"
+      },
+      "Friday": {
+        "breakfast": "Onion and bell pepper fritters",
+        "lunch": "Meatball subs",
+        "dinner": "Leftover meatball subs"
+      },
+      "Saturday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Ground beef and tomato curry with roti",
+        "dinner": "Leftover curry"
+      },
+      "Sunday": {
+        "breakfast": "Grilled cheese and tomato sandwich",
+        "lunch": "Simple dal with rice",
+        "dinner": "Leftover dal"
+      }
+    },
+    "shopping_list": [
+      "Eggs",
+      "Roti",
+      "Pancakes mix",
+      "Syrup",
+      "Cheese",
+      "Pasta"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Vegan",
+    "allergens": "Gluten, Soy",
+    "ingredients": [
+      {
+        "name": "Chickpeas",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Sweet potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Broccoli",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Garlic",
+        "expiry": "2025-09-07"
+      },
+      {
+        "name": "Coconut milk",
+        "expiry": "2025-09-05"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Sweet potato hash with onions",
+        "lunch": "Chickpea and sweet potato curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Tuesday": {
+        "breakfast": "Broccoli and vegetable fritters",
+        "lunch": "Chickpea and broccoli salad with lemon dressing",
+        "dinner": "Leftover salad"
+      },
+      "Wednesday": {
+        "breakfast": "Sweet potato and garlic soup",
+        "lunch": "Roasted chickpeas with roasted broccoli",
+        "dinner": "Leftover roasted vegetables"
+      },
+      "Thursday": {
+        "breakfast": "Chickpea patties with a side of sautéed onions",
+        "lunch": "Broccoli and sweet potato stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Friday": {
+        "breakfast": "Sweet potato and coconut smoothie",
+        "lunch": "Simple dal with rice",
+        "dinner": "Leftover dal"
+      },
+      "Saturday": {
+        "breakfast": "French toast",
+        "lunch": "Sweet potato curry with coconut milk",
+        "dinner": "Leftover curry"
+      },
+      "Sunday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Roasted vegetables with a side of chickpeas",
+        "dinner": "Leftover roasted vegetables"
+      }
+    },
+    "shopping_list": [
+      "Dal",
+      "Lemon",
+      "Bread",
+      "Pancakes mix"
+    ]
+  }
+},{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "None",
+    "allergens": "Shellfish, Gluten",
+    "ingredients": [
+      {
+        "name": "Fish (Cod)",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Chicken",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Bell peppers",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Lemon",
+        "expiry": "2025-09-07"
+      },
+      {
+        "name": "Quinoa",
+        "expiry": "2025-09-15"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Omelette with onions and bell peppers",
+        "lunch": "Grilled fish with a side of roasted bell peppers",
+        "dinner": "Chicken and vegetable curry with quinoa"
+      },
+      "Tuesday": {
+        "breakfast": "Quinoa porridge with fruit",
+        "lunch": "Leftover chicken and vegetable curry",
+        "dinner": "Lemon and herb roasted chicken"
+      },
+      "Wednesday": {
+        "breakfast": "Fish patties with a side of rice",
+        "lunch": "Chicken and bell pepper skewers",
+        "dinner": "Leftover skewers"
+      },
+      "Thursday": {
+        "breakfast": "Quinoa salad with roasted vegetables",
+        "lunch": "Fish curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Friday": {
+        "breakfast": "Scrambled eggs with onions",
+        "lunch": "Chicken and quinoa stir-fry",
+        "dinner": "Leftover stir-fry"
+      },
+      "Saturday": {
+        "breakfast": "Bell pepper and chicken fritters",
+        "lunch": "Simple dal with rice",
+        "dinner": "Leftover dal"
+      },
+      "Sunday": {
+        "breakfast": "Quinoa pancakes",
+        "lunch": "Leftover fish patties",
+        "dinner": "Chicken and bell pepper stir-fry with quinoa"
+      }
+    },
+    "shopping_list": [
+      "Eggs",
+      "Rice",
+      "Spices",
+      "Fruit",
+      "Pancakes mix"
+    ]
+  }
+},{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Vegan",
+    "allergens": "Soy, Nuts",
+    "ingredients": [
+      {
+        "name": "Kidney beans",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Corn",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Bell peppers",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Garlic",
+        "expiry": "2025-09-07"
+      },
+      {
+        "name": "Rice",
+        "expiry": "2025-09-20"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Onion and garlic fritters",
+        "lunch": "Rajma Masala with rice",
+        "dinner": "Leftover Rajma Masala"
+      },
+      "Tuesday": {
+        "breakfast": "Corn and vegetable upma",
+        "lunch": "Kidney bean and corn curry with rice",
+        "dinner": "Leftover curry with roti"
+      },
+      "Wednesday": {
+        "breakfast": "Three-bean salad with a side of vegetables",
+        "lunch": "Bell pepper and garlic stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Thursday": {
+        "breakfast": "Rajma patties with onions",
+        "lunch": "Corn and bell pepper stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Friday": {
+        "breakfast": "French toast (made with soy-free bread)",
+        "lunch": "Simple dal with rice",
+        "dinner": "Leftover dal"
+      },
+      "Saturday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Corn fritters with a side of kidney beans",
+        "dinner": "Leftover fritters"
+      },
+      "Sunday": {
+        "breakfast": "Kidney bean and corn soup",
+        "lunch": "Leftover soup",
+        "dinner": "Roasted vegetables with a side of rice"
+      }
+    },
+    "shopping_list": [
+      "Dal",
+      "Roti",
+      "Bread",
+      "Pancakes mix",
+      "Syrup"
+    ]
+  }
+},{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "None",
+    "allergens": "Dairy, Eggs",
+    "ingredients": [
+      {
+        "name": "Bacon",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Bread",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Olive oil",
+        "expiry": "2025-10-30"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Bacon and potato hash",
+        "lunch": "Bacon, lettuce, and tomato (BLT) sandwich",
+        "dinner": "Bacon and potato curry with rice"
+      },
+      "Tuesday": {
+        "breakfast": "Toast with jam",
+        "lunch": "Leftover curry",
+        "dinner": "Tomato soup with croutons"
+      },
+      "Wednesday": {
+        "breakfast": "French toast (made with egg and dairy free bread)",
+        "lunch": "Bacon and vegetable stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Thursday": {
+        "breakfast": "Potato fritters",
+        "lunch": "Tomato and onion pasta",
+        "dinner": "Leftover pasta"
+      },
+      "Friday": {
+        "breakfast": "Onion and tomato sandwich",
+        "lunch": "Bacon and potato stir-fry",
+        "dinner": "Leftover stir-fry"
+      },
+      "Saturday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Bacon and lettuce salad",
+        "dinner": "Leftover salad"
+      },
+      "Sunday": {
+        "breakfast": "Simple dal with rice",
+        "lunch": "Leftover dal",
+        "dinner": "Bacon and tomato soup"
+      }
+    },
+    "shopping_list": [
+      "Lettuce",
+      "Jam",
+      "Pancakes mix",
+      "Syrup"
+    ]
+  }
+},{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Vegetarian",
+    "allergens": "Gluten, Dairy",
+    "ingredients": [
+      {
+        "name": "Chickpeas",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Red lentils",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Cauliflower",
+        "expiry": "2025-09-07"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Rice flour",
+        "expiry": "2025-09-20"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Chickpea and lentil soup",
+        "lunch": "Cauliflower and lentil curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Tuesday": {
+        "breakfast": "Rice flour dosa with tomato chutney",
+        "lunch": "Chickpea and lentil salad",
+        "dinner": "Leftover salad"
+      },
+      "Wednesday": {
+        "breakfast": "Onion and tomato upma (made with rice flour)",
+        "lunch": "Tomato and cauliflower soup",
+        "dinner": "Leftover soup"
+      },
+      "Thursday": {
+        "breakfast": "Cauliflower fritters (made with rice flour)",
+        "lunch": "Chickpea and lentil stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Friday": {
+        "breakfast": "Red lentil patties with cilantro",
+        "lunch": "Tomato curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Saturday": {
+        "breakfast": "Tomato and onion fritters",
+        "lunch": "Simple dal with rice",
+        "dinner": "Leftover dal"
+      },
+      "Sunday": {
+        "breakfast": "Rice flour pancakes with syrup",
+        "lunch": "Roasted vegetables with a side of chickpeas",
+        "dinner": "Leftover roasted vegetables"
+      }
+    },
+    "shopping_list": [
+      "Cilantro",
+      "Dosa batter",
+      "Syrup"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Keto",
+    "allergens": "Dairy, Gluten",
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Zucchini",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Bell peppers",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Mushrooms",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Spinach",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Avocado",
+        "expiry": "2025-09-05"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Spinach and mushroom stir-fry",
+        "lunch": "Ground beef and zucchini stir-fry",
+        "dinner": "Leftover stir-fry"
+      },
+      "Tuesday": {
+        "breakfast": "Avocado and beef salad",
+        "lunch": "Ground beef patties with bell peppers",
+        "dinner": "Leftover beef patties"
+      },
+      "Wednesday": {
+        "breakfast": "Scrambled eggs with vegetables",
+        "lunch": "Zucchini noodles with a ground beef and tomato sauce",
+        "dinner": "Leftover zucchini noodles"
+      },
+      "Thursday": {
+        "breakfast": "Bell pepper and mushroom omelette",
+        "lunch": "Spinach and beef patties",
+        "dinner": "Leftover patties"
+      },
+      "Friday": {
+        "breakfast": "Avocado and vegetable smoothie",
+        "lunch": "Ground beef and vegetable skewers",
+        "dinner": "Leftover skewers"
+      },
+      "Saturday": {
+        "breakfast": "Avocado toast",
+        "lunch": "Ground beef and mushroom stir-fry",
+        "dinner": "Leftover stir-fry"
+      },
+      "Sunday": {
+        "breakfast": "Broccoli and bell pepper soup",
+        "lunch": "Leftover soup",
+        "dinner": "Avocado and beef stir-fry"
+      }
+    },
+    "shopping_list": [
+      "Eggs",
+      "Tomatoes",
+      "Broccoli"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "None",
+    "allergens": "Eggs, Gluten",
+    "ingredients": [
+      {
+        "name": "Ground lamb",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Carrots",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Rice flour",
+        "expiry": "2025-09-20"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Potato fritters (made with rice flour)",
+        "lunch": "Lamb curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Tuesday": {
+        "breakfast": "Onion and tomato upma (made with rice flour)",
+        "lunch": "Shepherd's Pie (lamb stew with a mashed potato topping)",
+        "dinner": "Leftover Shepherd's Pie"
+      },
+      "Wednesday": {
+        "breakfast": "Potato and carrot stir-fry",
+        "lunch": "Lamb and vegetable stew",
+        "dinner": "Leftover stew"
+      },
+      "Thursday": {
+        "breakfast": "Rice flour pancakes with syrup",
+        "lunch": "Lamb and tomato stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Friday": {
+        "breakfast": "Roasted carrots and onions",
+        "lunch": "Lamb and vegetable skewers with rice",
+        "dinner": "Leftover skewers"
+      },
+      "Saturday": {
+        "breakfast": "Lamb keema with a side of rice",
+        "lunch": "Leftover keema",
+        "dinner": "Simple dal with rice"
+      },
+      "Sunday": {
+        "breakfast": "Tomato and onion fritters",
+        "lunch": "Leftover dal",
+        "dinner": "Lamb curry with a side of roasted carrots"
+      }
+    },
+    "shopping_list": [
+      "Syrup",
+      "Dal",
+      "Pancakes mix"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "None",
+    "allergens": "Shellfish, Gluten",
+    "ingredients": [
+      {
+        "name": "Fish (Cod)",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Chicken",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Bell peppers",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Lemon",
+        "expiry": "2025-09-07"
+      },
+      {
+        "name": "Quinoa",
+        "expiry": "2025-09-15"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Omelette with onions and bell peppers",
+        "lunch": "Grilled fish with a side of roasted bell peppers",
+        "dinner": "Chicken and vegetable curry with quinoa"
+      },
+      "Tuesday": {
+        "breakfast": "Quinoa porridge with fruit",
+        "lunch": "Leftover chicken and vegetable curry",
+        "dinner": "Lemon and herb roasted chicken"
+      },
+      "Wednesday": {
+        "breakfast": "Fish patties with a side of rice",
+        "lunch": "Chicken and bell pepper skewers",
+        "dinner": "Leftover skewers"
+      },
+      "Thursday": {
+        "breakfast": "Quinoa salad with roasted vegetables",
+        "lunch": "Fish curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Friday": {
+        "breakfast": "Scrambled eggs with onions",
+        "lunch": "Chicken and quinoa stir-fry",
+        "dinner": "Leftover stir-fry"
+      },
+      "Saturday": {
+        "breakfast": "Bell pepper and chicken fritters",
+        "lunch": "Simple dal with rice",
+        "dinner": "Leftover dal"
+      },
+      "Sunday": {
+        "breakfast": "Quinoa pancakes",
+        "lunch": "Leftover fish patties",
+        "dinner": "Chicken and bell pepper stir-fry with quinoa"
+      }
+    },
+    "shopping_list": [
+      "Eggs",
+      "Rice",
+      "Spices",
+      "Fruit",
+      "Pancakes mix"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Vegan",
+    "allergens": "Soy, Nuts",
+    "ingredients": [
+      {
+        "name": "Kidney beans",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Corn",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Bell peppers",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Garlic",
+        "expiry": "2025-09-07"
+      },
+      {
+        "name": "Rice",
+        "expiry": "2025-09-20"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Onion and garlic fritters",
+        "lunch": "Rajma Masala with rice",
+        "dinner": "Leftover Rajma Masala"
+      },
+      "Tuesday": {
+        "breakfast": "Corn and vegetable upma",
+        "lunch": "Kidney bean and corn curry with rice",
+        "dinner": "Leftover curry with roti"
+      },
+      "Wednesday": {
+        "breakfast": "Three-bean salad with a side of vegetables",
+        "lunch": "Bell pepper and garlic stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Thursday": {
+        "breakfast": "Rajma patties with onions",
+        "lunch": "Corn and bell pepper stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Friday": {
+        "breakfast": "French toast (made with soy-free bread)",
+        "lunch": "Simple dal with rice",
+        "dinner": "Leftover dal"
+      },
+      "Saturday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Corn fritters with a side of kidney beans",
+        "dinner": "Leftover fritters"
+      },
+      "Sunday": {
+        "breakfast": "Kidney bean and corn soup",
+        "lunch": "Leftover soup",
+        "dinner": "Roasted vegetables with a side of rice"
+      }
+    },
+    "shopping_list": [
+      "Dal",
+      "Roti",
+      "Bread",
+      "Pancakes mix",
+      "Syrup"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "None",
+    "allergens": "Dairy, Eggs",
+    "ingredients": [
+      {
+        "name": "Bacon",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Bread",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Olive oil",
+        "expiry": "2025-10-30"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Bacon and potato hash",
+        "lunch": "Bacon, lettuce, and tomato (BLT) sandwich",
+        "dinner": "Bacon and potato curry with rice"
+      },
+      "Tuesday": {
+        "breakfast": "Toast with jam",
+        "lunch": "Leftover curry",
+        "dinner": "Tomato soup with croutons"
+      },
+      "Wednesday": {
+        "breakfast": "French toast (made with egg and dairy free bread)",
+        "lunch": "Bacon and vegetable stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Thursday": {
+        "breakfast": "Potato fritters",
+        "lunch": "Tomato and onion pasta",
+        "dinner": "Leftover pasta"
+      },
+      "Friday": {
+        "breakfast": "Onion and tomato sandwich",
+        "lunch": "Bacon and potato stir-fry",
+        "dinner": "Leftover stir-fry"
+      },
+      "Saturday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Bacon and lettuce salad",
+        "dinner": "Leftover salad"
+      },
+      "Sunday": {
+        "breakfast": "Simple dal with rice",
+        "lunch": "Leftover dal",
+        "dinner": "Bacon and tomato soup"
+      }
+    },
+    "shopping_list": [
+      "Lettuce",
+      "Jam",
+      "Pancakes mix",
+      "Syrup"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Vegetarian",
+    "allergens": "Gluten, Dairy",
+    "ingredients": [
+      {
+        "name": "Chickpeas",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Red lentils",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Cauliflower",
+        "expiry": "2025-09-07"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Rice flour",
+        "expiry": "2025-09-20"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Chickpea and lentil soup",
+        "lunch": "Cauliflower and lentil curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Tuesday": {
+        "breakfast": "Rice flour dosa with tomato chutney",
+        "lunch": "Chickpea and lentil salad",
+        "dinner": "Leftover salad"
+      },
+      "Wednesday": {
+        "breakfast": "Onion and tomato upma (made with rice flour)",
+        "lunch": "Tomato and cauliflower soup",
+        "dinner": "Leftover soup"
+      },
+      "Thursday": {
+        "breakfast": "Cauliflower fritters (made with rice flour)",
+        "lunch": "Chickpea and lentil stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Friday": {
+        "breakfast": "Red lentil patties with cilantro",
+        "lunch": "Tomato curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Saturday": {
+        "breakfast": "Tomato and onion fritters",
+        "lunch": "Simple dal with rice",
+        "dinner": "Leftover dal"
+      },
+      "Sunday": {
+        "breakfast": "Rice flour pancakes with syrup",
+        "lunch": "Roasted vegetables with a side of chickpeas",
+        "dinner": "Leftover roasted vegetables"
+      }
+    },
+    "shopping_list": [
+      "Cilantro",
+      "Dosa batter",
+      "Syrup"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Keto",
+    "allergens": "Dairy, Gluten",
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Zucchini",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Bell peppers",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Mushrooms",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Spinach",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Avocado",
+        "expiry": "2025-09-05"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Spinach and mushroom stir-fry",
+        "lunch": "Ground beef and zucchini stir-fry",
+        "dinner": "Leftover stir-fry"
+      },
+      "Tuesday": {
+        "breakfast": "Avocado and beef salad",
+        "lunch": "Ground beef patties with bell peppers",
+        "dinner": "Leftover beef patties"
+      },
+      "Wednesday": {
+        "breakfast": "Scrambled eggs with vegetables",
+        "lunch": "Zucchini noodles with a ground beef and tomato sauce",
+        "dinner": "Leftover zucchini noodles"
+      },
+      "Thursday": {
+        "breakfast": "Bell pepper and mushroom omelette",
+        "lunch": "Spinach and beef patties",
+        "dinner": "Leftover patties"
+      },
+      "Friday": {
+        "breakfast": "Avocado and vegetable smoothie",
+        "lunch": "Ground beef and vegetable skewers",
+        "dinner": "Leftover skewers"
+      },
+      "Saturday": {
+        "breakfast": "Avocado toast",
+        "lunch": "Ground beef and mushroom stir-fry",
+        "dinner": "Leftover stir-fry"
+      },
+      "Sunday": {
+        "breakfast": "Broccoli and bell pepper soup",
+        "lunch": "Leftover soup",
+        "dinner": "Avocado and beef stir-fry"
+      }
+    },
+    "shopping_list": [
+      "Eggs",
+      "Tomatoes",
+      "Broccoli"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "None",
+    "allergens": "Eggs, Gluten",
+    "ingredients": [
+      {
+        "name": "Ground lamb",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Carrots",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Rice flour",
+        "expiry": "2025-09-20"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Potato fritters (made with rice flour)",
+        "lunch": "Lamb curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Tuesday": {
+        "breakfast": "Onion and tomato upma (made with rice flour)",
+        "lunch": "Shepherd's Pie (lamb stew with a mashed potato topping)",
+        "dinner": "Leftover Shepherd's Pie"
+      },
+      "Wednesday": {
+        "breakfast": "Potato and carrot stir-fry",
+        "lunch": "Lamb and vegetable stew",
+        "dinner": "Leftover stew"
+      },
+      "Thursday": {
+        "breakfast": "Rice flour pancakes with syrup",
+        "lunch": "Lamb and tomato stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Friday": {
+        "breakfast": "Roasted carrots and onions",
+        "lunch": "Lamb and vegetable skewers with rice",
+        "dinner": "Leftover skewers"
+      },
+      "Saturday": {
+        "breakfast": "Lamb keema with a side of rice",
+        "lunch": "Leftover keema",
+        "dinner": "Simple dal with rice"
+      },
+      "Sunday": {
+        "breakfast": "Tomato and onion fritters",
+        "lunch": "Leftover dal",
+        "dinner": "Lamb curry with a side of roasted carrots"
+      }
+    },
+    "shopping_list": [
+      "Syrup",
+      "Dal",
+      "Pancakes mix"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Vegan",
+    "allergens": "Gluten",
+    "ingredients": [
+      {
+        "name": "Quinoa",
+        "expiry": "2025-09-15"
+      },
+      {
+        "name": "Chickpeas",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Spinach",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Coconut milk",
+        "expiry": "2025-09-05"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Quinoa porridge with fruit",
+        "lunch": "Chickpea and spinach curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Tuesday": {
+        "breakfast": "Spinach and tomato smoothie",
+        "lunch": "Quinoa and chickpea salad with vegetables",
+        "dinner": "Leftover salad"
+      },
+      "Wednesday": {
+        "breakfast": "Tomato and onion upma (made with quinoa)",
+        "lunch": "Roasted tomato soup with gluten-free bread",
+        "dinner": "Leftover soup"
+      },
+      "Thursday": {
+        "breakfast": "Quinoa patties with a side of sautéed onions",
+        "lunch": "Spinach and tomato stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Friday": {
+        "breakfast": "Chickpea fritters with mint chutney",
+        "lunch": "Spinach and coconut curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Saturday": {
+        "breakfast": "French toast",
+        "lunch": "Simple dal with rice",
+        "dinner": "Leftover dal"
+      },
+      "Sunday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Quinoa and chickpea stir-fry with vegetables",
+        "dinner": "Leftover stir-fry"
+      }
+    },
+    "shopping_list": [
+      "Fruit",
+      "Gluten-free bread",
+      "Mint",
+      "Pancakes mix",
+      "Syrup"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "None",
+    "allergens": "Dairy",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Corn",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Bell peppers",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Rice",
+        "expiry": "2025-09-20"
+      },
+      {
+        "name": "Olive oil",
+        "expiry": "2025-10-30"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Scrambled eggs with vegetables",
+        "lunch": "Chicken and potato curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Tuesday": {
+        "breakfast": "Omelette with corn and bell peppers",
+        "lunch": "Chicken and corn stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Wednesday": {
+        "breakfast": "French toast",
+        "lunch": "Chicken and vegetable soup",
+        "dinner": "Leftover soup"
+      },
+      "Thursday": {
+        "breakfast": "Chicken and corn patties",
+        "lunch": "Roasted chicken and vegetables with a side of rice",
+        "dinner": "Leftover roasted chicken"
+      },
+      "Friday": {
+        "breakfast": "Toast with jam",
+        "lunch": "Chicken skewers with bell peppers and onions",
+        "dinner": "Leftover skewers"
+      },
+      "Saturday": {
+        "breakfast": "Potato fritters",
+        "lunch": "Chicken and potato stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Sunday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Simple dal with rice",
+        "dinner": "Leftover dal"
+      }
+    },
+    "shopping_list": [
+      "Eggs",
+      "Jam",
+      "Bread",
+      "Onions",
+      "Pancakes mix",
+      "Syrup"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Vegetarian",
+    "allergens": "Nuts",
+    "ingredients": [
+      {
+        "name": "Paneer",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Peas",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Carrots",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Ginger",
+        "expiry": "2025-09-07"
+      },
+      {
+        "name": "Ghee",
+        "expiry": "2025-09-10"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Paneer bhurji with roti",
+        "lunch": "Matar Paneer with naan",
+        "dinner": "Leftover Matar Paneer"
+      },
+      "Tuesday": {
+        "breakfast": "Carrot and ginger smoothie",
+        "lunch": "Paneer and peas stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Wednesday": {
+        "breakfast": "Onion fritters",
+        "lunch": "Carrot and ginger soup",
+        "dinner": "Leftover soup with bread"
+      },
+      "Thursday": {
+        "breakfast": "Aloo paratha with chutney",
+        "lunch": "Paneer and vegetable curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Friday": {
+        "breakfast": "French toast",
+        "lunch": "Ghee rice with a side of peas and carrots curry",
+        "dinner": "Leftover curry"
+      },
+      "Saturday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Veggie burger with a paneer patty",
+        "dinner": "Simple dal with rice"
+      },
+      "Sunday": {
+        "breakfast": "Ginger tea with a side of sautéed onions",
+        "lunch": "Paneer tikka skewers",
+        "dinner": "Leftover tikka skewers"
+      }
+    },
+    "shopping_list": [
+      "Roti flour",
+      "Naan",
+      "Bread",
+      "Fries",
+      "Eggs",
+      "Syrup"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "None",
+    "allergens": "Eggs",
+    "ingredients": [
+      {
+        "name": "Fish (Salmon)",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Rice",
+        "expiry": "2025-09-20"
+      },
+      {
+        "name": "Broccoli",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Lemon",
+        "expiry": "2025-09-07"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Onion and tomato dosa",
+        "lunch": "Grilled salmon with a side of steamed broccoli and rice",
+        "dinner": "Leftover grilled salmon"
+      },
+      "Tuesday": {
+        "breakfast": "Rice flour pancakes with syrup",
+        "lunch": "Fish curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Wednesday": {
+        "breakfast": "Lemon and ginger tea with a side of roasted tomatoes",
+        "lunch": "Fish and vegetable stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Thursday": {
+        "breakfast": "Simple dal with rice",
+        "lunch": "Leftover dal",
+        "dinner": "Lemon and herb roasted fish with vegetables"
+      },
+      "Friday": {
+        "breakfast": "Plain dosa with chutney",
+        "lunch": "Fish and broccoli soup",
+        "dinner": "Leftover soup"
+      },
+      "Saturday": {
+        "breakfast": "Toast with butter and jam",
+        "lunch": "Fish and vegetable skewers with rice",
+        "dinner": "Leftover skewers"
+      },
+      "Sunday": {
+        "breakfast": "Oatmeal with fresh fruit",
+        "lunch": "Leftover fish",
+        "dinner": "Simple dal with rice"
+      }
+    },
+    "shopping_list": [
+      "Dosa batter",
+      "Ginger",
+      "Butter",
+      "Jam",
+      "Oatmeal",
+      "Fruit"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Vegan",
+    "allergens": "Soy, Gluten",
+    "ingredients": [
+      {
+        "name": "Red lentils",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Cauliflower",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Sweet potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Garlic",
+        "expiry": "2025-09-07"
+      },
+      {
+        "name": "Coconut milk",
+        "expiry": "2025-09-05"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Sweet potato hash with sautéed onions",
+        "lunch": "Red lentil and sweet potato curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Tuesday": {
+        "breakfast": "Oatmeal with fresh fruit",
+        "lunch": "Cauliflower and lentil soup",
+        "dinner": "Leftover soup with gluten-free bread"
+      },
+      "Wednesday": {
+        "breakfast": "Sweet potato fritters",
+        "lunch": "Sweet potato and cauliflower curry with coconut milk",
+        "dinner": "Leftover curry"
+      },
+      "Thursday": {
+        "breakfast": "Red lentil patties",
+        "lunch": "Roasted vegetables with a side of red lentils",
+        "dinner": "Leftover roasted vegetables"
+      },
+      "Friday": {
+        "breakfast": "Onion and garlic rice",
+        "lunch": "Red lentil and garlic stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Saturday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Cauliflower fritters with a side of vegetables",
+        "dinner": "Simple dal with rice"
+      },
+      "Sunday": {
+        "breakfast": "French toast",
+        "lunch": "Leftover dal",
+        "dinner": "Roasted sweet potatoes and garlic"
+      }
+    },
+    "shopping_list": [
+      "Oatmeal",
+      "Gluten-free bread",
+      "Pancakes mix",
+      "Syrup"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "None",
+    "allergens": "Shellfish",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Fish (Cod)",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Green beans",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Soy sauce",
+        "expiry": "2025-11-20"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Scrambled eggs with vegetables",
+        "lunch": "Chicken and potato curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Tuesday": {
+        "breakfast": "Omelette with green beans and onions",
+        "lunch": "Roasted fish with a side of potatoes and green beans",
+        "dinner": "Leftover roasted fish"
+      },
+      "Wednesday": {
+        "breakfast": "Fish patties with a side of vegetables",
+        "lunch": "Chicken and vegetable stir-fry with rice and soy sauce",
+        "dinner": "Leftover stir-fry"
+      },
+      "Thursday": {
+        "breakfast": "Onion paratha with butter",
+        "lunch": "Fish and potato soup",
+        "dinner": "Leftover soup"
+      },
+      "Friday": {
+        "breakfast": "French toast",
+        "lunch": "Grilled chicken with sautéed green beans",
+        "dinner": "Leftover grilled chicken"
+      },
+      "Saturday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Chicken and fish stew",
+        "dinner": "Leftover stew"
+      },
+      "Sunday": {
+        "breakfast": "Simple dal with rice",
+        "lunch": "Leftover dal",
+        "dinner": "Simple fish fry"
+      }
+    },
+    "shopping_list": [
+      "Eggs",
+      "Butter",
+      "Pancakes mix",
+      "Syrup"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Vegetarian",
+    "allergens": "Dairy, Gluten",
+    "ingredients": [
+      {
+        "name": "Chickpeas",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Lentils",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Spinach",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Quinoa",
+        "expiry": "2025-09-15"
+      },
+      {
+        "name": "Rice flour",
+        "expiry": "2025-09-20"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Quinoa upma with tomatoes",
+        "lunch": "Chickpea and spinach curry with rice",
+        "dinner": "Leftover curry with gluten-free roti"
+      },
+      "Tuesday": {
+        "breakfast": "Lentil soup with gluten-free bread",
+        "lunch": "Quinoa salad with roasted chickpeas",
+        "dinner": "Leftover salad"
+      },
+      "Wednesday": {
+        "breakfast": "Spinach and tomato smoothie",
+        "lunch": "Tomato curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Thursday": {
+        "breakfast": "Rice flour pancakes with syrup",
+        "lunch": "Chickpea fritters with a side of lentils",
+        "dinner": "Leftover fritters"
+      },
+      "Friday": {
+        "breakfast": "Chickpea and lentil patties",
+        "lunch": "Spinach and chickpea soup with gluten-free bread",
+        "dinner": "Leftover soup"
+      },
+      "Saturday": {
+        "breakfast": "Quinoa porridge with fruit",
+        "lunch": "Lentil dal with rice",
+        "dinner": "Leftover dal"
+      },
+      "Sunday": {
+        "breakfast": "Tomato and onion stir-fry",
+        "lunch": "Quinoa and vegetable stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      }
+    },
+    "shopping_list": [
+      "Gluten-free roti",
+      "Gluten-free bread",
+      "Fruit",
+      "Onions"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Keto",
+    "allergens": "Dairy, Nuts",
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Broccoli",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Bell peppers",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Zucchini",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Eggs",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Avocado",
+        "expiry": "2025-09-04"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Scrambled eggs with broccoli and zucchini",
+        "lunch": "Ground beef and vegetable stir-fry",
+        "dinner": "Leftover stir-fry"
+      },
+      "Tuesday": {
+        "breakfast": "Avocado and egg bowl",
+        "lunch": "Ground beef burger patties with bell peppers",
+        "dinner": "Leftover burger patties"
+      },
+      "Wednesday": {
+        "breakfast": "Broccoli and bell pepper omelette",
+        "lunch": "Ground beef with roasted zucchini",
+        "dinner": "Avocado and egg salad"
+      },
+      "Thursday": {
+        "breakfast": "Avocado and vegetable smoothie",
+        "lunch": "Beef patties with a side of stir-fried vegetables",
+        "dinner": "Leftover patties"
+      },
+      "Friday": {
+        "breakfast": "Zucchini and vegetable fritters",
+        "lunch": "Ground beef curry with a side of vegetables",
+        "dinner": "Leftover curry"
+      },
+      "Saturday": {
+        "breakfast": "Avocado toast",
+        "lunch": "Zucchini noodles with a ground beef sauce",
+        "dinner": "Leftover zucchini noodles"
+      },
+      "Sunday": {
+        "breakfast": "Scrambled eggs with vegetables",
+        "lunch": "Grilled vegetables with ground beef",
+        "dinner": "Leftover grilled vegetables"
+      }
+    },
+    "shopping_list": [
+      "Onions",
+      "Spices",
+      "Lemon"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "None",
+    "allergens": "Eggs, Gluten",
+    "ingredients": [
+      {
+        "name": "Ground lamb",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Carrots",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Rice flour",
+        "expiry": "2025-09-20"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Onion and potato fritters (made with rice flour)",
+        "lunch": "Lamb curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Tuesday": {
+        "breakfast": "Rice flour pancakes with syrup",
+        "lunch": "Shepherd's Pie (lamb stew with a mashed potato topping)",
+        "dinner": "Leftover Shepherd's Pie"
+      },
+      "Wednesday": {
+        "breakfast": "Tomato and onion stir-fry",
+        "lunch": "Lamb and vegetable stew",
+        "dinner": "Leftover stew"
+      },
+      "Thursday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Lamb and carrot stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Friday": {
+        "breakfast": "Roasted sweet potatoes with spices",
+        "lunch": "Lamb and vegetable skewers",
+        "dinner": "Leftover skewers"
+      },
+      "Saturday": {
+        "breakfast": "Rice flour dosa with potato masala",
+        "lunch": "Lamb patties with vegetables",
+        "dinner": "Leftover lamb patties"
+      },
+      "Sunday": {
+        "breakfast": "Lamb keema with rice",
+        "lunch": "Leftover keema",
+        "dinner": "Simple dal with rice"
+      }
+    },
+    "shopping_list": [
+      "Syrup",
+      "Pancakes mix",
+      "Dosa batter"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Vegan",
+    "allergens": "Gluten, Soy",
+    "ingredients": [
+      {
+        "name": "Mushrooms",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Zucchini",
+        "expiry": "2025-09-05"
+      },
+      {
+        "name": "Sweet potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Garlic",
+        "expiry": "2025-09-07"
+      },
+      {
+        "name": "Coconut milk",
+        "expiry": "2025-09-05"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Sweet potato hash with sautéed onions",
+        "lunch": "Mushroom and zucchini stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Tuesday": {
+        "breakfast": "Zucchini and mushroom fritters",
+        "lunch": "Sweet potato and coconut curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Wednesday": {
+        "breakfast": "Sweet potato and garlic soup",
+        "lunch": "Roasted sweet potatoes and garlic",
+        "dinner": "Leftover roasted vegetables"
+      },
+      "Thursday": {
+        "breakfast": "Mushroom and onion stir-fry",
+        "lunch": "Simple lentil dal with rice",
+        "dinner": "Leftover lentil dal"
+      },
+      "Friday": {
+        "breakfast": "Zucchini noodles with a tomato and mushroom sauce",
+        "lunch": "Roasted mushrooms and zucchini",
+        "dinner": "Leftover roasted vegetables"
+      },
+      "Saturday": {
+        "breakfast": "Sweet potato fritters",
+        "lunch": "Sweet potato and vegetable curry with coconut milk",
+        "dinner": "Leftover curry"
+      },
+      "Sunday": {
+        "breakfast": "Onion and garlic rice",
+        "lunch": "Simple vegetable stir-fry with a side of rice",
+        "dinner": "Leftover stir-fry"
+      }
+    },
+    "shopping_list": [
+      "Lentils",
+      "Vegetables"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "None",
+    "allergens": "Dairy, Nuts",
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Potatoes",
+        "expiry": "2025-09-12"
+      },
+      {
+        "name": "Carrots",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Green beans",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-07"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Chicken and vegetable stir-fry with rice",
+        "lunch": "Chicken and potato curry",
+        "dinner": "Leftover curry with roti"
+      },
+      "Tuesday": {
+        "breakfast": "Potato and onion fritters",
+        "lunch": "Roasted chicken and carrots",
+        "dinner": "Leftover roasted vegetables"
+      },
+      "Wednesday": {
+        "breakfast": "Scrambled eggs with onions and tomatoes",
+        "lunch": "Chicken and green bean soup",
+        "dinner": "Leftover soup"
+      },
+      "Thursday": {
+        "breakfast": "Onion and tomato paratha",
+        "lunch": "Chicken and vegetable stew",
+        "dinner": "Leftover stew"
+      },
+      "Friday": {
+        "breakfast": "Carrot and ginger smoothie",
+        "lunch": "Simple chicken roast with a side of vegetables",
+        "dinner": "Leftover chicken roast"
+      },
+      "Saturday": {
+        "breakfast": "French toast",
+        "lunch": "Chicken and vegetable skewers",
+        "dinner": "Leftover skewers"
+      },
+      "Sunday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Simple dal with rice",
+        "dinner": "Leftover dal"
+      }
+    },
+    "shopping_list": [
+      "Rice",
+      "Eggs",
+      "Roti flour",
+      "Ginger"
+    ]
+  }
+},
+{
+  "instruction": "Suggest a weekly meal plan prioritizing ingredients that will expire soon, with three meals per day, varied dishes, and minimal extra shopping. Also include popular Western dishes available in India and Kerala dishes.",
+  "input": {
+    "dietary_restriction": "Vegetarian",
+    "allergens": "Eggs",
+    "ingredients": [
+      {
+        "name": "Paneer",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Spinach",
+        "expiry": "2025-09-04"
+      },
+      {
+        "name": "Tomatoes",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Onions",
+        "expiry": "2025-09-10"
+      },
+      {
+        "name": "Peas",
+        "expiry": "2025-09-06"
+      },
+      {
+        "name": "Rice",
+        "expiry": "2025-09-20"
+      }
+    ]
+  },
+  "output": {
+    "meals": {
+      "Monday": {
+        "breakfast": "Paneer bhurji with roti",
+        "lunch": "Palak Paneer with naan",
+        "dinner": "Leftover Palak Paneer"
+      },
+      "Tuesday": {
+        "breakfast": "Poha with onions and peas",
+        "lunch": "Matar Paneer with rice",
+        "dinner": "Leftover Matar Paneer"
+      },
+      "Wednesday": {
+        "breakfast": "Tomato and onion uttapam",
+        "lunch": "Spinach and tomato stir-fry with rice",
+        "dinner": "Leftover stir-fry"
+      },
+      "Thursday": {
+        "breakfast": "Onion fritters",
+        "lunch": "Pea and paneer curry with rice",
+        "dinner": "Leftover curry"
+      },
+      "Friday": {
+        "breakfast": "Paneer and spinach paratha",
+        "lunch": "Simple dal with rice",
+        "dinner": "Leftover dal"
+      },
+      "Saturday": {
+        "breakfast": "French toast (made with egg-free bread)",
+        "lunch": "Veggie burger with a paneer patty",
+        "dinner": "Tomato soup with bread"
+      },
+      "Sunday": {
+        "breakfast": "Pancakes with syrup",
+        "lunch": "Spinach and pea curry with rice",
+        "dinner": "Leftover curry"
+      }
+    },
+    "shopping_list": [
+      "Roti",
+      "Poha",
+      "Dosa batter",
+      "Bread",
+      "Pancakes mix",
+      "Syrup"
+    ]
+  }
+}
+]
