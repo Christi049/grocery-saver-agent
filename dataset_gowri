@@ -1,4 +1,4 @@
-[
+  [
   {
     "instruction": "Suggest a weekly meal plan for 4 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
     "input": {
@@ -6,19 +6,19 @@
       "dietary_restrictions": ["Vegan"],
       "allergens": ["None"],
       "ingredients": [
-        {"name": "Spinach", "quantity": "500g", "expiry": "2025-09-04"},
-        {"name": "Cauliflower", "quantity": "1 large head", "expiry": "2025-09-05"},
-        {"name": "Tomatoes", "quantity": "8 medium", "expiry": "2025-09-06"},
-        {"name": "Onions", "quantity": "6 medium", "expiry": "2025-09-10"},
+        {"name": "Spinach", "quantity": "500g", "expiry": "2025-09-17"},
+        {"name": "Cauliflower", "quantity": "1 large head", "expiry": "2025-09-18"},
+        {"name": "Tomatoes", "quantity": "8 medium", "expiry": "2025-09-19"},
+        {"name": "Onions", "quantity": "6 medium", "expiry": "2025-09-23"},
         {"name": "Lentils", "quantity": "500g", "expiry": "2025-10-01"},
-        {"name": "Garlic", "quantity": "1 head", "expiry": "2025-09-07"}
+        {"name": "Garlic", "quantity": "1 head", "expiry": "2025-09-20"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
-            "description_for_model": "Hearty soup using 200g of lentils, 2 onions, and several cloves of garlic. Served with 4 slices of garlic toast.",
+            "description_for_model": "Hearty soup using 200g of lentils, 2 onions, and several cloves of garlic to use them before they expire. Served with 4 slices of garlic toast.",
             "display_text": "Lentil soup with garlic toast"
           },
           "lunch": {
@@ -30,7 +30,7 @@
             "display_text": "Leftover curry with roti"
           }
         },
-        "Tuesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "Parathas stuffed with a mix of 2 chopped onions and minced garlic.",
             "display_text": "Onion and garlic paratha"
@@ -44,7 +44,7 @@
             "display_text": "Leftover stir-fry"
           }
         },
-        "Wednesday": {
+        "Friday": {
           "breakfast": {
             "description_for_model": "Fritters made from the remaining half of the cauliflower head, spiced and fried.",
             "display_text": "Cauliflower fritters"
@@ -69,19 +69,19 @@
       "dietary_restrictions": ["Keto"],
       "allergens": ["Dairy"],
       "ingredients": [
-        {"name": "Ground chicken", "quantity": "750g", "expiry": "2025-09-04"},
-        {"name": "Broccoli", "quantity": "1 head", "expiry": "2025-09-05"},
-        {"name": "Bell peppers", "quantity": "3", "expiry": "2025-09-06"},
-        {"name": "Mushrooms", "quantity": "300g", "expiry": "2025-09-04"},
-        {"name": "Eggs", "quantity": "12", "expiry": "2025-09-05"},
-        {"name": "Spinach", "quantity": "250g", "expiry": "2025-09-04"}
+        {"name": "Ground chicken", "quantity": "750g", "expiry": "2025-09-17"},
+        {"name": "Broccoli", "quantity": "1 head", "expiry": "2025-09-18"},
+        {"name": "Bell peppers", "quantity": "3", "expiry": "2025-09-19"},
+        {"name": "Mushrooms", "quantity": "300g", "expiry": "2025-09-17"},
+        {"name": "Eggs", "quantity": "12", "expiry": "2025-09-18"},
+        {"name": "Spinach", "quantity": "250g", "expiry": "2025-09-17"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
-            "description_for_model": "An omelette using 4 eggs, 150g of mushrooms, and half the spinach (125g).",
+            "description_for_model": "An omelette using 4 eggs, 150g of mushrooms, and half the spinach (125g) to use the most perishable items.",
             "display_text": "Mushroom and spinach omelette"
           },
           "lunch": {
@@ -93,7 +93,7 @@
             "display_text": "Leftover stir-fry"
           }
         },
-        "Tuesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "Scrambled eggs (4) with chopped bell peppers.",
             "display_text": "Scrambled eggs with vegetables"
@@ -107,7 +107,7 @@
             "display_text": "Broccoli and mushroom soup"
           }
         },
-        "Wednesday": {
+        "Friday": {
           "breakfast": {
             "description_for_model": "An omelette made with the remaining 4 eggs and any leftover mushrooms and bell peppers.",
             "display_text": "Mushroom and bell pepper omelette"
@@ -132,17 +132,17 @@
       "dietary_restrictions": ["Vegetarian"],
       "allergens": ["None"],
       "ingredients": [
-        {"name": "Paneer", "quantity": "600g", "expiry": "2025-09-04"},
-        {"name": "Tomatoes", "quantity": "1kg", "expiry": "2025-09-06"},
-        {"name": "Potatoes", "quantity": "1kg", "expiry": "2025-09-12"},
-        {"name": "Peas", "quantity": "500g", "expiry": "2025-09-06"},
-        {"name": "Onions", "quantity": "500g", "expiry": "2025-09-10"},
-        {"name": "Ginger", "quantity": "50g", "expiry": "2025-09-07"}
+        {"name": "Paneer", "quantity": "600g", "expiry": "2025-09-17"},
+        {"name": "Tomatoes", "quantity": "1kg", "expiry": "2025-09-19"},
+        {"name": "Potatoes", "quantity": "1kg", "expiry": "2025-09-25"},
+        {"name": "Peas", "quantity": "500g", "expiry": "2025-09-19"},
+        {"name": "Onions", "quantity": "500g", "expiry": "2025-09-23"},
+        {"name": "Ginger", "quantity": "50g", "expiry": "2025-09-20"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
             "description_for_model": "Parathas stuffed with 300g of mashed potatoes and spices.",
             "display_text": "Aloo paratha with chutney"
@@ -156,7 +156,7 @@
             "display_text": "Leftover curry"
           }
         },
-        "Tuesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "Scrambled paneer (200g) cooked with onions, tomatoes, and spices, served with roti.",
             "display_text": "Paneer bhurji with roti"
@@ -195,17 +195,17 @@
       "dietary_restrictions": ["None"],
       "allergens": ["None"],
       "ingredients": [
-        {"name": "Fish (Salmon)", "quantity": "1.5kg", "expiry": "2025-09-04"},
-        {"name": "Potatoes", "quantity": "2kg", "expiry": "2025-09-12"},
-        {"name": "Carrots", "quantity": "1kg", "expiry": "2025-09-06"},
-        {"name": "Onions", "quantity": "1kg", "expiry": "2025-09-10"},
+        {"name": "Fish (Salmon)", "quantity": "1.5kg", "expiry": "2025-09-17"},
+        {"name": "Potatoes", "quantity": "2kg", "expiry": "2025-09-25"},
+        {"name": "Carrots", "quantity": "1kg", "expiry": "2025-09-19"},
+        {"name": "Onions", "quantity": "1kg", "expiry": "2025-09-23"},
         {"name": "Soy sauce", "quantity": "1 bottle", "expiry": "2025-11-20"},
-        {"name": "Lemon", "quantity": "4", "expiry": "2025-09-07"}
+        {"name": "Lemon", "quantity": "4", "expiry": "2025-09-20"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
             "description_for_model": "Scrambled eggs (10) mixed with chopped onions and carrots.",
             "display_text": "Scrambled eggs with onions and carrots"
@@ -219,7 +219,7 @@
             "display_text": "Leftover grilled salmon"
           }
         },
-        "Tuesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "Patties made from flaked leftover salmon and mashed potatoes.",
             "display_text": "Fish patties with a side of potatoes"
@@ -259,16 +259,16 @@
       "allergens": ["None"],
       "ingredients": [
         {"name": "Millets", "quantity": "500g", "expiry": "2025-09-20"},
-        {"name": "Potatoes", "quantity": "500g", "expiry": "2025-09-12"},
-        {"name": "Chickpeas", "quantity": "1 can (400g)", "expiry": "2025-09-05"},
-        {"name": "Onions", "quantity": "2 medium", "expiry": "2025-09-10"},
-        {"name": "Tomatoes", "quantity": "3 medium", "expiry": "2025-09-06"},
-        {"name": "Cilantro", "quantity": "1 bunch", "expiry": "2025-09-07"}
+        {"name": "Potatoes", "quantity": "500g", "expiry": "2025-09-25"},
+        {"name": "Chickpeas", "quantity": "1 can (400g)", "expiry": "2025-09-18"},
+        {"name": "Onions", "quantity": "2 medium", "expiry": "2025-09-23"},
+        {"name": "Tomatoes", "quantity": "3 medium", "expiry": "2025-09-19"},
+        {"name": "Cilantro", "quantity": "1 bunch", "expiry": "2025-09-20"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "A warm porridge made from 100g of millets.",
             "display_text": "Millet porridge with a side of fresh fruit"
@@ -282,7 +282,7 @@
             "display_text": "Leftover curry"
           }
         },
-        "Tuesday": {
+        "Friday": {
           "breakfast": {
             "description_for_model": "Spiced potato patties (200g of potatoes), shallow-fried. Served with cilantro chutney.",
             "display_text": "Aloo Tikki (potato patties) with mint chutney"
@@ -296,7 +296,7 @@
             "display_text": "Leftover upma"
           }
         },
-        "Wednesday": {
+        "Saturday": {
           "breakfast": {
             "description_for_model": "Fritters made from grated potatoes and chopped onions.",
             "display_text": "Potato and onion fritters"
@@ -321,17 +321,17 @@
       "dietary_restrictions": ["None"],
       "allergens": ["None"],
       "ingredients": [
-        {"name": "Bacon", "quantity": "400g", "expiry": "2025-09-04"},
-        {"name": "Eggs", "quantity": "12", "expiry": "2025-09-05"},
-        {"name": "Bread", "quantity": "1 loaf", "expiry": "2025-09-05"},
-        {"name": "Tomatoes", "quantity": "4 medium", "expiry": "2025-09-06"},
-        {"name": "Avocados", "quantity": "2", "expiry": "2025-09-04"},
-        {"name": "Cheese", "quantity": "250g", "expiry": "2025-09-07"}
+        {"name": "Bacon", "quantity": "400g", "expiry": "2025-09-17"},
+        {"name": "Eggs", "quantity": "12", "expiry": "2025-09-18"},
+        {"name": "Bread", "quantity": "1 loaf", "expiry": "2025-09-18"},
+        {"name": "Tomatoes", "quantity": "4 medium", "expiry": "2025-09-19"},
+        {"name": "Avocados", "quantity": "2", "expiry": "2025-09-17"},
+        {"name": "Cheese", "quantity": "250g", "expiry": "2025-09-20"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
             "description_for_model": "Scrambling 4 eggs with 100g of chopped bacon and 50g of cheese.",
             "display_text": "Scrambled eggs with bacon and cheese"
@@ -345,7 +345,7 @@
             "display_text": "Bacon and egg stir-fry with a side of bread"
           }
         },
-        "Tuesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "An omelette using 4 eggs, 100g of cheese, and 2 sliced tomatoes.",
             "display_text": "Omelette with cheese and tomatoes"
@@ -359,7 +359,7 @@
             "display_text": "Pasta with a simple tomato and bacon sauce"
           }
         },
-        "Wednesday": {
+        "Friday": {
           "breakfast": {
             "description_for_model": "Mashing 1 avocado on 2 slices of toast, topped with 2 fried eggs.",
             "display_text": "Avocado toast with a fried egg"
@@ -386,15 +386,15 @@
       "ingredients": [
         {"name": "Rice flour", "quantity": "1kg", "expiry": "2025-09-20"},
         {"name": "Jaggery", "quantity": "500g", "expiry": "2025-10-15"},
-        {"name": "Coconut", "quantity": "2 whole", "expiry": "2025-09-05"},
-        {"name": "Bananas", "quantity": "8", "expiry": "2025-09-04"},
+        {"name": "Coconut", "quantity": "2 whole", "expiry": "2025-09-18"},
+        {"name": "Bananas", "quantity": "8", "expiry": "2025-09-17"},
         {"name": "Cardamom", "quantity": "1 small pack", "expiry": "2025-11-20"},
-        {"name": "Ghee", "quantity": "200g", "expiry": "2025-09-10"}
+        {"name": "Ghee", "quantity": "200g", "expiry": "2025-09-23"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
             "description_for_model": "A traditional Kerala breakfast, Puttu, made from rice flour and grated coconut, served with jaggery.",
             "display_text": "Puttu with coconut and jaggery"
@@ -408,7 +408,7 @@
             "display_text": "Unni Appam (deep-fried rice and banana balls)"
           }
         },
-        "Tuesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "A smoothie blended with 4 bananas, milk, and a pinch of cardamom.",
             "display_text": "Banana and cardamom smoothie"
@@ -422,7 +422,7 @@
             "display_text": "Leftover dal"
           }
         },
-        "Thursday": {
+        "Friday": {
           "breakfast": {
             "description_for_model": "Slices of the remaining bananas coated in a rice flour batter and fried.",
             "display_text": "Banana fritters"
@@ -447,17 +447,17 @@
       "dietary_restrictions": ["None"],
       "allergens": ["None"],
       "ingredients": [
-        {"name": "Ground beef", "quantity": "1kg", "expiry": "2025-09-04"},
-        {"name": "Potatoes", "quantity": "1.5kg", "expiry": "2025-09-12"},
-        {"name": "Onions", "quantity": "500g", "expiry": "2025-09-10"},
-        {"name": "Tomatoes", "quantity": "500g", "expiry": "2025-09-06"},
-        {"name": "Garlic", "quantity": "1 head", "expiry": "2025-09-07"},
-        {"name": "Bread", "quantity": "1 loaf", "expiry": "2025-09-05"}
+        {"name": "Ground beef", "quantity": "1kg", "expiry": "2025-09-17"},
+        {"name": "Potatoes", "quantity": "1.5kg", "expiry": "2025-09-25"},
+        {"name": "Onions", "quantity": "500g", "expiry": "2025-09-23"},
+        {"name": "Tomatoes", "quantity": "500g", "expiry": "2025-09-19"},
+        {"name": "Garlic", "quantity": "1 head", "expiry": "2025-09-20"},
+        {"name": "Bread", "quantity": "1 loaf", "expiry": "2025-09-18"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
             "description_for_model": "Scrambled eggs (6) with chopped onions and tomatoes.",
             "display_text": "Scrambled eggs with onions and tomatoes"
@@ -471,7 +471,7 @@
             "display_text": "Leftover curry"
           }
         },
-        "Tuesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "Small patties made from 200g of ground beef and chopped onions.",
             "display_text": "Ground beef and onion patties"
@@ -485,7 +485,7 @@
             "display_text": "Leftover Shepherd's Pie"
           }
         },
-        "Wednesday": {
+        "Friday": {
           "breakfast": {
             "description_for_model": "Making French toast with 6 slices of bread and 3 eggs.",
             "display_text": "French toast"
@@ -510,17 +510,17 @@
       "dietary_restrictions": ["Gluten-Free"],
       "allergens": ["None"],
       "ingredients": [
-        {"name": "Chicken", "quantity": "1kg", "expiry": "2025-09-04"},
-        {"name": "Quinoa", "quantity": "500g", "expiry": "2025-09-15"},
-        {"name": "Sweet potatoes", "quantity": "4 large", "expiry": "2025-09-12"},
-        {"name": "Broccoli", "quantity": "1 head", "expiry": "2025-09-06"},
-        {"name": "Onions", "quantity": "3 medium", "expiry": "2025-09-10"},
-        {"name": "Ginger", "quantity": "50g", "expiry": "2025-09-07"}
+        {"name": "Chicken", "quantity": "1kg", "expiry": "2025-09-17"},
+        {"name": "Quinoa", "quantity": "500g", "expiry": "2025-09-28"},
+        {"name": "Sweet potatoes", "quantity": "4 large", "expiry": "2025-09-25"},
+        {"name": "Broccoli", "quantity": "1 head", "expiry": "2025-09-19"},
+        {"name": "Onions", "quantity": "3 medium", "expiry": "2025-09-23"},
+        {"name": "Ginger", "quantity": "50g", "expiry": "2025-09-20"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
             "description_for_model": "A savory quinoa dish cooked with chopped onions and grated ginger.",
             "display_text": "Quinoa upma with onions and ginger"
@@ -534,7 +534,7 @@
             "display_text": "Leftover stir-fry"
           }
         },
-        "Tuesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "Diced sweet potatoes (2) pan-fried with onions and spices.",
             "display_text": "Sweet potato hash"
@@ -548,7 +548,7 @@
             "display_text": "Leftover roasted chicken"
           }
         },
-        "Wednesday": {
+        "Friday": {
           "breakfast": {
             "description_for_model": "A warm tea infused with grated ginger, served with a side of leftover roasted vegetables.",
             "display_text": "Ginger tea with a side of roasted vegetables"
@@ -573,17 +573,17 @@
       "dietary_restrictions": ["None"],
       "allergens": ["None"],
       "ingredients": [
-        {"name": "Mutton", "quantity": "2kg", "expiry": "2025-09-04"},
-        {"name": "Tapioca (Kappa)", "quantity": "2kg", "expiry": "2025-09-05"},
-        {"name": "Coconut", "quantity": "3 whole", "expiry": "2025-09-05"},
-        {"name": "Green chilies", "quantity": "100g", "expiry": "2025-09-07"},
-        {"name": "Ginger", "quantity": "100g", "expiry": "2025-09-10"},
-        {"name": "Curry leaves", "quantity": "1 large bunch", "expiry": "2025-09-07"}
+        {"name": "Mutton", "quantity": "2kg", "expiry": "2025-09-17"},
+        {"name": "Tapioca (Kappa)", "quantity": "2kg", "expiry": "2025-09-18"},
+        {"name": "Coconut", "quantity": "3 whole", "expiry": "2025-09-18"},
+        {"name": "Green chilies", "quantity": "100g", "expiry": "2025-09-20"},
+        {"name": "Ginger", "quantity": "100g", "expiry": "2025-09-23"},
+        {"name": "Curry leaves", "quantity": "1 large bunch", "expiry": "2025-09-20"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
             "description_for_model": "Serving Appam with a mild, flavorful Mutton Stew made with 500g of mutton and coconut milk.",
             "display_text": "Appam with Mutton Stew"
@@ -597,7 +597,7 @@
             "display_text": "Leftover curry"
           }
         },
-        "Tuesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "Serving Puttu (steamed rice and coconut cake) with a black chickpea curry (Kadala).",
             "display_text": "Puttu with Kadala Curry"
@@ -611,7 +611,7 @@
             "display_text": "Leftover Kappa Biryani"
           }
         },
-        "Wednesday": {
+        "Friday": {
           "breakfast": {
             "description_for_model": "Steamed rice cakes (Idli) served with a chutney made from one of the coconuts.",
             "display_text": "Idli with coconut chutney"
@@ -636,17 +636,17 @@
       "dietary_restrictions": ["Vegetarian"],
       "allergens": ["Gluten"],
       "ingredients": [
-        {"name": "Paneer", "quantity": "500g", "expiry": "2025-09-04"},
-        {"name": "Chickpeas", "quantity": "1 can (400g)", "expiry": "2025-09-05"},
-        {"name": "Lentils", "quantity": "500g", "expiry": "2025-09-06"},
-        {"name": "Tomatoes", "quantity": "6 medium", "expiry": "2025-09-07"},
-        {"name": "Onions", "quantity": "4 medium", "expiry": "2025-09-10"},
-        {"name": "Ginger", "quantity": "50g", "expiry": "2025-09-07"}
+        {"name": "Paneer", "quantity": "500g", "expiry": "2025-09-17"},
+        {"name": "Chickpeas", "quantity": "1 can (400g)", "expiry": "2025-09-18"},
+        {"name": "Lentils", "quantity": "500g", "expiry": "2025-09-19"},
+        {"name": "Tomatoes", "quantity": "6 medium", "expiry": "2025-09-20"},
+        {"name": "Onions", "quantity": "4 medium", "expiry": "2025-09-23"},
+        {"name": "Ginger", "quantity": "50g", "expiry": "2025-09-20"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
             "description_for_model": "A savory dish made with quinoa, onions, and tomatoes.",
             "display_text": "Quinoa Upma with onions and tomatoes"
@@ -660,7 +660,7 @@
             "display_text": "Leftover Paneer Tikka Masala"
           }
         },
-        "Tuesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "Fritters made from a batter of 150g of ground lentils.",
             "display_text": "Lentil fritters"
@@ -674,7 +674,7 @@
             "display_text": "Leftover curry"
           }
         },
-        "Wednesday": {
+        "Friday": {
           "breakfast": {
             "description_for_model": "A smoothie blended with 2 tomatoes, a knob of ginger, and other fruits.",
             "display_text": "Tomato and ginger smoothie"
@@ -699,17 +699,17 @@
       "dietary_restrictions": ["Vegan"],
       "allergens": ["Soy"],
       "ingredients": [
-        {"name": "Mushrooms", "quantity": "250g", "expiry": "2025-09-04"},
-        {"name": "Broccoli", "quantity": "1 small head", "expiry": "2025-09-05"},
-        {"name": "Zucchini", "quantity": "1 large", "expiry": "2025-09-05"},
-        {"name": "Sweet potatoes", "quantity": "2 large", "expiry": "2025-09-12"},
-        {"name": "Onions", "quantity": "2 medium", "expiry": "2025-09-10"},
-        {"name": "Garlic", "quantity": "1 head", "expiry": "2025-09-07"}
+        {"name": "Mushrooms", "quantity": "250g", "expiry": "2025-09-17"},
+        {"name": "Broccoli", "quantity": "1 small head", "expiry": "2025-09-18"},
+        {"name": "Zucchini", "quantity": "1 large", "expiry": "2025-09-18"},
+        {"name": "Sweet potatoes", "quantity": "2 large", "expiry": "2025-09-25"},
+        {"name": "Onions", "quantity": "2 medium", "expiry": "2025-09-23"},
+        {"name": "Garlic", "quantity": "1 head", "expiry": "2025-09-20"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
             "description_for_model": "Diced sweet potato (1) pan-fried with 1 chopped onion.",
             "display_text": "Sweet potato hash with sautéed onions"
@@ -723,7 +723,7 @@
             "display_text": "Leftover curry"
           }
         },
-        "Tuesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "Fritters made from grated zucchini and leftover mushrooms.",
             "display_text": "Zucchini and mushroom fritters"
@@ -737,7 +737,7 @@
             "display_text": "Leftover soup"
           }
         },
-        "Wednesday": {
+        "Friday": {
           "breakfast": {
             "description_for_model": "A bowl of oatmeal with sliced fresh fruit.",
             "display_text": "Oatmeal with fresh fruit"
@@ -762,17 +762,17 @@
       "dietary_restrictions": ["Keto"],
       "allergens": ["Dairy"],
       "ingredients": [
-        {"name": "Chicken", "quantity": "1kg", "expiry": "2025-09-04"},
-        {"name": "Spinach", "quantity": "250g", "expiry": "2025-09-04"},
-        {"name": "Avocados", "quantity": "3", "expiry": "2025-09-05"},
-        {"name": "Bell peppers", "quantity": "3", "expiry": "2025-09-06"},
-        {"name": "Eggs", "quantity": "12", "expiry": "2025-09-05"},
+        {"name": "Chicken", "quantity": "1kg", "expiry": "2025-09-17"},
+        {"name": "Spinach", "quantity": "250g", "expiry": "2025-09-17"},
+        {"name": "Avocados", "quantity": "3", "expiry": "2025-09-18"},
+        {"name": "Bell peppers", "quantity": "3", "expiry": "2025-09-19"},
+        {"name": "Eggs", "quantity": "12", "expiry": "2025-09-18"},
         {"name": "Almond flour", "quantity": "200g", "expiry": "2025-10-01"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
             "description_for_model": "A scramble made with 4 eggs and half the spinach (125g).",
             "display_text": "Spinach and egg scramble"
@@ -786,7 +786,7 @@
             "display_text": "Chicken and vegetable stir-fry"
           }
         },
-        "Tuesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "A simple breakfast bowl with 1 sliced avocado and 2 hard-boiled eggs.",
             "display_text": "Avocado and egg bowl"
@@ -800,7 +800,7 @@
             "display_text": "Leftover burger patty"
           }
         },
-        "Wednesday": {
+        "Friday": {
           "breakfast": {
             "description_for_model": "An omelette using 4 eggs and the last bell pepper.",
             "display_text": "Bell pepper omelette"
@@ -825,17 +825,17 @@
       "dietary_restrictions": ["None"],
       "allergens": ["Shellfish"],
       "ingredients": [
-        {"name": "Fish (Salmon)", "quantity": "800g", "expiry": "2025-09-04"},
-        {"name": "Chicken", "quantity": "1kg", "expiry": "2025-09-05"},
-        {"name": "Tomatoes", "quantity": "8 medium", "expiry": "2025-09-06"},
-        {"name": "Potatoes", "quantity": "1.5kg", "expiry": "2025-09-12"},
-        {"name": "Onions", "quantity": "6 medium", "expiry": "2025-09-10"},
-        {"name": "Coriander", "quantity": "1 bunch", "expiry": "2025-09-07"}
+        {"name": "Fish (Salmon)", "quantity": "800g", "expiry": "2025-09-17"},
+        {"name": "Chicken", "quantity": "1kg", "expiry": "2025-09-18"},
+        {"name": "Tomatoes", "quantity": "8 medium", "expiry": "2025-09-19"},
+        {"name": "Potatoes", "quantity": "1.5kg", "expiry": "2025-09-25"},
+        {"name": "Onions", "quantity": "6 medium", "expiry": "2025-09-23"},
+        {"name": "Coriander", "quantity": "1 bunch", "expiry": "2025-09-20"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
             "description_for_model": "Scrambled eggs (8) with chopped onions and tomatoes.",
             "display_text": "Scrambled eggs with onions and tomatoes"
@@ -849,7 +849,7 @@
             "display_text": "Leftover curry"
           }
         },
-        "Tuesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "A quick stir-fry using 300g of chicken and 500g of potatoes.",
             "display_text": "Chicken and potato stir-fry"
@@ -888,17 +888,17 @@
       "dietary_restrictions": ["Vegetarian"],
       "allergens": ["Nuts"],
       "ingredients": [
-        {"name": "Tofu", "quantity": "400g", "expiry": "2025-09-04"},
-        {"name": "Peas", "quantity": "300g", "expiry": "2025-09-05"},
-        {"name": "Carrots", "quantity": "4 medium", "expiry": "2025-09-06"},
-        {"name": "Onions", "quantity": "3 medium", "expiry": "2025-09-10"},
-        {"name": "Ginger", "quantity": "50g", "expiry": "2025-09-07"},
-        {"name": "Coconut milk", "quantity": "400ml can", "expiry": "2025-09-05"}
+        {"name": "Tofu", "quantity": "400g", "expiry": "2025-09-17"},
+        {"name": "Peas", "quantity": "300g", "expiry": "2025-09-18"},
+        {"name": "Carrots", "quantity": "4 medium", "expiry": "2025-09-19"},
+        {"name": "Onions", "quantity": "3 medium", "expiry": "2025-09-23"},
+        {"name": "Ginger", "quantity": "50g", "expiry": "2025-09-20"},
+        {"name": "Coconut milk", "quantity": "400ml can", "expiry": "2025-09-18"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
             "description_for_model": "A savory scramble using 200g of tofu and 1 chopped onion.",
             "display_text": "Tofu scramble with onions"
@@ -912,7 +912,7 @@
             "display_text": "Leftover curry with roti"
           }
         },
-        "Tuesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "A smoothie blended with 2 carrots and a knob of ginger.",
             "display_text": "Carrot and ginger smoothie"
@@ -926,7 +926,7 @@
             "display_text": "Leftover stew"
           }
         },
-        "Wednesday": {
+        "Friday": {
           "breakfast": {
             "description_for_model": "Fritters made from peas and chopped onions.",
             "display_text": "Peas and onion fritters"
@@ -951,17 +951,17 @@
       "dietary_restrictions": ["None"],
       "allergens": ["Gluten", "Dairy"],
       "ingredients": [
-        {"name": "Ground beef", "quantity": "1.5kg", "expiry": "2025-09-04"},
-        {"name": "Tomatoes", "quantity": "1kg", "expiry": "2025-09-06"},
-        {"name": "Onions", "quantity": "1kg", "expiry": "2025-09-10"},
-        {"name": "Garlic", "quantity": "2 heads", "expiry": "2025-09-07"},
+        {"name": "Ground beef", "quantity": "1.5kg", "expiry": "2025-09-17"},
+        {"name": "Tomatoes", "quantity": "1kg", "expiry": "2025-09-19"},
+        {"name": "Onions", "quantity": "1kg", "expiry": "2025-09-23"},
+        {"name": "Garlic", "quantity": "2 heads", "expiry": "2025-09-20"},
         {"name": "Quinoa", "quantity": "500g", "expiry": "2025-09-20"},
-        {"name": "Sweet potatoes", "quantity": "1.5kg", "expiry": "2025-09-12"}
+        {"name": "Sweet potatoes", "quantity": "1.5kg", "expiry": "2025-09-25"}
       ]
     },
     "output": {
       "meals": {
-        "Monday": {
+        "Wednesday": {
           "breakfast": {
             "description_for_model": "A savory quinoa dish cooked with chopped onions and tomatoes.",
             "display_text": "Quinoa Upma with onions and tomatoes"
@@ -975,7 +975,7 @@
             "display_text": "Leftover curry"
           }
         },
-        "Wednesday": {
+        "Thursday": {
           "breakfast": {
             "description_for_model": "Fritters made from grated sweet potatoes.",
             "display_text": "Sweet potato fritters"
@@ -989,7 +989,7 @@
             "display_text": "Leftover Shepherd's Pie"
           }
         },
-        "Saturday": {
+        "Friday": {
           "breakfast": {
             "description_for_model": "A savory hash made from diced sweet potatoes and other vegetables.",
             "display_text": "Sweet potato and vegetable hash"
@@ -1005,6 +1005,490 @@
         }
       },
       "shopping_list": ["Eggs", "Gluten-free bread", "Lettuce", "Rice"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for a family of 4. Prioritize using the pork and cabbage. The plan should be low-carb and minimize extra shopping.",
+    "input": {
+      "serving_size": 4,
+      "dietary_restrictions": ["Low-Carb"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Pork Shoulder", "quantity": "1.5kg", "expiry": "2025-09-17"},
+        {"name": "Cabbage", "quantity": "1 large head", "expiry": "2025-09-18"},
+        {"name": "Eggs", "quantity": "18", "expiry": "2025-09-22"},
+        {"name": "Onion", "quantity": "2 large", "expiry": "2025-09-24"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs (8) for the family.",
+            "display_text": "Scrambled Eggs"
+          },
+          "lunch": {
+            "description_for_model": "Slow-cooked pulled pork using the entire 1.5kg pork shoulder, served without buns.",
+            "display_text": "Pulled Pork (No Bun)"
+          },
+          "dinner": {
+            "description_for_model": "A stir-fry also known as 'Egg Roll in a Bowl', using leftover pulled pork, half the head of cabbage, and one onion.",
+            "display_text": "Pork and Cabbage Stir-fry"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Omelettes for everyone using 8 of the remaining eggs.",
+            "display_text": "Omelettes"
+          },
+          "lunch": {
+            "description_for_model": "Leftover Pork and Cabbage Stir-fry.",
+            "display_text": "Leftover Stir-fry"
+          },
+          "dinner": {
+            "description_for_model": "Roasted pork chops (from shopping list) with a side of fried cabbage using the remaining cabbage and onion.",
+            "display_text": "Pork Chops with Fried Cabbage"
+          }
+        }
+      },
+      "shopping_list": ["Pork Chops", "BBQ Sauce (low-sugar)", "Soy Sauce"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 1 person. This plan must be pescetarian. Use the expiring shrimp and bell peppers first and keep the shopping list short.",
+    "input": {
+      "serving_size": 1,
+      "dietary_restrictions": ["Pescetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Shrimp", "quantity": "400g", "expiry": "2025-09-17"},
+        {"name": "Bell Peppers", "quantity": "2", "expiry": "2025-09-18"},
+        {"name": "Lemon", "quantity": "1", "expiry": "2025-09-22"},
+        {"name": "Garlic", "quantity": "1 head", "expiry": "2025-09-21"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Oatmeal with berries.",
+            "display_text": "Oatmeal"
+          },
+          "lunch": {
+            "description_for_model": "Garlic shrimp stir-fry using 200g of shrimp, 1 bell pepper, and plenty of garlic.",
+            "display_text": "Garlic Shrimp and Pepper Stir-fry"
+          },
+          "dinner": {
+            "description_for_model": "Leftover garlic shrimp stir-fry.",
+            "display_text": "Leftover Stir-fry"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Yogurt with fruit.",
+            "display_text": "Yogurt and Fruit"
+          },
+          "lunch": {
+            "description_for_model": "Shrimp skewers using the remaining 200g of shrimp and the other bell pepper, grilled or pan-fried.",
+            "display_text": "Shrimp and Pepper Skewers"
+          },
+          "dinner": {
+            "description_for_model": "A simple pasta dish with canned tuna and a squeeze of lemon.",
+            "display_text": "Tuna and Lemon Pasta"
+          }
+        }
+      },
+      "shopping_list": ["Oats", "Berries", "Yogurt", "Canned Tuna", "Pasta"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 6 people with no dietary restrictions. Prioritize using the whole chickens and potatoes. Minimize waste and extra shopping.",
+    "input": {
+      "serving_size": 6,
+      "dietary_restrictions": ["None"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Whole Chickens", "quantity": "2", "expiry": "2025-09-18"},
+        {"name": "Potatoes", "quantity": "3kg", "expiry": "2025-09-26"},
+        {"name": "Carrots", "quantity": "1kg", "expiry": "2025-09-22"},
+        {"name": "Onions", "quantity": "1kg", "expiry": "2025-09-28"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Cereal for everyone.",
+            "display_text": "Cereal and Milk"
+          },
+          "lunch": {
+            "description_for_model": "Sandwiches with deli meat.",
+            "display_text": "Sandwiches"
+          },
+          "dinner": {
+            "description_for_model": "A classic roast dinner using one of the whole chickens, 1.5kg of potatoes, half the carrots and half the onions.",
+            "display_text": "Roast Chicken with Roasted Vegetables"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Pancakes with syrup.",
+            "display_text": "Pancakes"
+          },
+          "lunch": {
+            "description_for_model": "Using the leftover meat from the roast chicken for sandwiches.",
+            "display_text": "Leftover Chicken Sandwiches"
+          },
+          "dinner": {
+            "description_for_model": "Chicken noodle soup made from the carcass of the first chicken, with the remaining carrots and onions.",
+            "display_text": "Homemade Chicken Noodle Soup"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs and toast.",
+            "display_text": "Scrambled Eggs"
+          },
+          "lunch": {
+            "description_for_model": "Leftover chicken noodle soup.",
+            "display_text": "Leftover Soup"
+          },
+          "dinner": {
+            "description_for_model": "A large batch of chicken curry using the second whole chicken, served with rice and using the remaining 1.5kg potatoes.",
+            "display_text": "Chicken and Potato Curry"
+          }
+        }
+      },
+      "shopping_list": ["Cereal", "Milk", "Bread", "Deli Meat", "Pancake Mix", "Eggs", "Noodles", "Curry Paste", "Rice"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 3 people. This plan must be both vegan and gluten-free. Use the expiring jackfruit and gluten-free buns.",
+    "input": {
+      "serving_size": 3,
+      "dietary_restrictions": ["Vegan", "Gluten-Free"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Canned Young Jackfruit", "quantity": "2 cans", "expiry": "2026-01-01"},
+        {"name": "Gluten-Free Buns", "quantity": "1 pack of 6", "expiry": "2025-09-19"},
+        {"name": "Cabbage", "quantity": "1/2 head", "expiry": "2025-09-20"},
+        {"name": "Carrots", "quantity": "3", "expiry": "2025-09-22"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Gluten-free oatmeal.",
+            "display_text": "GF Oatmeal"
+          },
+          "lunch": {
+            "description_for_model": "Pulled jackfruit sandwiches. Shredding the jackfruit from both cans and cooking in BBQ sauce, served on 3 gluten-free buns.",
+            "display_text": "BBQ Pulled Jackfruit Sandwiches"
+          },
+          "dinner": {
+            "description_for_model": "More pulled jackfruit, served this time with a side of coleslaw made from the cabbage and carrots.",
+            "display_text": "Pulled Jackfruit with Coleslaw"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "Fruit smoothie.",
+            "display_text": "Smoothie"
+          },
+          "lunch": {
+            "description_for_model": "Using the remaining 3 gluten-free buns and leftover jackfruit for another round of sandwiches.",
+            "display_text": "Leftover Jackfruit Sandwiches"
+          },
+          "dinner": {
+            "description_for_model": "A simple curry using lentils and any leftover vegetables.",
+            "display_text": "Lentil Curry with Rice"
+          }
+        }
+      },
+      "shopping_list": ["Gluten-Free Oats", "Fruit", "BBQ Sauce", "Vegan Mayonnaise", "Lentils", "Rice"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people. The plan must be vegetarian and avoid nuts. Prioritize using the expiring halloumi and zucchini.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["Nuts"],
+      "ingredients": [
+        {"name": "Halloumi Cheese", "quantity": "2 blocks (400g total)", "expiry": "2025-09-18"},
+        {"name": "Zucchini", "quantity": "3 large", "expiry": "2025-09-18"},
+        {"name": "Couscous", "quantity": "500g", "expiry": "2026-03-01"},
+        {"name": "Lemon", "quantity": "1", "expiry": "2025-09-22"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs.",
+            "display_text": "Scrambled Eggs"
+          },
+          "lunch": {
+            "description_for_model": "Grilled halloumi (1 block) served with a warm couscous salad that includes one chopped zucchini.",
+            "display_text": "Grilled Halloumi with Zucchini Couscous"
+          },
+          "dinner": {
+            "description_for_model": "Zucchini fritters made from the remaining 2 zucchini, served with a yogurt dip.",
+            "display_text": "Zucchini Fritters with Yogurt Dip"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Yogurt and fruit.",
+            "display_text": "Yogurt with Fruit"
+          },
+          "lunch": {
+            "description_for_model": "Leftover zucchini fritters.",
+            "display_text": "Leftover Fritters"
+          },
+          "dinner": {
+            "description_for_model": "Halloumi burgers, using the second block of halloumi, sliced and grilled, served in buns with salad.",
+            "display_text": "Halloumi Burgers"
+          }
+        }
+      },
+      "shopping_list": ["Eggs", "Yogurt", "Burger Buns", "Salad greens"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 5 people. It's a busy week, so meals should be quick. Use the minced beef and pasta first.",
+    "input": {
+      "serving_size": 5,
+      "dietary_restrictions": ["None"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Minced Beef", "quantity": "1kg", "expiry": "2025-09-18"},
+        {"name": "Pasta", "quantity": "1kg", "expiry": "2026-05-01"},
+        {"name": "Canned Tomatoes", "quantity": "3 cans", "expiry": "2026-08-01"},
+        {"name": "Onions", "quantity": "4", "expiry": "2025-09-28"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Toast and jam.",
+            "display_text": "Toast and Jam"
+          },
+          "lunch": {
+            "description_for_model": "A large batch of Spaghetti Bolognese, using all 1kg of minced beef, all 3 cans of tomatoes, half the pasta (500g), and 2 onions.",
+            "display_text": "Spaghetti Bolognese"
+          },
+          "dinner": {
+            "description_for_model": "Serving the leftover Bolognese from lunch.",
+            "display_text": "Leftover Spaghetti Bolognese"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Cereal and milk.",
+            "display_text": "Cereal"
+          },
+          "lunch": {
+            "description_for_model": "Using the leftover Bolognese sauce to make sloppy joes.",
+            "display_text": "Sloppy Joes"
+          },
+          "dinner": {
+            "description_for_model": "A simple pasta bake using the remaining 500g of pasta and a cheese sauce.",
+            "display_text": "Quick Mac and Cheese Bake"
+          }
+        }
+      },
+      "shopping_list": ["Bread", "Jam", "Cereal", "Milk", "Burger Buns", "Cheese", "Butter"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 1 person with a dairy allergy. Use the canned tuna and gluten-free pasta.",
+    "input": {
+      "serving_size": 1,
+      "dietary_restrictions": ["Dairy-Free"],
+      "allergens": ["Dairy"],
+      "ingredients": [
+        {"name": "Canned Tuna", "quantity": "2 cans", "expiry": "2027-01-01"},
+        {"name": "Gluten-Free Pasta", "quantity": "250g", "expiry": "2026-06-01"},
+        {"name": "Tomato", "quantity": "1", "expiry": "2025-09-19"},
+        {"name": "Lettuce", "quantity": "1/2 head", "expiry": "2025-09-18"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Oatmeal with water and fruit.",
+            "display_text": "Oatmeal"
+          },
+          "lunch": {
+            "description_for_model": "A large tuna salad using one can of tuna and all the lettuce.",
+            "display_text": "Tuna Salad (Dairy-Free Mayo)"
+          },
+          "dinner": {
+            "description_for_model": "Tuna pasta salad using the second can of tuna, all the gluten-free pasta, and the tomato.",
+            "display_text": "GF Tuna Pasta Salad"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Fruit smoothie.",
+            "display_text": "Smoothie"
+          },
+          "lunch": {
+            "description_for_model": "Leftover tuna pasta salad.",
+            "display_text": "Leftover Pasta Salad"
+          },
+          "dinner": {
+            "description_for_model": "A simple rice bowl with beans and salsa.",
+            "display_text": "Rice and Bean Bowl"
+          }
+        }
+      },
+      "shopping_list": ["Oats", "Fruit", "Dairy-Free Mayonnaise", "Rice", "Canned Beans", "Salsa"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 3 people. The plan must be vegetarian. Prioritize the expiring mushrooms and cream.",
+    "input": {
+      "serving_size": 3,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Mushrooms", "quantity": "600g", "expiry": "2025-09-17"},
+        {"name": "Cream", "quantity": "300ml", "expiry": "2025-09-18"},
+        {"name": "Onion", "quantity": "2", "expiry": "2025-09-28"},
+        {"name": "Garlic", "quantity": "1 head", "expiry": "2025-09-24"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Toast with sautéed mushrooms using 200g of mushrooms.",
+            "display_text": "Mushrooms on Toast"
+          },
+          "lunch": {
+            "description_for_model": "A rich and creamy mushroom soup using 400g of mushrooms, one onion, and all 300ml of cream.",
+            "display_text": "Cream of Mushroom Soup"
+          },
+          "dinner": {
+            "description_for_model": "Leftover cream of mushroom soup with crusty bread.",
+            "display_text": "Leftover Mushroom Soup"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Oatmeal.",
+            "display_text": "Oatmeal"
+          },
+          "lunch": {
+            "description_for_model": "Mushroom risotto using the remaining mushrooms and onion.",
+            "display_text": "Mushroom Risotto"
+          },
+          "dinner": {
+            "description_for_model": "Leftover mushroom risotto.",
+            "display_text": "Leftover Risotto"
+          }
+        }
+      },
+      "shopping_list": ["Bread", "Oats", "Arborio Rice", "Vegetable Stock", "Parmesan Cheese"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 4 people with a gluten allergy. The plan should use the ground turkey and sweet potatoes.",
+    "input": {
+      "serving_size": 4,
+      "dietary_restrictions": ["Gluten-Free"],
+      "allergens": ["Gluten"],
+      "ingredients": [
+        {"name": "Ground Turkey", "quantity": "1kg", "expiry": "2025-09-18"},
+        {"name": "Sweet Potatoes", "quantity": "6 large", "expiry": "2025-09-24"},
+        {"name": "Black Beans", "quantity": "2 cans", "expiry": "2026-10-01"},
+        {"name": "Avocado", "quantity": "2", "expiry": "2025-09-19"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs.",
+            "display_text": "Scrambled Eggs"
+          },
+          "lunch": {
+            "description_for_model": "Turkey and black bean chili using 500g of ground turkey and both cans of beans.",
+            "display_text": "Turkey and Black Bean Chili"
+          },
+          "dinner": {
+            "description_for_model": "Leftover chili served over baked sweet potatoes (using 3 sweet potatoes).",
+            "display_text": "Chili-Topped Sweet Potatoes"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Smoothies.",
+            "display_text": "Fruit Smoothies"
+          },
+          "lunch": {
+            "description_for_model": "Turkey burgers (no buns) using the remaining 500g of turkey, served with sweet potato fries made from the remaining 3 sweet potatoes.",
+            "display_text": "Turkey Burgers with Sweet Potato Fries"
+          },
+          "dinner": {
+            "description_for_model": "A large salad topped with leftover turkey burger patties and sliced avocado.",
+            "display_text": "Turkey Burger Salad"
+          }
+        }
+      },
+      "shopping_list": ["Eggs", "Canned Tomatoes", "Chili Powder", "Fruit", "Salad Greens"]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people following a pescetarian diet. Use the cod and green beans first.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Pescetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        {"name": "Cod Fillets", "quantity": "4", "expiry": "2025-09-17"},
+        {"name": "Green Beans", "quantity": "400g", "expiry": "2025-09-18"},
+        {"name": "Potatoes", "quantity": "4 large", "expiry": "2025-09-26"},
+        {"name": "Lemon", "quantity": "1", "expiry": "2025-09-24"}
+      ]
+    },
+    "output": {
+      "meals": {
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Oatmeal.",
+            "display_text": "Oatmeal"
+          },
+          "lunch": {
+            "description_for_model": "Sheet pan dinner with 2 cod fillets, all 400g of green beans, and 2 chopped potatoes, seasoned with lemon.",
+            "display_text": "Sheet Pan Lemon Herb Cod and Veggies"
+          },
+          "dinner": {
+            "description_for_model": "Leftover sheet pan dinner from lunch.",
+            "display_text": "Leftover Cod and Veggies"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs.",
+            "display_text": "Scrambled Eggs"
+          },
+          "lunch": {
+            "description_for_model": "Homemade fish and chips using the remaining 2 cod fillets (battered and fried) and the remaining 2 potatoes for chips.",
+            "display_text": "Fish and Chips"
+          },
+          "dinner": {
+            "description_for_model": "A simple green salad.",
+            "display_text": "Garden Salad"
+          }
+        }
+      },
+      "shopping_list": ["Oats", "Eggs", "Flour for batter", "Salad Greens", "Vinaigrette"]
     }
   }
 ]
