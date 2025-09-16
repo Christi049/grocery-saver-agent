@@ -1,0 +1,1259 @@
+[
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Vegan"],
+      "allergens": ["Gluten"],
+      "ingredients": [
+        { "name": "Lentils", "quantity": "200g", "expiry": "2025-09-04" },
+        { "name": "Chickpeas", "quantity": "400g", "expiry": "2025-09-05" },
+        { "name": "Cauliflower", "quantity": "1 head", "expiry": "2025-09-06" },
+        { "name": "Spinach", "quantity": "1 bunch", "expiry": "2025-09-04" },
+        { "name": "Tomatoes", "quantity": "3 large", "expiry": "2025-09-06" },
+        { "name": "Coconut milk", "quantity": "250ml", "expiry": "2025-09-05" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Lentil soup with gluten-free crackers, using half the lentils.",
+            "display_text": "Lentil Soup with Gluten-Free Crackers"
+          },
+          "lunch": {
+            "description_for_model": "Chickpea and spinach curry with rice, using half the chickpeas and all the spinach.",
+            "display_text": "Chickpea and Spinach Curry with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Chickpea and Spinach Curry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Tomato and spinach smoothie.",
+            "display_text": "Tomato and Spinach Smoothie"
+          },
+          "lunch": {
+            "description_for_model": "Cauliflower and chickpea stir-fry with rice, using half the cauliflower and remaining chickpeas.",
+            "display_text": "Cauliflower and Chickpea Stir-fry"
+          },
+          "dinner": {
+            "description_for_model": "Leftover stir-fry.",
+            "display_text": "Leftover Cauliflower and Chickpea Stir-fry"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Lentil and cauliflower fritters, using remaining lentils and cauliflower.",
+            "display_text": "Lentil and Cauliflower Fritters"
+          },
+          "lunch": {
+            "description_for_model": "Spinach curry with coconut milk and rice, using remaining spinach and coconut milk.",
+            "display_text": "Spinach Curry with Coconut Milk and Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Spinach Curry"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Chickpea salad with diced tomatoes.",
+            "display_text": "Chickpea Salad with Diced Tomatoes"
+          },
+          "lunch": {
+            "description_for_model": "Simple dal with rice.",
+            "display_text": "Simple Dal with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover dal.",
+            "display_text": "Leftover Dal"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Cauliflower and tomato soup.",
+            "display_text": "Cauliflower and Tomato Soup"
+          },
+          "lunch": {
+            "description_for_model": "Leftover soup.",
+            "display_text": "Leftover Cauliflower and Tomato Soup"
+          },
+          "dinner": {
+            "description_for_model": "Chickpea and lentil stew with rice.",
+            "display_text": "Chickpea and Lentil Stew with Rice"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "Rice cakes with avocado.",
+            "display_text": "Rice Cakes with Avocado"
+          },
+          "lunch": {
+            "description_for_model": "Roasted cauliflower and chickpeas.",
+            "display_text": "Roasted Cauliflower and Chickpeas"
+          },
+          "dinner": {
+            "description_for_model": "Leftover roasted vegetables.",
+            "display_text": "Leftover Roasted Vegetables"
+          }
+        },
+        "Sunday": {
+          "breakfast": {
+            "description_for_model": "Simple rice with spinach.",
+            "display_text": "Simple Rice with Spinach"
+          },
+          "lunch": {
+            "description_for_model": "Leftover stew.",
+            "display_text": "Leftover Stew"
+          },
+          "dinner": {
+            "description_for_model": "Simple lentil soup with gluten-free bread.",
+            "display_text": "Simple Lentil Soup with Gluten-Free Bread"
+          }
+        }
+      },
+      "shopping_list": [
+        "Gluten-free crackers",
+        "Rice",
+        "Avocado",
+        "Gluten-free bread"
+      ]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Brown rice", "quantity": "500g", "expiry": "2025-09-20" },
+        { "name": "Red lentils", "quantity": "200g", "expiry": "2025-09-04" },
+        { "name": "Cauliflower", "quantity": "1 head", "expiry": "2025-09-05" },
+        { "name": "Tomatoes", "quantity": "3 large", "expiry": "2025-09-06" },
+        { "name": "Onions", "quantity": "4 medium", "expiry": "2025-09-10" },
+        { "name": "Spinach", "quantity": "1 bunch", "expiry": "2025-09-04" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Omelette with sautéed onions and tomatoes.",
+            "display_text": "Omelette with Onions and Tomatoes"
+          },
+          "lunch": {
+            "description_for_model": "Cauliflower and lentil curry with brown rice, using half the lentils and cauliflower.",
+            "display_text": "Cauliflower and Lentil Curry with Brown Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Cauliflower and Lentil Curry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Spinach and tomato smoothie, using half the spinach and a tomato.",
+            "display_text": "Spinach and Tomato Smoothie"
+          },
+          "lunch": {
+            "description_for_model": "Brown rice with a simple lentil dal, using remaining lentils.",
+            "display_text": "Brown Rice with Simple Dal"
+          },
+          "dinner": {
+            "description_for_model": "Leftover dal.",
+            "display_text": "Leftover Dal"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Red lentil fritters (pakoras).",
+            "display_text": "Red Lentil Fritters"
+          },
+          "lunch": {
+            "description_for_model": "Tomato and spinach pasta, using remaining spinach and tomatoes.",
+            "display_text": "Tomato and Spinach Pasta"
+          },
+          "dinner": {
+            "description_for_model": "Leftover pasta.",
+            "display_text": "Leftover Pasta"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Brown rice upma with vegetables.",
+            "display_text": "Brown Rice Upma"
+          },
+          "lunch": {
+            "description_for_model": "Roasted cauliflower with a side of lentil soup, using remaining cauliflower.",
+            "display_text": "Roasted Cauliflower with Lentil Soup"
+          },
+          "dinner": {
+            "description_for_model": "Leftover soup.",
+            "display_text": "Leftover Lentil Soup"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs with spinach.",
+            "display_text": "Scrambled Eggs with Spinach"
+          },
+          "lunch": {
+            "description_for_model": "Cauliflower and spinach curry with roti.",
+            "display_text": "Cauliflower and Spinach Curry with Roti"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Cauliflower and Spinach Curry"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "French toast.",
+            "display_text": "French Toast"
+          },
+          "lunch": {
+            "description_for_model": "Veggie burger with roasted cauliflower.",
+            "display_text": "Veggie Burger"
+          },
+          "dinner": {
+            "description_for_model": "Tomato soup with toast.",
+            "display_text": "Tomato Soup with Toast"
+          }
+        },
+        "Sunday": {
+          "breakfast": {
+            "description_for_model": "Pancakes with syrup.",
+            "display_text": "Pancakes with Syrup"
+          },
+          "lunch": {
+            "description_for_model": "Simple dal with brown rice.",
+            "display_text": "Simple Dal with Brown Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover dal.",
+            "display_text": "Leftover Dal"
+          }
+        }
+      },
+      "shopping_list": [
+        "Eggs",
+        "Pasta",
+        "Roti flour",
+        "Pancakes mix",
+        "Toast"
+      ]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["None"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Chicken", "quantity": "500g", "expiry": "2025-09-04" },
+        { "name": "Potatoes", "quantity": "4 medium", "expiry": "2025-09-12" },
+        { "name": "Corn", "quantity": "2 cobs", "expiry": "2025-09-05" },
+        { "name": "Bell peppers", "quantity": "2 large", "expiry": "2025-09-06" },
+        { "name": "Onions", "quantity": "4 medium", "expiry": "2025-09-10" },
+        { "name": "Pasta", "quantity": "250g", "expiry": "2025-09-20" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Omelette with corn and onions, using 2 eggs and a portion of corn and onions.",
+            "display_text": "Omelette with Corn and Onions"
+          },
+          "lunch": {
+            "description_for_model": "Chicken and corn stir-fry with rice, using half the chicken and remaining corn.",
+            "display_text": "Chicken and Corn Stir-fry with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover stir-fry.",
+            "display_text": "Leftover Chicken and Corn Stir-fry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Onion paratha with butter.",
+            "display_text": "Onion Paratha with Butter"
+          },
+          "lunch": {
+            "description_for_model": "Chicken and potato curry with roti, using the remaining chicken and half the potatoes.",
+            "display_text": "Chicken and Potato Curry with Roti"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Chicken and Potato Curry"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs with corn.",
+            "display_text": "Scrambled Eggs with Corn"
+          },
+          "lunch": {
+            "description_for_model": "Pasta with a simple tomato and chicken sauce.",
+            "display_text": "Pasta with Chicken Sauce"
+          },
+          "dinner": {
+            "description_for_model": "Leftover pasta.",
+            "display_text": "Leftover Pasta"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "French toast.",
+            "display_text": "French Toast"
+          },
+          "lunch": {
+            "description_for_model": "Chicken and vegetable skewers with rice.",
+            "display_text": "Chicken and Vegetable Skewers with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover skewers.",
+            "display_text": "Leftover Chicken and Vegetable Skewers"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Pancakes with syrup.",
+            "display_text": "Pancakes with Syrup"
+          },
+          "lunch": {
+            "description_for_model": "Chicken and potato soup with bread.",
+            "display_text": "Chicken and Potato Soup with Bread"
+          },
+          "dinner": {
+            "description_for_model": "Leftover soup.",
+            "display_text": "Leftover Chicken and Potato Soup"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "Chicken and potato patties, using remaining potatoes.",
+            "display_text": "Chicken and Potato Patties"
+          },
+          "lunch": {
+            "description_for_model": "Chicken and bell pepper pizza.",
+            "display_text": "Chicken and Bell Pepper Pizza"
+          },
+          "dinner": {
+            "description_for_model": "Leftover pizza.",
+            "display_text": "Leftover Pizza"
+          }
+        },
+        "Sunday": {
+          "breakfast": {
+            "description_for_model": "Corn and tomato fritters.",
+            "display_text": "Corn and Tomato Fritters"
+          },
+          "lunch": {
+            "description_for_model": "Simple dal with rice.",
+            "display_text": "Simple Dal with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover dal.",
+            "display_text": "Leftover Dal"
+          }
+        }
+      },
+      "shopping_list": [
+        "Eggs",
+        "Rice",
+        "Roti flour",
+        "Tomatoes",
+        "Pancakes mix",
+        "Bread",
+        "Pizza base",
+        "Dal"
+      ]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Vegan"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Chickpeas", "quantity": "400g", "expiry": "2025-09-05" },
+        { "name": "Sweet potatoes", "quantity": "2 medium", "expiry": "2025-09-12" },
+        { "name": "Kale", "quantity": "1 bunch", "expiry": "2025-09-06" },
+        { "name": "Quinoa", "quantity": "200g", "expiry": "2025-09-20" },
+        { "name": "Onions", "quantity": "4 medium", "expiry": "2025-09-10" },
+        { "name": "Garlic", "quantity": "1 head", "expiry": "2025-09-07" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Sweet potato hash with sautéed onions, using one sweet potato.",
+            "display_text": "Sweet Potato Hash"
+          },
+          "lunch": {
+            "description_for_model": "Chickpea and sweet potato curry with rice, using half the chickpeas and the remaining sweet potato.",
+            "display_text": "Chickpea and Sweet Potato Curry with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Chickpea and Sweet Potato Curry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Kale and quinoa smoothie, using half the kale and a portion of the quinoa.",
+            "display_text": "Kale and Quinoa Smoothie"
+          },
+          "lunch": {
+            "description_for_model": "Quinoa and chickpea salad, using remaining chickpeas and quinoa.",
+            "display_text": "Quinoa and Chickpea Salad"
+          },
+          "dinner": {
+            "description_for_model": "Simple kale and garlic soup, using remaining kale and some garlic.",
+            "display_text": "Simple Kale and Garlic Soup"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Chickpea flour pancakes with a side of kale.",
+            "display_text": "Chickpea Flour Pancakes"
+          },
+          "lunch": {
+            "description_for_model": "Roasted sweet potatoes with sautéed chickpeas.",
+            "display_text": "Roasted Sweet Potatoes with Sautéed Chickpeas"
+          },
+          "dinner": {
+            "description_for_model": "Leftover roasted sweet potatoes.",
+            "display_text": "Leftover Roasted Sweet Potatoes"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Quinoa upma with onions and garlic, using remaining quinoa and garlic.",
+            "display_text": "Quinoa Upma with Onions and Garlic"
+          },
+          "lunch": {
+            "description_for_model": "Chickpea curry with roti.",
+            "display_text": "Chickpea Curry with Roti"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Chickpea Curry"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Kale and onion fritters.",
+            "display_text": "Kale and Onion Fritters"
+          },
+          "lunch": {
+            "description_for_model": "Sweet potato and lentil soup.",
+            "display_text": "Sweet Potato and Lentil Soup"
+          },
+          "dinner": {
+            "description_for_model": "Leftover soup.",
+            "display_text": "Leftover Sweet Potato and Lentil Soup"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "Sweet potato and onion paratha.",
+            "display_text": "Sweet Potato and Onion Paratha"
+          },
+          "lunch": {
+            "description_for_model": "Quinoa and roasted vegetable stir-fry.",
+            "display_text": "Quinoa and Roasted Vegetable Stir-fry"
+          },
+          "dinner": {
+            "description_for_model": "Leftover stir-fry.",
+            "display_text": "Leftover Quinoa and Roasted Vegetable Stir-fry"
+          }
+        },
+        "Sunday": {
+          "breakfast": {
+            "description_for_model": "Avocado toast.",
+            "display_text": "Avocado Toast"
+          },
+          "lunch": {
+            "description_for_model": "Simple dal with rice.",
+            "display_text": "Simple Dal with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover dal.",
+            "display_text": "Leftover Dal"
+          }
+        }
+      },
+      "shopping_list": [
+        "Rice",
+        "Chickpea flour",
+        "Lentils",
+        "Roti flour",
+        "Avocado",
+        "Bread",
+        "Dal"
+      ]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Keto"],
+      "allergens": ["Dairy"],
+      "ingredients": [
+        { "name": "Ground beef", "quantity": "500g", "expiry": "2025-09-04" },
+        { "name": "Broccoli", "quantity": "1 head", "expiry": "2025-09-05" },
+        { "name": "Eggs", "quantity": "6 large", "expiry": "2025-09-05" },
+        { "name": "Spinach", "quantity": "1 bunch", "expiry": "2025-09-04" },
+        { "name": "Tomatoes", "quantity": "3 large", "expiry": "2025-09-06" },
+        { "name": "Onions", "quantity": "4 medium", "expiry": "2025-09-10" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs with spinach and tomatoes, using 2 eggs and a portion of spinach and tomatoes.",
+            "display_text": "Scrambled Eggs with Spinach and Tomatoes"
+          },
+          "lunch": {
+            "description_for_model": "Ground beef and broccoli stir-fry, using half the ground beef and half the broccoli.",
+            "display_text": "Ground Beef and Broccoli Stir-fry"
+          },
+          "dinner": {
+            "description_for_model": "Leftover stir-fry.",
+            "display_text": "Leftover Ground Beef and Broccoli Stir-fry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Spinach and tomato omelette, using 2 eggs and the remaining spinach and tomatoes.",
+            "display_text": "Spinach and Tomato Omelette"
+          },
+          "lunch": {
+            "description_for_model": "Ground beef and vegetable soup, using remaining ground beef.",
+            "display_text": "Ground Beef and Vegetable Soup"
+          },
+          "dinner": {
+            "description_for_model": "Leftover soup.",
+            "display_text": "Leftover Ground Beef and Vegetable Soup"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Eggs with sautéed onions and tomatoes, using the remaining eggs.",
+            "display_text": "Eggs with Sautéed Onions and Tomatoes"
+          },
+          "lunch": {
+            "description_for_model": "Spicy tomato curry with ground beef.",
+            "display_text": "Spicy Tomato Curry with Ground Beef"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Spicy Tomato Curry"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Steamed broccoli with eggs.",
+            "display_text": "Steamed Broccoli with Eggs"
+          },
+          "lunch": {
+            "description_for_model": "Ground beef and spinach salad.",
+            "display_text": "Ground Beef and Spinach Salad"
+          },
+          "dinner": {
+            "description_for_model": "Leftover salad.",
+            "display_text": "Leftover Ground Beef and Spinach Salad"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs with sautéed onions.",
+            "display_text": "Scrambled Eggs with Sautéed Onions"
+          },
+          "lunch": {
+            "description_for_model": "Beef burger patty with lettuce and tomato.",
+            "display_text": "Beef Burger Patty"
+          },
+          "dinner": {
+            "description_for_model": "Leftover beef burger patty.",
+            "display_text": "Leftover Beef Burger Patty"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "Spinach and broccoli fritters.",
+            "display_text": "Spinach and Broccoli Fritters"
+          },
+          "lunch": {
+            "description_for_model": "Roasted broccoli and tomato with a side of ground beef.",
+            "display_text": "Roasted Broccoli and Tomato"
+          },
+          "dinner": {
+            "description_for_model": "Leftover roasted vegetables.",
+            "display_text": "Leftover Roasted Vegetables"
+          }
+        },
+        "Sunday": {
+          "breakfast": {
+            "description_for_model": "Spinach smoothie with lemon.",
+            "display_text": "Spinach Smoothie with Lemon"
+          },
+          "lunch": {
+            "description_for_model": "Beef patties with a side of sautéed onions.",
+            "display_text": "Beef Patties with Sautéed Onions"
+          },
+          "dinner": {
+            "description_for_model": "Leftover patties.",
+            "display_text": "Leftover Patties"
+          }
+        }
+      },
+      "shopping_list": [
+        "Lemon",
+        "Lettuce",
+        "Spices"
+      ]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["None"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Prawns", "quantity": "400g", "expiry": "2025-09-04" },
+        { "name": "Coconut", "quantity": "1 whole", "expiry": "2025-09-05" },
+        { "name": "Raw mango", "quantity": "1 large", "expiry": "2025-09-04" },
+        { "name": "Green chilies", "quantity": "5-6", "expiry": "2025-09-07" },
+        { "name": "Ginger", "quantity": "1 small piece", "expiry": "2025-09-10" },
+        { "name": "Curry leaves", "quantity": "1 sprig", "expiry": "2025-09-07" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Idli with coconut chutney, using half the coconut.",
+            "display_text": "Idli with Coconut Chutney"
+          },
+          "lunch": {
+            "description_for_model": "Prawns Mango Curry with rice, using half the prawns and the raw mango.",
+            "display_text": "Prawns Mango Curry with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover Prawns Mango Curry.",
+            "display_text": "Leftover Prawns Mango Curry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Appam with coconut stew, using the remaining coconut.",
+            "display_text": "Appam with Coconut Stew"
+          },
+          "lunch": {
+            "description_for_model": "Prawns roast with roti, using the remaining prawns.",
+            "display_text": "Prawns Roast with Roti"
+          },
+          "dinner": {
+            "description_for_model": "Leftover prawns roast.",
+            "display_text": "Leftover Prawns Roast"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Puttu with coconut and jaggery.",
+            "display_text": "Puttu with Coconut and Jaggery"
+          },
+          "lunch": {
+            "description_for_model": "Prawns stir-fry with ginger and green chilies.",
+            "display_text": "Prawns Stir-fry with Ginger and Green Chilies"
+          },
+          "dinner": {
+            "description_for_model": "Leftover stir-fry.",
+            "display_text": "Leftover Prawns Stir-fry"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Coconut rice with curry leaves.",
+            "display_text": "Coconut Rice with Curry Leaves"
+          },
+          "lunch": {
+            "description_for_model": "Prawns and coconut curry with rice.",
+            "display_text": "Prawns and Coconut Curry with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Prawns and Coconut Curry"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Mango and coconut smoothie.",
+            "display_text": "Mango and Coconut Smoothie"
+          },
+          "lunch": {
+            "description_for_model": "Prawns and vegetable skewers.",
+            "display_text": "Prawns and Vegetable Skewers"
+          },
+          "dinner": {
+            "description_for_model": "Leftover skewers.",
+            "display_text": "Leftover Prawns and Vegetable Skewers"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs with green chilies.",
+            "display_text": "Scrambled Eggs with Green Chilies"
+          },
+          "lunch": {
+            "description_for_model": "Prawns biryani.",
+            "display_text": "Prawns Biryani"
+          },
+          "dinner": {
+            "description_for_model": "Leftover biryani.",
+            "display_text": "Leftover Prawns Biryani"
+          }
+        },
+        "Sunday": {
+          "breakfast": {
+            "description_for_model": "French toast.",
+            "display_text": "French Toast"
+          },
+          "lunch": {
+            "description_for_model": "Simple dal with rice.",
+            "display_text": "Simple Dal with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover dal.",
+            "display_text": "Leftover Dal"
+          }
+        }
+      },
+      "shopping_list": [
+        "Idli batter",
+        "Rice",
+        "Appam mix",
+        "Jaggery",
+        "Roti",
+        "Eggs",
+        "Biryani spices"
+      ]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Vegetarian"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Dosa batter", "quantity": "500g", "expiry": "2025-09-04" },
+        { "name": "Potatoes", "quantity": "4 medium", "expiry": "2025-09-12" },
+        { "name": "Onions", "quantity": "4 medium", "expiry": "2025-09-10" },
+        { "name": "Tomatoes", "quantity": "3 large", "expiry": "2025-09-06" },
+        { "name": "Coconut", "quantity": "1 whole", "expiry": "2025-09-05" },
+        { "name": "Urad dal", "quantity": "200g", "expiry": "2025-10-01" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Idli with coconut chutney, using half the coconut.",
+            "display_text": "Idli with Coconut Chutney"
+          },
+          "lunch": {
+            "description_for_model": "Dosa with potato masala, using half the dosa batter and half the potatoes.",
+            "display_text": "Dosa with Potato Masala"
+          },
+          "dinner": {
+            "description_for_model": "Leftover dosa.",
+            "display_text": "Leftover Dosa"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Urad dal vada (fritters), using half the urad dal.",
+            "display_text": "Urad Dal Vada"
+          },
+          "lunch": {
+            "description_for_model": "Tomato and onion uttapam, using remaining dosa batter, a tomato, and an onion.",
+            "display_text": "Tomato and Onion Uttapam"
+          },
+          "dinner": {
+            "description_for_model": "Leftover uttapam.",
+            "display_text": "Leftover Tomato and Onion Uttapam"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Dosa with sambhar.",
+            "display_text": "Dosa with Sambhar"
+          },
+          "lunch": {
+            "description_for_model": "Potato and tomato curry with rice, using remaining potatoes and tomatoes.",
+            "display_text": "Potato and Tomato Curry with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Potato and Tomato Curry"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Tomato and coconut chutney, using the remaining coconut.",
+            "display_text": "Tomato and Coconut Chutney"
+          },
+          "lunch": {
+            "description_for_model": "Urad dal vada with sambhar, using remaining urad dal.",
+            "display_text": "Urad Dal Vada with Sambhar"
+          },
+          "dinner": {
+            "description_for_model": "Leftover vada.",
+            "display_text": "Leftover Urad Dal Vada"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Onion fritters (pakoras).",
+            "display_text": "Onion Fritters"
+          },
+          "lunch": {
+            "description_for_model": "Simple dal with roti.",
+            "display_text": "Simple Dal with Roti"
+          },
+          "dinner": {
+            "description_for_model": "Leftover dal.",
+            "display_text": "Leftover Dal"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs with onions.",
+            "display_text": "Scrambled Eggs with Onions"
+          },
+          "lunch": {
+            "description_for_model": "Masala dosa with sambhar.",
+            "display_text": "Masala Dosa with Sambhar"
+          },
+          "dinner": {
+            "description_for_model": "Leftover masala dosa.",
+            "display_text": "Leftover Masala Dosa"
+          }
+        },
+        "Sunday": {
+          "breakfast": {
+            "description_for_model": "Pancakes with syrup.",
+            "display_text": "Pancakes with Syrup"
+          },
+          "lunch": {
+            "description_for_model": "Simple potato fry with roti.",
+            "display_text": "Simple Potato Fry with Roti"
+          },
+          "dinner": {
+            "description_for_model": "Leftover fry.",
+            "display_text": "Leftover Potato Fry"
+          }
+        }
+      },
+      "shopping_list": [
+        "Idli batter",
+        "Sambhar powder",
+        "Eggs",
+        "Roti flour",
+        "Pancakes mix",
+        "Rice"
+      ]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["None"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Bread", "quantity": "1 loaf", "expiry": "2025-09-04" },
+        { "name": "Eggs", "quantity": "6 large", "expiry": "2025-09-05" },
+        { "name": "Sausage", "quantity": "250g", "expiry": "2025-09-06" },
+        { "name": "Tomatoes", "quantity": "4 large", "expiry": "2025-09-06" },
+        { "name": "Cheese", "quantity": "200g", "expiry": "2025-09-07" },
+        { "name": "Lettuce", "quantity": "1 head", "expiry": "2025-09-05" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Sausage and egg sandwich, using 2 eggs, a portion of the sausage, and 4 slices of bread.",
+            "display_text": "Sausage and Egg Sandwich"
+          },
+          "lunch": {
+            "description_for_model": "BLT (Bacon, Lettuce, Tomato) sandwich using bread, lettuce, and a tomato.",
+            "display_text": "BLT Sandwich"
+          },
+          "dinner": {
+            "description_for_model": "Sausage and vegetable stir-fry with rice, using remaining sausage.",
+            "display_text": "Sausage and Vegetable Stir-fry with Rice"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs with toast.",
+            "display_text": "Scrambled Eggs with Toast"
+          },
+          "lunch": {
+            "description_for_model": "Grilled cheese and tomato sandwich, using cheese and a tomato.",
+            "display_text": "Grilled Cheese and Tomato Sandwich"
+          },
+          "dinner": {
+            "description_for_model": "Leftover stir-fry.",
+            "display_text": "Leftover Sausage and Vegetable Stir-fry"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "French toast, using 2 eggs and bread.",
+            "display_text": "French Toast"
+          },
+          "lunch": {
+            "description_for_model": "Sausage rolls.",
+            "display_text": "Sausage Rolls"
+          },
+          "dinner": {
+            "description_for_model": "Sausage and tomato pasta with cheese.",
+            "display_text": "Sausage and Tomato Pasta with Cheese"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Tomato and cheese toast.",
+            "display_text": "Tomato and Cheese Toast"
+          },
+          "lunch": {
+            "description_for_model": "Sausage and tomato curry with roti.",
+            "display_text": "Sausage and Tomato Curry with Roti"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Sausage and Tomato Curry"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Bread omelette, using remaining eggs and bread.",
+            "display_text": "Bread Omelette"
+          },
+          "lunch": {
+            "description_for_model": "Leftover sausage rolls.",
+            "display_text": "Leftover Sausage Rolls"
+          },
+          "dinner": {
+            "description_for_model": "Lettuce and tomato salad with grilled sausage, using remaining lettuce and tomatoes.",
+            "display_text": "Lettuce and Tomato Salad with Grilled Sausage"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "Pancakes with syrup.",
+            "display_text": "Pancakes with Syrup"
+          },
+          "lunch": {
+            "description_for_model": "Veggie burger with lettuce and tomato.",
+            "display_text": "Veggie Burger with Lettuce and Tomato"
+          },
+          "dinner": {
+            "description_for_model": "Leftover salad.",
+            "display_text": "Leftover Salad"
+          }
+        },
+        "Sunday": {
+          "breakfast": {
+            "description_for_model": "Eggs Benedict.",
+            "display_text": "Eggs Benedict"
+          },
+          "lunch": {
+            "description_for_model": "Simple dal with roti.",
+            "display_text": "Simple Dal with Roti"
+          },
+          "dinner": {
+            "description_for_model": "Leftover dal.",
+            "display_text": "Leftover Dal"
+          }
+        }
+      },
+      "shopping_list": [
+        "Bacon",
+        "Rice",
+        "Roti",
+        "Pancakes mix",
+        "Syrup"
+      ]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Gluten-Free"],
+      "allergens": ["Dairy"],
+      "ingredients": [
+        { "name": "Chicken", "quantity": "500g", "expiry": "2025-09-04" },
+        { "name": "Rice flour", "quantity": "500g", "expiry": "2025-09-20" },
+        { "name": "Lentils", "quantity": "200g", "expiry": "2025-10-01" },
+        { "name": "Onions", "quantity": "4 medium", "expiry": "2025-09-10" },
+        { "name": "Tomatoes", "quantity": "3 large", "expiry": "2025-09-06" },
+        { "name": "Cilantro", "quantity": "1 bunch", "expiry": "2025-09-07" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Puttu with Kadala Curry, using some of the rice flour and lentils.",
+            "display_text": "Puttu with Kadala Curry"
+          },
+          "lunch": {
+            "description_for_model": "Chicken curry with rice, using half the chicken.",
+            "display_text": "Chicken Curry with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Chicken Curry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Plain dosa with tomato chutney.",
+            "display_text": "Plain Dosa with Tomato Chutney"
+          },
+          "lunch": {
+            "description_for_model": "Simple lentil dal with rice.",
+            "display_text": "Simple Lentil Dal with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover dal.",
+            "display_text": "Leftover Dal"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Rice flour pancakes with syrup.",
+            "display_text": "Rice Flour Pancakes with Syrup"
+          },
+          "lunch": {
+            "description_for_model": "Chicken and tomato stir-fry, using remaining chicken and half the tomatoes.",
+            "display_text": "Chicken and Tomato Stir-fry"
+          },
+          "dinner": {
+            "description_for_model": "Leftover stir-fry.",
+            "display_text": "Leftover Chicken and Tomato Stir-fry"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Tomato and onion omelette.",
+            "display_text": "Tomato and Onion Omelette"
+          },
+          "lunch": {
+            "description_for_model": "Chicken and lentil soup with gluten-free bread.",
+            "display_text": "Chicken and Lentil Soup with Gluten-Free Bread"
+          },
+          "dinner": {
+            "description_for_model": "Leftover soup.",
+            "display_text": "Leftover Chicken and Lentil Soup"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Scrambled eggs with onions.",
+            "display_text": "Scrambled Eggs with Onions"
+          },
+          "lunch": {
+            "description_for_model": "Chicken Biryani.",
+            "display_text": "Chicken Biryani"
+          },
+          "dinner": {
+            "description_for_model": "Leftover Biryani.",
+            "display_text": "Leftover Chicken Biryani"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "Idli with sambhar.",
+            "display_text": "Idli with Sambhar"
+          },
+          "lunch": {
+            "description_for_model": "Simple cilantro and onion curry with rice.",
+            "display_text": "Cilantro and Onion Curry with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Cilantro and Onion Curry"
+          }
+        },
+        "Sunday": {
+          "breakfast": {
+            "description_for_model": "Chicken and lentil patties.",
+            "display_text": "Chicken and Lentil Patties"
+          },
+          "lunch": {
+            "description_for_model": "Leftover patties.",
+            "display_text": "Leftover Chicken and Lentil Patties"
+          },
+          "dinner": {
+            "description_for_model": "Grilled chicken with a side of vegetables.",
+            "display_text": "Grilled Chicken with Vegetables"
+          }
+        }
+      },
+      "shopping_list": [
+        "Kadala",
+        "Dosa batter",
+        "Syrup",
+        "Gluten-free bread",
+        "Vegetables"
+      ]
+    }
+  },
+  {
+    "instruction": "Suggest a weekly meal plan for 2 people, prioritizing ingredients that will expire soon. The meal plan must strictly adhere to the specified dietary restrictions and be free of all listed allergens. The plan should include three meals per day, with varied dishes, and minimal extra shopping. Leftovers should be used to reduce cooking effort and food waste.",
+    "input": {
+      "serving_size": 2,
+      "dietary_restrictions": ["Vegan"],
+      "allergens": ["None"],
+      "ingredients": [
+        { "name": "Potatoes", "quantity": "4 medium", "expiry": "2025-09-12" },
+        { "name": "Carrots", "quantity": "4 medium", "expiry": "2025-09-06" },
+        { "name": "Chickpeas", "quantity": "400g", "expiry": "2025-09-05" },
+        { "name": "Spinach", "quantity": "1 bunch", "expiry": "2025-09-04" },
+        { "name": "Onions", "quantity": "4 medium", "expiry": "2025-09-10" },
+        { "name": "Garlic", "quantity": "1 head", "expiry": "2025-09-07" }
+      ]
+    },
+    "output": {
+      "meals": {
+        "Monday": {
+          "breakfast": {
+            "description_for_model": "Potato and spinach fritters, using half the spinach and two potatoes.",
+            "display_text": "Potato and Spinach Fritters"
+          },
+          "lunch": {
+            "description_for_model": "Chickpea and spinach curry with rice, using half the chickpeas and the remaining spinach.",
+            "display_text": "Chickpea and Spinach Curry with Rice"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Chickpea and Spinach Curry"
+          }
+        },
+        "Tuesday": {
+          "breakfast": {
+            "description_for_model": "Carrot and ginger smoothie.",
+            "display_text": "Carrot and Ginger Smoothie"
+          },
+          "lunch": {
+            "description_for_model": "Roasted potatoes and carrots with a side of chickpeas, using the remaining carrots and chickpeas.",
+            "display_text": "Roasted Potatoes and Carrots with Chickpeas"
+          },
+          "dinner": {
+            "description_for_model": "Leftover roasted vegetables.",
+            "display_text": "Leftover Roasted Vegetables"
+          }
+        },
+        "Wednesday": {
+          "breakfast": {
+            "description_for_model": "Onion and garlic paratha.",
+            "display_text": "Onion and Garlic Paratha"
+          },
+          "lunch": {
+            "description_for_model": "Chickpea and vegetable stew with bread.",
+            "display_text": "Chickpea and Vegetable Stew with Bread"
+          },
+          "dinner": {
+            "description_for_model": "Leftover stew.",
+            "display_text": "Leftover Chickpea and Vegetable Stew"
+          }
+        },
+        "Thursday": {
+          "breakfast": {
+            "description_for_model": "Scrambled tofu with vegetables.",
+            "display_text": "Scrambled Tofu with Vegetables"
+          },
+          "lunch": {
+            "description_for_model": "Potato and carrot curry with roti.",
+            "display_text": "Potato and Carrot Curry with Roti"
+          },
+          "dinner": {
+            "description_for_model": "Leftover curry.",
+            "display_text": "Leftover Potato and Carrot Curry"
+          }
+        },
+        "Friday": {
+          "breakfast": {
+            "description_for_model": "Spinach and chickpea soup.",
+            "display_text": "Spinach and Chickpea Soup"
+          },
+          "lunch": {
+            "description_for_model": "Leftover soup.",
+            "display_text": "Leftover Spinach and Chickpea Soup"
+          },
+          "dinner": {
+            "description_for_model": "Garlic and onion fried rice.",
+            "display_text": "Garlic and Onion Fried Rice"
+          }
+        },
+        "Saturday": {
+          "breakfast": {
+            "description_for_model": "Aloo tikki, using remaining potatoes.",
+            "display_text": "Aloo Tikki"
+          },
+          "lunch": {
+            "description_for_model": "Veggie burger with a side of fries.",
+            "display_text": "Veggie Burger with Fries"
+          },
+          "dinner": {
+            "description_for_model": "Simple dal with rice.",
+            "display_text": "Simple Dal with Rice"
+          }
+        },
+        "Sunday": {
+          "breakfast": {
+            "description_for_model": "Pancakes with syrup.",
+            "display_text": "Pancakes with Syrup"
+          },
+          "lunch": {
+            "description_for_model": "Leftover dal with roti.",
+            "display_text": "Leftover Dal with Roti"
+          },
+          "dinner": {
+            "description_for_model": "Simple spinach and garlic stir-fry.",
+            "display_text": "Simple Spinach and Garlic Stir-fry"
+          }
+        }
+      },
+      "shopping_list": [
+        "Ginger",
+        "Bread",
+        "Tofu",
+        "Roti flour",
+        "Rice",
+        "Fries",
+        "Pancakes mix"
+      ]
+    }
+  }
+]
